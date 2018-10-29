@@ -45,8 +45,9 @@ html {
  * Remove the margin in all browsers.
  */
 
-body {
+* {
 	margin: 0;
+	padding: 0;
 }
 
 /**
@@ -56,7 +57,6 @@ body {
 
 h1 {
 	font-size: 2em;
-	margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -383,10 +383,13 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
+	margin: 0;
+	padding: 0;
 }
 
 p {
-	margin-bottom: 1.5em;
+	margin: 0;
+	padding: 0;
 }
 
 dfn, cite, em, i {
@@ -597,7 +600,7 @@ a {
 }
 
 a:visited {
-	color: purple;
+	color: white;
 }
 
 a:hover, a:focus, a:active {
@@ -960,4 +963,34 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+	color: #8898aa;
+	padding: 20px 0;
+	background-color: $light-gray;
+	width: 100%;
+}
+
+/* Customized */
+
+.title {
+	color: $font-secondary;
+	text-transform: uppercase;
+	margin: 20px 0;
+	font-size: 2rem;
+}
+
+.description {
+	font-size: 1.1rem;
+	line-height: 1.8;
+	color: fade-out($text-color, .2);
+}
+
+.section {
+	padding: 100px 0;
 }

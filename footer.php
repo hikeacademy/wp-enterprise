@@ -10,26 +10,18 @@
  */
 
 ?>
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'hike-trampos' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'hike-trampos' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'hike-trampos' ), 'hike-trampos', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+	<footer class="footer">
+		<div class="container">
+			© Hike Academy 2018
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- Scroll Reveal: https://scrollrevealjs.org/ -->
+<script src="https://unpkg.com/scrollreveal"></script>
 <?php wp_footer(); ?>
 
 </body>
