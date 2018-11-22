@@ -12,7 +12,7 @@
 	}
 
 	.logos {
-		margin-bottom: 90px;
+		margin-bottom: 50px;
 	}
 
 	nav {
@@ -35,6 +35,7 @@
 		color: $font-primary;
 		padding: 150px 0 160px;
 		clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 
 		.title {
 			margin-top: 40px;
@@ -52,7 +53,9 @@
 		}
 
 		img {
-			min-width: 500px;
+			position: relative;
+			left: -50px;
+			min-width: 550px;
 		}
 	}
 
@@ -61,11 +64,18 @@
 			text-align: right;
 			margin-bottom: 120px;
 		}
+
+		.solution {
+			img {
+				padding-top: 50px;
+			}
+		}
 	}
 
 	.second-section {
 		background-color: $light-gray;
 		clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+		-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
 		padding: 150px 0 100px;
 
 		.description {
@@ -89,11 +99,80 @@
 		}
 	}
 
+	.third-section {
+		.title {
+			text-transform: none;
+			color: $text-color;
+		}
+
+		.card {
+			img {
+				min-width: 100%;
+			}
+
+			.card-image {
+				min-width: 100%;
+				height: 150px;
+				overflow-y: hidden;
+			}
+		}
+	}
+
 	.fourth-section {
 		background-color: $light-gray;
 
 		.subtitle {
 			font-size: 1.5rem;
+		}
+
+		.cta {
+			float: right;
+			margin: 30px 0 0;
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+	    .hero {
+			padding: 80px 0 100px;
+			line-height: 1.5;
+
+			.title {
+				font-size: 1.5rem;
+			}
+
+			.subtitle {
+				font-size: 1.2rem;
+				padding: 0;
+			}
+		}
+
+		.first-section {
+			.title, .description {
+				i {
+					display: none;
+				}
+				text-align: center;	
+			}
+		}
+
+		.second-section {
+			clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+			-webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+		}
+
+		.third-section {
+			padding: 80px 0;
+
+			.logo {
+				width: 120px;
+				margin: 10px;
+			}
+		}
+
+		.fourth-section {
+			.cta {
+				float: none;
+			}
 		}
 	}
 }

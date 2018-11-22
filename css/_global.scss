@@ -36,6 +36,7 @@
 html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
+	scroll-behavior: smooth;
 }
 
 /* Sections
@@ -451,6 +452,7 @@ html {
 }
 
 body {
+	position: relative;
 	background: #fff;
 	/* Fallback for when there is no custom background color defined. */
 }
@@ -993,4 +995,8 @@ object {
 
 .section {
 	padding: 100px 0;
+}
+
+.black-font {
+	color: #000;
 }

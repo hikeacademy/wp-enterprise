@@ -55,7 +55,8 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+  scroll-behavior: smooth; }
 
 /* Sections
 	 ========================================================================== */
@@ -416,6 +417,7 @@ html {
   box-sizing: inherit; }
 
 body {
+  position: relative;
   background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
 
@@ -879,6 +881,9 @@ object {
 .section {
   padding: 100px 0; }
 
+.black-font {
+  color: #000; }
+
 .index i {
   background-color: #009688;
   color: #fff;
@@ -888,7 +893,7 @@ object {
   height: 40px;
   width: auto; }
 .index .logos {
-  margin-bottom: 90px; }
+  margin-bottom: 50px; }
 .index nav {
   background: none;
   position: absolute;
@@ -904,7 +909,8 @@ object {
   background: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 94%);
   color: #fff;
   padding: 150px 0 160px;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); }
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); }
   .index .hero .title {
     margin-top: 40px;
     font-size: 2.4rem;
@@ -917,13 +923,18 @@ object {
     margin: 30px 0 50px;
     line-height: 2; }
   .index .hero img {
-    min-width: 500px; }
+    position: relative;
+    left: -50px;
+    min-width: 550px; }
 .index .first-section .problem {
   text-align: right;
   margin-bottom: 120px; }
+.index .first-section .solution img {
+  padding-top: 50px; }
 .index .second-section {
   background-color: #F6F9FC;
   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
   padding: 150px 0 100px; }
   .index .second-section .description {
     margin-bottom: 100px; }
@@ -937,10 +948,45 @@ object {
   .index .second-section .flow-part img {
     height: 100%;
     width: auto; }
+.index .third-section .title {
+  text-transform: none;
+  color: #525f7f; }
+.index .third-section .card img {
+  min-width: 100%; }
+.index .third-section .card .card-image {
+  min-width: 100%;
+  height: 150px;
+  overflow-y: hidden; }
 .index .fourth-section {
   background-color: #F6F9FC; }
   .index .fourth-section .subtitle {
     font-size: 1.5rem; }
+  .index .fourth-section .cta {
+    float: right;
+    margin: 30px 0 0; }
+@media only screen and (max-width: 600px) {
+  .index .hero {
+    padding: 80px 0 100px;
+    line-height: 1.5; }
+    .index .hero .title {
+      font-size: 1.5rem; }
+    .index .hero .subtitle {
+      font-size: 1.2rem;
+      padding: 0; }
+  .index .first-section .title, .index .first-section .description {
+    text-align: center; }
+    .index .first-section .title i, .index .first-section .description i {
+      display: none; }
+  .index .second-section {
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%); }
+  .index .third-section {
+    padding: 80px 0; }
+    .index .third-section .logo {
+      width: 120px;
+      margin: 10px; }
+  .index .fourth-section .cta {
+    float: none; } }
 
 .contact {
   height: 100%; }
@@ -1002,8 +1048,6 @@ object {
       font-size: 12pt; }
   .contact .bg {
     position: absolute;
-    padding: 0;
-    margin: 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -1018,10 +1062,21 @@ object {
     z-index: 0; }
   .contact .bg-gradient {
     clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
     flex-grow: 1;
     width: 100%;
     z-index: -1;
     background: linear-gradient(90deg, #777bf8, #68d4f8 200%); }
+  @media only screen and (max-width: 600px) {
+    .contact .hero .title {
+      font-size: 2rem; }
+    .contact .hero .description {
+      font-size: 1.2rem; }
+    .contact .bg-white {
+      padding: 140px 0 200px; }
+    .contact .bg-gradient {
+      clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+      -webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%); } }
 
 .blog {
   background-color: #F6F9FC; }
