@@ -51,6 +51,10 @@ get_header();
 		<div class="container">
 			<div class="problem">
 				<div class="row">
+					<div class="col s12 show-on-small">
+						<img class="responsive-img" src="<?php echo get_template_directory_uri() . '/images/front-page/yourproblem.svg'; ?>">
+					</div>
+
 					<div class="col s12 m5 offset-m1">
 						<h2 class="title">Your problem <i class="material-icons">gps_fixed</i></h2>
 						<p class="description">Do you need a website built from scratch? Do you want to migrate what you already have to Wordpress? Do you want design + implementation? Do you only need implementation? Get in touch and we can provide you with more information based on your needs!</p>
@@ -169,7 +173,7 @@ get_header();
 							<p>The next one can be you! Interested in trying it out? Contact us and see the magic unfold.</p>
 						</div>
 						<div class="card-action">
-				          <a href="/contact" target="_blank">Try our work</a>
+				          <a href="/contact">Try our work</a>
 				        </div>
 					</div>
 				</div>
