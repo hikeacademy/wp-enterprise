@@ -890,8 +890,11 @@ object {
   padding: 10px;
   border-radius: 50%; }
 .index .logo {
-  height: 40px;
-  width: auto; }
+  height: 60px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 .index .logos {
   margin-bottom: 50px; }
 .index nav {
@@ -939,12 +942,14 @@ object {
   .index .second-section .description {
     margin-bottom: 100px; }
   .index .second-section .flow-part .img-container {
-    margin: 0 115px 20px;
     background-color: #009688;
-    padding: 20px;
     border-radius: 50%;
+    display: inline-block;
     height: 80px;
-    width: auto; }
+    margin-bottom: 20px;
+    padding: 20px;
+    vertical-align: middle;
+    width: 80px; }
   .index .second-section .flow-part img {
     height: 100%;
     width: auto; }
@@ -984,7 +989,7 @@ object {
     -webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%); }
   .index .third-section {
     padding: 80px 0; }
-    .index .third-section .logo {
+    .index .third-section .logo img {
       width: 120px;
       margin: 10px; }
   .index .fourth-section .cta {

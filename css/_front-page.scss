@@ -7,8 +7,11 @@
 	}
 
 	.logo {
-		height: 40px;
+		height: 60px;
 		width: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.logos {
@@ -84,12 +87,14 @@
 
 		.flow-part {
 			.img-container {
-				margin: 0 115px 20px;
 				background-color: #009688;
-				padding: 20px;
 				border-radius: 50%;
+				display: inline-block;
 				height: 80px;
-				width: auto;
+				margin-bottom: 20px;
+				padding: 20px;
+				vertical-align: middle;
+				width: 80px;
 			}
 
 			img {
@@ -167,7 +172,7 @@
 		.third-section {
 			padding: 80px 0;
 
-			.logo {
+			.logo img {
 				width: 120px;
 				margin: 10px;
 			}

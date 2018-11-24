@@ -51,7 +51,7 @@ get_header();
 		<div class="container">
 			<div class="problem">
 				<div class="row">
-					<div class="col s12 show-on-small">
+					<div class="col s12 hide-on-med-and-up">
 						<img class="responsive-img" src="<?php echo get_template_directory_uri() . '/images/front-page/yourproblem.svg'; ?>">
 					</div>
 
@@ -130,13 +130,19 @@ get_header();
 			<div class="logos">
 				<div class="row center-align">
 					<div class="col s12 m2 offset-m3">
-						<img class="logo responsive-img" src="<?php echo get_template_directory_uri() . '/images/front-page/logos/qr.svg'; ?>">
+						<div class="logo">
+							<img class="responsive-img" src="<?php echo get_template_directory_uri() . '/images/front-page/logos/qr.svg'; ?>">
+						</div>
 					</div>
 					<div class="col s12 m2">
-						<img class="logo responsive-img" src="<?php echo get_template_directory_uri() . '/images/front-page/logos/mobly-gray.svg'; ?>">
+						<div class="logo ">
+							<img class="responsive-img" src="<?php echo get_template_directory_uri() . '/images/front-page/logos/cubo-gray.png'; ?>">
+						</div>
 					</div>
 					<div class="col s12 m2">
-						<img class="logo responsive-img" src="<?php echo get_template_directory_uri() . '/images/front-page/logos/cubo-gray.png'; ?>">
+						<div class="logo">
+							<img class="responsive-img" src="<?php echo get_template_directory_uri() . '/images/front-page/logos/mobly-gray.svg'; ?>">
+						</div>
 					</div>
 					<div class="col s1 m2 hide-on-small-only">
 					</div>
