@@ -1,7 +1,14 @@
-jQuery(document).ready(function($){
-	console.log('Custom js loaded');	
+jQuery(document).ready(function($){	
 	$('.testimonials-cards').slick({
 		dots: false,
-		arrows: true,
+		arrows: false,
 	});
+	
+	$('.prev').click(function(){
+  		$('.slider').slick('slickPrev');
+	})
+
+	$('.next').click(function(){
+  		$('.slider').slick('slickNext');
+	})
 });

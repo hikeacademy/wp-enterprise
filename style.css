@@ -1076,35 +1076,43 @@ object {
       color: #fff;
       background-color: #329af0;
       border-radius: 4px; }
-  .students-page .portfolio h2 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 48px; }
-  .students-page .portfolio .card {
-    border-radius: 6px;
-    height: 250px; }
-    .students-page .portfolio .card img {
-      border-radius: 6px 6px 0 0; }
-    .students-page .portfolio .card .content {
-      padding: 12px; }
-    .students-page .portfolio .card h6 {
-      font-size: 16px;
+  .students-page .portfolio {
+    margin-bottom: 100px; }
+    .students-page .portfolio h2 {
+      font-size: 48px;
       font-weight: bold;
-      color: #373737;
-      margin-bottom: 6px; }
-    .students-page .portfolio .card p {
-      font-size: 12px;
-      color: #707070; }
-  .students-page .portfolio .card-panel {
-    border-radius: 6px;
-    height: 250px; }
-    .students-page .portfolio .card-panel p {
-      font-size: 18px;
-      font-weight: 300;
-      color: #329af0; }
+      color: #000;
+      margin-bottom: 48px; }
+    .students-page .portfolio .card {
+      border-radius: 6px;
+      height: 250px; }
+      .students-page .portfolio .card img {
+        border-radius: 6px 6px 0 0; }
+      .students-page .portfolio .card .content {
+        padding: 12px; }
+      .students-page .portfolio .card h6 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #373737;
+        margin-bottom: 6px; }
+      .students-page .portfolio .card p {
+        font-size: 12px;
+        color: #707070; }
+    .students-page .portfolio .card-panel {
+      border-radius: 6px;
+      height: 250px; }
+      .students-page .portfolio .card-panel p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #329af0; }
   .students-page .testimonials {
-    color: #373737; }
+    color: #373737;
+    margin-bottom: 100px; }
+    .students-page .testimonials h2 {
+      font-size: 48px;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 25px; }
     .students-page .testimonials i {
       font-size: 20px; }
     .students-page .testimonials .author-data {
@@ -1112,5 +1120,11 @@ object {
       margin-top: 10px; }
     .students-page .testimonials p {
       font-weight: bold; }
+    .students-page .testimonials .slider-controls {
+      float: right; }
+    .students-page .testimonials .slider-controls i {
+      font-size: 45px;
+      color: #329af0;
+      cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

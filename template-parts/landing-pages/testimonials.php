@@ -47,4 +47,8 @@
 			</div>
 		</div>
 	</div>
+	<div class="slider-controls">
+		<i class="material-icons prev">chevron_left</i>
+		<i class="material-icons next">chevron_right</i>
+	</div>
 </div>

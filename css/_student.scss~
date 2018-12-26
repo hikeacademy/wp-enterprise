@@ -30,6 +30,8 @@
 	
 	.portfolio {
 	
+		margin-bottom: 100px;
+	
 		h2 {
 			font-size: 48px;
 			font-weight: bold;
@@ -79,17 +81,36 @@
 	.testimonials {
 
 		color: $primary-gray;
+	margin-bottom: 100px;
+		
+		h2 {
+			font-size:48px;
+			font-weight: bold;
+			color: #000;
+			margin-bottom: 25px;
+		}
 		
 		i {
 			font-size: 20px;			
 		}
 		
 		.author-data {
-			font-size: 16px;			
+			font-size: 16px;
+			margin-top: 10px;			
 		}
 		
 		p {
 			font-weight: bold;
+		}
+		
+		.slider-controls {
+			float: right;
+		}
+		
+		.slider-controls i {
+			font-size: 45px;
+			color: $primary-blue;
+			cursor: pointer;
 		}
 	}
 }
