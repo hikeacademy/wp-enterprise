@@ -884,116 +884,53 @@ object {
 .black-font {
   color: #000; }
 
-.index i {
-  background-color: #009688;
-  color: #fff;
-  padding: 10px;
-  border-radius: 50%; }
-.index .logo {
-  height: 60px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-.index .logos {
-  margin-bottom: 50px; }
-.index nav {
-  background: none;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  padding: 10px 0; }
-  .index nav .brand-logo img {
-    height: 30px;
-    width: auto; }
-.index .hero {
-  background: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 94%);
-  color: #fff;
-  padding: 150px 0 160px;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); }
-  .index .hero .title {
-    margin-top: 40px;
-    font-size: 2.4rem;
-    color: #fff;
-    text-transform: none; }
-  .index .hero .subtitle {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 1.1rem;
-    padding: 0 120px 0 0;
-    margin: 30px 0 50px;
-    line-height: 2; }
-  .index .hero img {
-    position: relative;
-    left: -50px;
-    min-width: 550px; }
-.index .first-section .problem {
-  text-align: right;
-  margin-bottom: 120px; }
-.index .first-section .solution img {
-  padding-top: 50px; }
-.index .second-section {
-  background-color: #F6F9FC;
-  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
-  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
-  padding: 150px 0 100px; }
-  .index .second-section .description {
-    margin-bottom: 100px; }
-  .index .second-section .flow-part .img-container {
+.front-page {
+  padding-top: 90px;
+  color: #373737; }
+  .front-page i {
     background-color: #009688;
-    border-radius: 50%;
-    display: inline-block;
-    height: 80px;
-    margin-bottom: 20px;
-    padding: 20px;
-    vertical-align: middle;
-    width: 80px; }
-  .index .second-section .flow-part img {
-    height: 100%;
-    width: auto; }
-.index .third-section .title {
-  text-transform: none;
-  color: #525f7f; }
-.index .third-section .card img {
-  min-width: 100%; }
-.index .third-section .card .card-image {
-  min-width: 100%;
-  height: 150px;
-  overflow-y: hidden; }
-.index .fourth-section {
-  background-color: #F6F9FC; }
-  .index .fourth-section .subtitle {
-    font-size: 1.5rem; }
-  .index .fourth-section .cta {
-    float: right;
-    margin: 30px 0 0; }
-@media only screen and (max-width: 600px) {
-  .index .hero {
-    padding: 80px 0 100px;
-    line-height: 1.5; }
-    .index .hero .title {
-      font-size: 1.5rem; }
-    .index .hero .subtitle {
-      font-size: 1.2rem;
-      padding: 0; }
-  .index .first-section .title, .index .first-section .description {
-    text-align: center; }
-    .index .first-section .title i, .index .first-section .description i {
-      display: none; }
-  .index .first-section .problem {
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%; }
+  .front-page .logo {
+    height: 60px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .front-page .logos {
     margin-bottom: 50px; }
-  .index .second-section {
-    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
-    -webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%); }
-  .index .third-section {
-    padding: 80px 0; }
-    .index .third-section .logo img {
-      width: 120px;
-      margin: 10px; }
-  .index .fourth-section .cta {
-    float: none; } }
+  .front-page nav {
+    background: none;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 10px 0; }
+    .front-page nav .brand-logo img {
+      height: 30px;
+      width: auto; }
+  .front-page h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000; }
+  .front-page h5 {
+    font-size: 18px;
+    line-height: normal;
+    margin: 25px 0 50px; }
+  .front-page .btn {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: none;
+    color: #fff;
+    background-color: #329af0;
+    border-radius: 4px; }
+  .front-page p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 160px; }
 
 .contact {
   height: 100%; }
@@ -1119,5 +1056,50 @@ object {
       margin: 20px 0; }
     .blog .post-card p {
       margin-bottom: 10px; }
+
+.students-page {
+  padding-top: 90px; }
+  .students-page header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000; }
+  .students-page header h5, .students-page header p {
+    font-size: 18px;
+    line-height: normal;
+    color: #373737; }
+  .students-page header .btn {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: none;
+    color: #fff;
+    background-color: #329af0;
+    border-radius: 4px; }
+  .students-page .portfolio h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 48px; }
+  .students-page .portfolio .card {
+    border-radius: 6px;
+    height: 250px; }
+    .students-page .portfolio .card img {
+      border-radius: 6px 6px 0 0; }
+    .students-page .portfolio .card .content {
+      padding: 12px; }
+    .students-page .portfolio .card h6 {
+      font-size: 16px;
+      font-weight: bold;
+      color: #373737;
+      margin-bottom: 6px; }
+    .students-page .portfolio .card p {
+      font-size: 12px;
+      color: #707070; }
+  .students-page .portfolio .card-panel {
+    border-radius: 6px;
+    height: 250px; }
+    .students-page .portfolio .card-panel p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #329af0; }
 
 /*# sourceMappingURL=style.css.map */
