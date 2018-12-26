@@ -81,7 +81,7 @@
 	.testimonials {
 
 		color: $primary-gray;
-	margin-bottom: 100px;
+		margin-bottom: 100px;
 		
 		h2 {
 			font-size:48px;
