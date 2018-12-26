@@ -120,15 +120,23 @@ add_action( 'widgets_init', 'hike_trampos_widgets_init' );
  * Enqueue scripts and styles.
  */
 function hike_trampos_scripts() {
+	wp_enqueue_script('jquery');	
+	
 	wp_enqueue_style( 'hike-trampos-style', get_stylesheet_uri() );
 
-	wp_enqueue_script('jquery');
+	wp_enqueue_style( 'slick', get_stylesheet_directory_uri() . '/slick/slick.css');
+
+	wp_enqueue_style( 'slick-theme', get_stylesheet_directory_uri() . '/slick/slick-theme.css');
+
+	wp_enqueue_script( 'slick', get_stylesheet_directory_uri() . '/slick/slick.min.js');
 
 	wp_enqueue_script( 'hike-trampos-script', get_template_directory_uri() . '/js/script.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'hike-trampos-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'hike-trampos-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	
+	wp_enqueue_script( 'testimonials-slide', get_template_directory_uri() . '/js/testimonials-slide.js' ); 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

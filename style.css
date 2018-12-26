@@ -1059,21 +1059,23 @@ object {
 
 .students-page {
   padding-top: 90px; }
-  .students-page header h1 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #000; }
-  .students-page header h5, .students-page header p {
-    font-size: 18px;
-    line-height: normal;
-    color: #373737; }
-  .students-page header .btn {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: none;
-    color: #fff;
-    background-color: #329af0;
-    border-radius: 4px; }
+  .students-page header {
+    margin-bottom: 170px; }
+    .students-page header h1 {
+      font-size: 48px;
+      font-weight: bold;
+      color: #000; }
+    .students-page header h5, .students-page header p {
+      font-size: 18px;
+      line-height: normal;
+      color: #373737; }
+    .students-page header .btn {
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: none;
+      color: #fff;
+      background-color: #329af0;
+      border-radius: 4px; }
   .students-page .portfolio h2 {
     font-size: 48px;
     font-weight: bold;
@@ -1101,5 +1103,14 @@ object {
       font-size: 18px;
       font-weight: 300;
       color: #329af0; }
+  .students-page .testimonials {
+    color: #373737; }
+    .students-page .testimonials i {
+      font-size: 20px; }
+    .students-page .testimonials .author-data {
+      font-size: 16px;
+      margin-top: 10px; }
+    .students-page .testimonials p {
+      font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

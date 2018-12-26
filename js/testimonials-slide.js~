@@ -1,0 +1,7 @@
+jQuery(document).ready(function($){
+	console.log('Custom js loaded');	
+	$('.testimonials-cards').slick({
+		dots: false,
+		arrows: true,
+	});
+});

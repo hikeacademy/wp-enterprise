@@ -4,6 +4,8 @@
 	
 	header {
 		
+		margin-bottom: 170px;
+		
 		h1 {
 			font-size: 48px;
 			font-weight: bold;
@@ -13,14 +15,14 @@
 		h5, p {
 			font-size: 18px;
 			line-height: normal;
-			color: #373737;
+			color: $primary-gray;
 		}
 		
 		.btn {
 			font-size: 18px;
 			font-weight: bold;
 			text-transform: none;			
-			color: #fff;
+			color: $font-primary;
 			background-color: $primary-blue;
 			border-radius: 4px;
 		}
@@ -28,7 +30,7 @@
 	
 	.portfolio {
 	
-		h1 {
+		h2 {
 			font-size: 48px;
 			font-weight: bold;
 			color: #000;
@@ -51,7 +53,7 @@
 			h6 {
 				font-size: 16px;
 				font-weight: bold;
-				color: #373737;
+				color: $primary-gray;
 				margin-bottom: 6px;
 			}
 			
@@ -71,6 +73,23 @@
 				font-weight: 300;
 				color: $primary-blue;
 			}
+		}
+	}
+	
+	.testimonials {
+
+		color: $primary-gray;
+		
+		i {
+			font-size: 20px;			
+		}
+		
+		.author-data {
+			font-size: 16px;			
+		}
+		
+		p {
+			font-weight: bold;
 		}
 	}
 }

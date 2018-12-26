@@ -6,3 +6,7 @@ $font-secondary: #009688;
 $light-gray: #F6F9FC;
 
 $text-color: #525f7f;
+
+$primary-blue: #329af0;
+
+$primary-gray: #373737;

@@ -39,6 +39,7 @@
  		</div>
  	</header> 
  	<?php 
- 		get_template_part( 'template-parts/landing-pages/portfolio');
+ 		get_template_part('template-parts/landing-pages/portfolio');
+ 		get_template_part('template-parts/landing-pages/testimonials');
  	?>
  </div>

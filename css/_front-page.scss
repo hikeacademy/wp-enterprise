@@ -1,7 +1,7 @@
 .front-page {
 
 	padding-top: 90px;
-	color: #373737;
+	color: $primary-gray;
 
 	i {
 		background-color: $font-secondary;
@@ -53,7 +53,7 @@
 		font-size: 18px;
 		font-weight: bold;
 		text-transform: none;			
-		color: #fff;
+		color: $font-primary;
 		background-color: $primary-blue;
 		border-radius: 4px;
 	}				
