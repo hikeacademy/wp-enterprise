@@ -2,50 +2,36 @@
 	<h2>Depoimentos</h2>
 	<div class="testimonials-cards">
 		<!-- Card -->
+		<?php 
+
+			$startup_page = get_page_template_slug() == 'startup-template.php' ? 1 : 0; 
+
+			$testimonials = new WP_Query(array(
+				'posts_per_page' => -1,
+				'post_type' => 'testimonials',
+				'meta_key' => 'startup_testimonial',
+				'meta_value' => $startup_page,
+				'order' => 'ASC'
+			));
+		
+			while($testimonials->have_posts()):
+				$testimonials->the_post(); 
+		?>
 		<div class="card-panel">
 			<div class="row">
 				<div class="col s2">
-					<img class="circle responsive-img" src="<?php echo get_template_directory_uri() . '/images/blog/qr-pattern.png';?>" alt="image">
+					<img class="circle responsive-img" src="<?php the_field('author_photo'); ?>" alt="image">
 				</div>
 				<div class="col s10">
-					<i>"Tive uma experiência fantástica com a GeekHunter. Inicialmente criei o perfil por curiosidade e logo depois comecei a recever ótimos convites para entrevistas. Em menos de 20 dias já estava contratado como Senior Software Engineer na B2W Digital."</i>
+					<i>&quot; <?php the_field('testimonial'); ?> &quot;</i>
 					<div class="author-data">
-						<p>João Chaves, 18</p>
-						<span>Capão Redondo, São Paulo - SP</span>
+						<p><?php the_field('author_name'); ?></p>
+						<span><?php the_field('author_role'); ?></span>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Card -->
-		<div class="card-panel">
-			<div class="row">
-				<div class="col s2">
-					<img class="circle responsive-img" src="<?php echo get_template_directory_uri() . '/images/blog/qr-pattern.png';?>" alt="image">
-				</div>
-				<div class="col s10">
-					<i>"Tive uma experiência fantástica com a GeekHunter. Inicialmente criei o perfil por curiosidade e logo depois comecei a recever ótimos convites para entrevistas. Em menos de 20 dias já estava contratado como Senior Software Engineer na B2W Digital."</i>
-					<div class="author-data">
-						<p>João Chaves, 18</p>
-						<span>Capão Redondo, São Paulo - SP</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Card -->
-		<div class="card-panel">
-			<div class="row">
-				<div class="col s2">
-					<img class="circle responsive-img" src="<?php echo get_template_directory_uri() . '/images/blog/qr-pattern.png';?>" alt="image">
-				</div>
-				<div class="col s10">
-					<i>"Tive uma experiência fantástica com a GeekHunter. Inicialmente criei o perfil por curiosidade e logo depois comecei a recever ótimos convites para entrevistas. Em menos de 20 dias já estava contratado como Senior Software Engineer na B2W Digital."</i>
-					<div class="author-data">
-						<p>João Chaves, 18</p>
-						<span>Capão Redondo, São Paulo - SP</span>
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php endwhile; ?>	
 	</div>
 	<div class="slider-controls">
 		<i class="material-icons prev">chevron_left</i>

@@ -1,3 +1,3 @@
-$(document).ready(function(){
-    $('.collapsible').collapsible();
+jQuery(document).ready(function(){
+    jQuery('.collapsible').collapsible();
   });

@@ -10,7 +10,7 @@
  
  get_header();
  ?>
- <div class="container students-page">
+ <div class="container landing-page">
 	<header>
 		<div class="row">
 			<div class="col s8">
@@ -41,12 +41,12 @@
  	<?php 
  		get_template_part('template-parts/landing-pages/portfolio');
  		get_template_part('template-parts/landing-pages/testimonials');
- 		get_template_part('template-parts/landing-pages/faq')
+ 		get_template_part('template-parts/landing-pages/faq');
  	?>
  	<div class="invite">
-		<div class="row">
+		<div class="row valign-wrapper">
 			<div class="col s7">
-				<h5><?php the_field('student_invite_title'); ?></h5>
+				<h3><?php the_field('student_invite_title'); ?></h3>
 				<p><?php the_field('student_invite_subtitle'); ?></p>
 			</div>
 			<div class="col s3 offset-s2">

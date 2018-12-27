@@ -1,4 +1,4 @@
-.students-page {
+.landing-page {
 
 	padding-top: 90px;	
 
@@ -17,12 +17,19 @@
 		h1 {
 			font-size: 48px;
 			font-weight: bold;
-			color: #000; }			
+			color: #000; 
+			margin-bottom: 0; }			
 
-		h5, p {
+		h5 {
 			font-size: 18px;
 			line-height: normal;
-			color: $primary-gray; } }
+			color: $primary-gray; } 
+			
+		p {
+			font-size: 18px;
+			line-height: normal;
+			color: $primary-gray; 
+			margin-bottom: 20px; } }
 	
 	.portfolio {
 	
@@ -127,7 +134,8 @@
 		h3 { 
 			font-size: 48px;
 			font-weight: bold;
-			color: #000; } 
+			color: #000; 
+			margin-top: 0; } 
 			
 		p {
 			font-size: 22px;

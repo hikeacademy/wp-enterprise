@@ -150,6 +150,23 @@ function hike_trampos_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'hike_trampos_scripts' );
 
+function hike_post_types() {
+	register_post_type('testimonials', array(
+		'supports' => array('title', 'editor'),
+		'public' => true,
+		'labels' => array(
+			'name' => 'Testimonials',
+			'add_new_item' => 'Add New Testimonial',
+			'edit_item' => 'Edit Testimonials',
+			'all_items' => 'All Testimonials',
+			'singular_name' => 'Testimonials'
+		),
+		'menu_icon' => 'dashicons-testimonial',
+		'publicly_queryable'	=> false
+	));
+}
+add_action('init', 'hike_post_types');
+
 /**
  * Implement the Custom Header feature.
  */
@@ -169,6 +186,11 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/**
+ * Custom fields created with Plugin Advanced Custom Fields.
+ */
+require get_template_directory() . '/inc/custom-fields.php';
 
 /**
  * Load Jetpack compatibility file.

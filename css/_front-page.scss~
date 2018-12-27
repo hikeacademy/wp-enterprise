@@ -1,3 +1,11 @@
+.btn {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: none;			
+	color: $font-primary;
+	background-color: $primary-blue;
+	border-radius: 4px; }
+
 .front-page {
 
 	padding-top: 90px;
@@ -7,20 +15,17 @@
 		background-color: $font-secondary;
 		color: $font-primary;
 		padding: 10px;
-		border-radius: 50%;
-	}
+		border-radius: 50%; }
 
 	.logo {
 		height: 60px;
 		width: auto;
 		display: flex;
 		align-items: center;
-		justify-content: center;
-	}
+		justify-content: center; }
 
 	.logos {
-		margin-bottom: 50px;
-	}
+		margin-bottom: 50px; }
 
 	nav {
 		background: none;
@@ -33,36 +38,21 @@
 
 		.brand-logo img {
 			height: 30px;
-			width: auto;
-		}
-	}
+			width: auto; } }
 	
 	h1 {
 		font-size: 48px;
 		font-weight: bold;
-		color: #000;
-	}
+		color: #000; }
 	
 	h5 {
 		font-size: 18px;
 		line-height: normal;
-		margin: 25px 0 50px;	
-	}	
-	
-	.btn {
-		font-size: 18px;
-		font-weight: bold;
-		text-transform: none;			
-		color: $font-primary;
-		background-color: $primary-blue;
-		border-radius: 4px;
-	}				
+		margin: 25px 0 50px; }					
 	
 	p {
 		font-size: 14px;
 		text-align: center;
 		margin-top: 20px;
-    	padding-right: 160px;
-	}
-}
+    	padding-right: 160px; } }
 

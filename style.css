@@ -1057,97 +1057,112 @@ object {
     .blog .post-card p {
       margin-bottom: 10px; }
 
-.students-page {
+.landing-page {
   padding-top: 90px; }
-  .students-page header {
+  .landing-page .btn {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: none;
+    color: #fff;
+    background-color: #329af0;
+    border-radius: 4px; }
+  .landing-page header {
     margin-bottom: 170px; }
-    .students-page header h1 {
+    .landing-page header h1 {
       font-size: 48px;
       font-weight: bold;
-      color: #000; }
-    .students-page header h5, .students-page header p {
+      color: #000;
+      margin-bottom: 0; }
+    .landing-page header h5 {
       font-size: 18px;
       line-height: normal;
       color: #373737; }
-    .students-page header .btn {
+    .landing-page header p {
       font-size: 18px;
-      font-weight: bold;
-      text-transform: none;
-      color: #fff;
-      background-color: #329af0;
-      border-radius: 4px; }
-  .students-page .portfolio {
+      line-height: normal;
+      color: #373737;
+      margin-bottom: 20px; }
+  .landing-page .portfolio {
     margin-bottom: 100px; }
-    .students-page .portfolio h2 {
+    .landing-page .portfolio h2 {
       font-size: 48px;
       font-weight: bold;
       color: #000;
       margin-bottom: 48px; }
-    .students-page .portfolio .card {
+    .landing-page .portfolio .card {
       border-radius: 6px;
       height: 250px; }
-      .students-page .portfolio .card img {
+      .landing-page .portfolio .card img {
         border-radius: 6px 6px 0 0; }
-      .students-page .portfolio .card .content {
+      .landing-page .portfolio .card .content {
         padding: 12px; }
-      .students-page .portfolio .card h6 {
+      .landing-page .portfolio .card h6 {
         font-size: 16px;
         font-weight: bold;
         color: #373737;
         margin-bottom: 6px; }
-      .students-page .portfolio .card p {
+      .landing-page .portfolio .card p {
         font-size: 12px;
         color: #707070; }
-    .students-page .portfolio .card-panel {
+    .landing-page .portfolio .card-panel {
       border-radius: 6px;
       height: 250px; }
-      .students-page .portfolio .card-panel p {
+      .landing-page .portfolio .card-panel p {
         font-size: 18px;
         font-weight: 300;
         color: #329af0; }
-  .students-page .testimonials {
+  .landing-page .testimonials {
     color: #373737;
     margin-bottom: 100px; }
-    .students-page .testimonials h2 {
+    .landing-page .testimonials h2 {
       font-size: 48px;
       font-weight: bold;
       color: #000;
       margin-bottom: 25px; }
-    .students-page .testimonials i {
+    .landing-page .testimonials i {
       font-size: 20px; }
-    .students-page .testimonials .author-data {
+    .landing-page .testimonials .author-data {
       font-size: 16px;
       margin-top: 10px; }
-    .students-page .testimonials p {
+    .landing-page .testimonials p {
       font-size: 18px;
       font-weight: 300;
       font-weight: bold; }
-    .students-page .testimonials .slider-controls {
+    .landing-page .testimonials .slider-controls {
       float: right; }
-    .students-page .testimonials .slider-controls i {
+    .landing-page .testimonials .slider-controls i {
       font-size: 36px;
       color: #329af0;
       cursor: pointer; }
-  .students-page .faq {
+  .landing-page .faq {
     margin-bottom: 150px; }
-    .students-page .faq h2 {
+    .landing-page .faq h2 {
       font-size: 48px;
       color: #000;
       font-weight: bold;
       margin-bottom: 40px; }
-    .students-page .faq .collapsible {
+    .landing-page .faq .collapsible {
       border: none;
       -webkit-box-shadow: none;
       box-shadow: none; }
-    .students-page .faq .collapsible-header {
+    .landing-page .faq .collapsible-header {
       font-size: 16px;
       color: #373737;
       font-weight: bold;
       margin-top: 20px;
       padding: 15px 0 8px; }
-    .students-page .faq i {
+    .landing-page .faq i {
       font-size: 24px;
       margin-right: 0;
       margin-left: auto; }
+  .landing-page .invite h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 0; }
+  .landing-page .invite p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #373737; }
 
 /*# sourceMappingURL=style.css.map */

@@ -59,5 +59,55 @@ acf_add_local_field_group(array(
 		),
 	),
 ));
+acf_add_local_field_group(array(
+	'key' => 'group_5c2509c9c6a98',
+	'title' => 'Testimonial',
+	'fields' => array(
+		array(
+			'key' => 'field_5c2509d947095',
+			'label' => 'Author name',
+			'name' => 'author_name',
+			'type' => 'text',
+		),
+		array(
+			'key' => 'field_5c250a8247096',
+			'label' => 'Author role/location',
+			'name' => 'author_role',
+			'type' => 'text',
+		),
+		array(
+			'key' => 'field_5c250a9247097',
+			'label' => 'Testimonial',
+			'name' => 'testimonial',
+			'type' => 'textarea',
+			'rows' => 4,
+		),
+		array(
+			'key' => 'field_5c250aa547098',
+			'label' => 'Author photo',
+			'name' => 'author_photo',
+			'type' => 'image',
+			'return_format' => 'url',
+			'preview_size' => 'full',
+			'library' => 'all',
+		),
+		array(
+			'key' => 'field_5c250b0b47099',
+			'label' => 'Startup testimonial?',
+			'name' => 'startup_testimonial',
+			'type' => 'true_false',
+			'instructions' => 'If this is a testimonial to be displayed in the startups landing page, make sure to check this.',
+		),
+	),
+	'location' => array(
+		array(
+			array(
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'testimonials',
+			),
+		),
+	),
+));
 
 endif;
