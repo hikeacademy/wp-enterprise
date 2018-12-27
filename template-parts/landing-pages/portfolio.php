@@ -20,7 +20,7 @@
 					<img src="<?php echo get_template_directory_uri() . '/images/blog/qr-pattern.png';?>" alt="qulture site">				
 					<div class="content">
 						<h6>Cerensa</h6>			
-						<p>Present in 8 countries, Cerensa is a Brazilian startup that helps companies like Eletrobras manage their stuff</p>
+						<p>Present in 8 countries, Cerensa is a Brazilian startup that helps companies like Eletrobras manage their stuff.</p>
 					</div>				
 				</div>
 			</a>

@@ -29,11 +29,11 @@ get_header();
 		</div>
 		<div class="row buttons">
 			<div class="col s6">
-				<a class="btn" href="#!">Quero aprender a programar &#8594;</a>
+				<a class="btn" href="/student">Quero aprender a programar &#8594;</a>
 				<p>Pra você que quer ter acesso de forma gratuita ao nosso curso, desenhado por brasileiros que estudaram em Harvard e Stanford</p>			
 			</div>
 			<div class="col s6">
-				<a class="btn" href="#!">Quero contratar um serviço &#8594;</a>
+				<a class="btn" href="/startup">Quero contratar um serviço &#8594;</a>
 				<p>Pra você que é empresa ou pessoa física e deseja contratar um serviço para construir, modificar ou fazer a manutenção de um site ou plataforma web</p>
 			</div>
 		</div>	

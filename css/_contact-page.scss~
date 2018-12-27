@@ -63,7 +63,7 @@
 
 	.benefits-container {
 		margin-top: 90px;
-		color: fade-out(#fff, .05);
+		color: fade-out($font-primary, .05);
 		padding-bottom: 100px;
 	}
 

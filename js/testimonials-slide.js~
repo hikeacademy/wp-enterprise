@@ -2,13 +2,14 @@ jQuery(document).ready(function($){
 	$('.testimonials-cards').slick({
 		dots: false,
 		arrows: false,
+		
 	});
 	
 	$('.prev').click(function(){
-  		$('.slider').slick('slickPrev');
+  		$('.testimonials-cards').slick('slickPrev');
 	})
 
 	$('.next').click(function(){
-  		$('.slider').slick('slickNext');
+  		$('.testimonials-cards').slick('slickNext');
 	})
 });

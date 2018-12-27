@@ -123,12 +123,18 @@ function hike_trampos_scripts() {
 	wp_enqueue_script('jquery');	
 	
 	wp_enqueue_style( 'hike-trampos-style', get_stylesheet_uri() );
+	
+	wp_enqueue_style( 'materialize-css', get_stylesheet_directory_uri() . '/materialize/css/materialize.min.css');
+	
+	wp_enqueue_script( 'materialize-js', get_template_directory_uri() . '/materialize/js/materialize.min.js');
 
 	wp_enqueue_style( 'slick', get_stylesheet_directory_uri() . '/slick/slick.css');
 
 	wp_enqueue_style( 'slick-theme', get_stylesheet_directory_uri() . '/slick/slick-theme.css');
 
-	wp_enqueue_script( 'slick', get_stylesheet_directory_uri() . '/slick/slick.min.js');
+	wp_enqueue_script( 'slick-js', get_stylesheet_directory_uri() . '/slick/slick.min.js');
+	
+	wp_enqueue_script( 'materialize-initialization', get_template_directory_uri() . '/js/materialize-initialization.js', array('jquery'));
 
 	wp_enqueue_script( 'hike-trampos-script', get_template_directory_uri() . '/js/script.js', array(), '20151215', true );
 

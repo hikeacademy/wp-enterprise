@@ -2,6 +2,7 @@ jQuery(document).ready(function($){
 	$('.testimonials-cards').slick({
 		dots: false,
 		arrows: false,
+		draggable: false,
 	});
 	
 	$('.prev').click(function(){

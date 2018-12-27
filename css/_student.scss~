@@ -5,18 +5,16 @@
 	header {
 		
 		margin-bottom: 170px;
-		
+				
 		h1 {
 			font-size: 48px;
 			font-weight: bold;
-			color: #000;			
-		}	
+			color: #000; }			
 
 		h5, p {
 			font-size: 18px;
 			line-height: normal;
-			color: $primary-gray;
-		}
+			color: $primary-gray; }
 		
 		.btn {
 			font-size: 18px;
@@ -24,9 +22,7 @@
 			text-transform: none;			
 			color: $font-primary;
 			background-color: $primary-blue;
-			border-radius: 4px;
-		}
-	}
+			border-radius: 4px; } }
 	
 	.portfolio {
 	
@@ -36,8 +32,7 @@
 			font-size: 48px;
 			font-weight: bold;
 			color: #000;
-			margin-bottom: 48px;
-		}
+			margin-bottom: 48px; }
 		
 		.card {
 
@@ -45,25 +40,20 @@
 			height: 250px;
 
 			img {
-				border-radius: 6px 6px 0 0;
-			}
+				border-radius: 6px 6px 0 0; }
 			
 			.content {
-				padding: 12px;
-			}
+				padding: 12px; }
 			
 			h6 {
 				font-size: 16px;
 				font-weight: bold;
 				color: $primary-gray;
-				margin-bottom: 6px;
-			}
+				margin-bottom: 6px; }
 			
 			p {
 				font-size: 12px;
-				color: #707070;
-			}
-		}
+				color: #707070; } }
 		
 		.card-panel {
 			
@@ -73,10 +63,7 @@
 			p {
 				font-size: 18px;
 				font-weight: 300;
-				color: $primary-blue;
-			}
-		}
-	}
+				color: $primary-blue; } } }
 	
 	.testimonials {
 
@@ -87,30 +74,51 @@
 			font-size:48px;
 			font-weight: bold;
 			color: #000;
-			margin-bottom: 25px;
-		}
+			margin-bottom: 25px; }
 		
 		i {
-			font-size: 20px;			
-		}
+			font-size: 20px; }
 		
 		.author-data {
 			font-size: 16px;
-			margin-top: 10px;			
-		}
+			margin-top: 10px; }
 		
 		p {
-			font-weight: bold;
-		}
+			font-size: 18px;
+			font-weight: 300; 
+			font-weight: bold; }
 		
 		.slider-controls {
-			float: right;
-		}
+			float: right; }
 		
 		.slider-controls i {
-			font-size: 45px;
+			font-size: 36px;
 			color: $primary-blue;
-			cursor: pointer;
-		}
-	}
-}
+			cursor: pointer; } } 
+			
+	.faq {
+		
+		margin-bottom: 150px;
+		
+		h2 {
+			font-size: 48px;
+    		color: #000;
+    		font-weight: bold;
+    		margin-bottom: 40px; }
+    		
+    	.collapsible {
+    		border: none;
+    		-webkit-box-shadow: none;
+    		box-shadow: none; }
+    		
+    	.collapsible-header {
+			font-size: 16px;
+    		color: $primary-gray;
+    		font-weight: bold; 
+    		margin-top: 20px;
+    		padding: 10px 0 8px; } 
+    		
+    	i {
+    		font-size: 24px;
+    		margin-right: 0;
+			margin-left: auto; }	} }
