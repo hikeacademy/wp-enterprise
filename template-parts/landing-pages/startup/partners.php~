@@ -1,6 +1,6 @@
-<div class="partner">
+<div class="partners">
 	<h2>Great companies that trust our work</h2>	
-	<div class="row">
+	<div class="row valign-wrapper">
 		<?php
 		$partners = new WP_Query(array(
 			'posts_per_page' => -1,

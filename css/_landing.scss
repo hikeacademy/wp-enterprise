@@ -1,23 +1,24 @@
 .landing-page {
-
 	
+	padding-top: 90px;
 	
-		h2 {
-			font-size: 48px;
-			font-weight: bold;
-			color: #000;
-			margin-bottom: 48px; } 
-
-	padding-top: 90px;	
-
+	small {
+		font-size: 12px; }
+	
+	h2 {
+		font-size: 48px;
+		font-weight: bold;
+		color: #000;
+		margin-bottom: 48px; } 
+	
 	.btn {
 		font-size: 18px;
 		font-weight: bold;
 		text-transform: none;			
 		color: $font-primary;
 		background-color: $primary-blue;
-		border-radius: 4px; } 	
-	
+		border-radius: 4px; } 
+		
 	header {
 		
 		margin-bottom: 170px;
@@ -54,7 +55,7 @@
 		.card {
 
 			border-radius: 6px;
-			height: 250px;
+			height: 300px;
 
 			img {
 				border-radius: 6px 6px 0 0; }
@@ -75,7 +76,7 @@
 		.card-panel {
 			
 			border-radius: 6px;
-			height: 250px;
+			height: 300px;
 			
 			p {
 				font-size: 18px;

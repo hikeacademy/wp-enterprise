@@ -1059,6 +1059,8 @@ object {
 
 .landing-page {
   padding-top: 90px; }
+  .landing-page small {
+    font-size: 12px; }
   .landing-page h2 {
     font-size: 48px;
     font-weight: bold;
@@ -1096,7 +1098,7 @@ object {
     margin-bottom: 100px; }
     .landing-page .portfolio .card {
       border-radius: 6px;
-      height: 250px; }
+      height: 300px; }
       .landing-page .portfolio .card img {
         border-radius: 6px 6px 0 0; }
       .landing-page .portfolio .card .content {
@@ -1111,7 +1113,7 @@ object {
         color: #707070; }
     .landing-page .portfolio .card-panel {
       border-radius: 6px;
-      height: 250px; }
+      height: 300px; }
       .landing-page .portfolio .card-panel p {
         font-size: 18px;
         font-weight: 300;

@@ -5,7 +5,7 @@
 		<div class="col m3 s12">		
 			<a href="//qulture.rocks" target="_blank">
 				<div class="card hoverable">
-					<img src="<?php echo get_template_directory_uri() . '/images/blog/qr-pattern.png';?>" alt="qulture site">				
+					<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/portfolio/qulture.png';?>" alt="qulture site">				
 					<div class="content">
 						<h6>Qulture.Rocks</h6>			
 						<p>Backed by YCombinator, Qulture.Rocks provides teams a ground-breaking perfomance management platform.</p>
@@ -17,7 +17,7 @@
 		<div class="col m3 s12">			
 			<a href="//cerensa.com.br" target="_blank">
 				<div class="card hoverable">
-					<img src="<?php echo get_template_directory_uri() . '/images/blog/qr-pattern.png';?>" alt="qulture site">				
+					<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/portfolio/cerensa.png';?>" alt="qulture site">				
 					<div class="content">
 						<h6>Cerensa</h6>			
 						<p>Present in 8 countries, Cerensa is a Brazilian startup that helps companies like Eletrobras manage their stuff.</p>
@@ -29,7 +29,7 @@
 		<div class="col m3 s12">		
 			<a href="//enterprise.hikeacademy.com.br" target="_blank">	
 				<div class="card hoverable">
-					<img src="<?php echo get_template_directory_uri() . '/images/blog/qr-pattern.png';?>" alt="qulture site">				
+					<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/portfolio/hike.png';?>" alt="qulture site">				
 					<div class="content">
 						<h6>Hike Academy</h6>			
 						<p>Our website is the ultimate example of websites that was entirely built by our pupils.</p>
