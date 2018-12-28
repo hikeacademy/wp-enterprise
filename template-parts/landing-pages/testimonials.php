@@ -1,19 +1,17 @@
 <div class="testimonials">
-	<h2>Depoimentos</h2>
+	<h2 <?php echo is_startup_page() ? 'class="hide"' : NULL ; ?>">Depoimentos</h2>
 	<div class="testimonials-cards">
 		<!-- Card -->
-		<?php 
-
-			$startup_page = get_page_template_slug() == 'startup-template.php' ? 1 : 0; 
-
+		<?php
+			
 			$testimonials = new WP_Query(array(
 				'posts_per_page' => -1,
 				'post_type' => 'testimonials',
 				'meta_key' => 'startup_testimonial',
-				'meta_value' => $startup_page,
+				'meta_value' => is_startup_page(),
 				'order' => 'ASC'
-			));
-		
+			));	
+	
 			while($testimonials->have_posts()):
 				$testimonials->the_post(); 
 		?>
@@ -25,13 +23,13 @@
 				<div class="col s10">
 					<i>&quot; <?php the_field('testimonial'); ?> &quot;</i>
 					<div class="author-data">
-						<p><?php the_field('author_name'); ?></p>
+						<p><?php the_title(); ?></p>
 						<span><?php the_field('author_role'); ?></span>
 					</div>
 				</div>
 			</div>
 		</div>
-		<?php endwhile; ?>	
+		<?php endwhile; wp_reset_postdata();?>	
 	</div>
 	<div class="slider-controls">
 		<i class="material-icons prev">chevron_left</i>

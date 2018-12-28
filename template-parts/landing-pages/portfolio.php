@@ -1,5 +1,5 @@
 <div class="portfolio">
-	<h2>O que os nossos alunos já construíram</h2>
+	<h2><?php echo is_startup_page() ? 'Portfolio' : 'O que os nossos alunos já construíram'; ?></h2>
 	<div class="row">
 		<!-- Qulture.Rocks card -->		
 		<div class="col m3 s12">		

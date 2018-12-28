@@ -6,7 +6,7 @@
  *
  * @package Hike_Trampos
  */
-
+ 
 if ( ! function_exists( 'hike_trampos_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -151,21 +151,62 @@ function hike_trampos_scripts() {
 add_action( 'wp_enqueue_scripts', 'hike_trampos_scripts' );
 
 function hike_post_types() {
+	// Register Testimonials post type|
 	register_post_type('testimonials', array(
 		'supports' => array('title'),
 		'public' => true,
 		'labels' => array(
 			'name' => 'Testimonials',
 			'add_new_item' => 'Add New Testimonial',
-			'edit_item' => 'Edit Testimonials',
+			'edit_item' => 'Edit Testimonial',
 			'all_items' => 'All Testimonials',
 			'singular_name' => 'Testimonials'
 		),
 		'menu_icon' => 'dashicons-testimonial',
 		'publicly_queryable'	=> false
 	));
+	// Register Questions post type|
+	register_post_type('questions', array(
+		'supports' => array('title'),
+		'public' => true,
+		'labels' => array(
+			'name' => 'Questions',
+			'add_new_item' => 'Add New Question',
+			'edit_item' => 'Edit Question',
+			'all_items' => 'All Questions',
+			'singular_name' => 'Questions'
+		),
+		'menu_icon' => 'dashicons-format-status',
+		'publicly_queryable'	=> false
+	));
+	// Register Partners post type|
+	register_post_type('partners', array(
+		'supports' => array('title'),
+		'public' => true,
+		'labels' => array(
+			'name' => 'Partners',
+			'add_new_item' => 'Add New Partners',
+			'edit_item' => 'Edit Partner',
+			'all_items' => 'All Partners',
+			'singular_name' => 'Partners'
+		),
+		'menu_icon' => 'dashicons-businessman',
+		'publicly_queryable'	=> false
+	));
 }
 add_action('init', 'hike_post_types');
+
+/**
+ * Custom function to get the current page template name and compare with the startup page 
+ * template name. If it's the same name, defines a variable to 1, otherwise, defines to 0.
+ */
+
+function is_startup_page() {
+	$page_template = get_page_template_slug();
+	$startup_template = 'startup-template.php';
+	$is_startup_page = $page_template == $startup_template ? 1 : 0;
+	return $is_startup_page;
+} 
 
 /**
  * Implement the Custom Header feature.

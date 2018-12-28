@@ -8,7 +8,8 @@
  * @package Hike_Trampos
  */
  
- get_header();
+	get_header();
+ 	
  ?>
  <div class="container landing-page">
 	<header>
@@ -55,3 +56,6 @@
 		</div>
  	</div>
  </div>
+ <footer>
+	<?php wp_footer(); ?>
+</footer>

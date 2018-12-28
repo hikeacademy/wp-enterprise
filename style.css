@@ -1059,6 +1059,11 @@ object {
 
 .landing-page {
   padding-top: 90px; }
+  .landing-page h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 48px; }
   .landing-page .btn {
     font-size: 18px;
     font-weight: bold;
@@ -1082,13 +1087,13 @@ object {
       line-height: normal;
       color: #373737;
       margin-bottom: 20px; }
+  .landing-page .section {
+    margin-bottom: 100px; }
+    .landing-page .section p {
+      font-size: 18px;
+      color: #373737; }
   .landing-page .portfolio {
     margin-bottom: 100px; }
-    .landing-page .portfolio h2 {
-      font-size: 48px;
-      font-weight: bold;
-      color: #000;
-      margin-bottom: 48px; }
     .landing-page .portfolio .card {
       border-radius: 6px;
       height: 250px; }
@@ -1114,18 +1119,13 @@ object {
   .landing-page .testimonials {
     color: #373737;
     margin-bottom: 100px; }
-    .landing-page .testimonials h2 {
-      font-size: 48px;
-      font-weight: bold;
-      color: #000;
-      margin-bottom: 25px; }
     .landing-page .testimonials i {
-      font-size: 20px; }
+      font-size: 18px; }
     .landing-page .testimonials .author-data {
       font-size: 16px;
       margin-top: 10px; }
     .landing-page .testimonials p {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 300;
       font-weight: bold; }
     .landing-page .testimonials .slider-controls {
@@ -1136,11 +1136,6 @@ object {
       cursor: pointer; }
   .landing-page .faq {
     margin-bottom: 150px; }
-    .landing-page .faq h2 {
-      font-size: 48px;
-      color: #000;
-      font-weight: bold;
-      margin-bottom: 40px; }
     .landing-page .faq .collapsible {
       border: none;
       -webkit-box-shadow: none;
@@ -1155,13 +1150,17 @@ object {
       font-size: 24px;
       margin-right: 0;
       margin-left: auto; }
+  .landing-page .partners {
+    margin-bottom: 50px; }
+    .landing-page .partners img {
+      margin-bottom: 20px; }
   .landing-page .invite h3 {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bold;
     color: #000;
     margin-top: 0; }
   .landing-page .invite p {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     color: #373737; }
 
