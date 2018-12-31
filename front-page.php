@@ -14,7 +14,7 @@ get_header();
 			      </ul>
 			    </div>
 			</div>
-		</nav>		
+		</nav>
 	</div>
 	<div class="container front-page">
 		<div class="row">
@@ -29,15 +29,15 @@ get_header();
 		</div>
 		<div class="row buttons">
 			<div class="col s6">
-				<a class="btn" href="/student">Quero aprender a programar &#8594;</a>
-				<p>Pra você que quer ter acesso de forma gratuita ao nosso curso, desenhado por brasileiros que estudaram em Harvard e Stanford</p>			
+				<a class="btn" href="student">Quero aprender a programar &#8594;</a>
+				<p>Pra você que quer ter acesso de forma gratuita ao nosso curso, desenhado por brasileiros que estudaram em Harvard e Stanford</p>
 			</div>
 			<div class="col s6">
-				<a class="btn" href="/startup">Quero contratar um serviço &#8594;</a>
+				<a class="btn" href="startup">Quero contratar um serviço &#8594;</a>
 				<p>Pra você que é empresa ou pessoa física e deseja contratar um serviço para construir, modificar ou fazer a manutenção de um site ou plataforma web</p>
 			</div>
-		</div>	
+		</div>
 	</div>
-	
+
 	<?php
 	wp_footer();
