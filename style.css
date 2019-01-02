@@ -1057,6 +1057,63 @@ object {
     .blog .post-card p {
       margin-bottom: 10px; }
 
+.apply-page {
+  padding-top: 100px; }
+  .apply-page h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000; }
+  .apply-page h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 48px; }
+  .apply-page .btn {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: none;
+    color: #fff;
+    background-color: #329af0;
+    border-radius: 4px; }
+  .apply-page header {
+    margin-bottom: 120px; }
+    .apply-page header p {
+      font-size: 18px;
+      color: #373737; }
+    .apply-page header small {
+      font-size: 12px; }
+  .apply-page .first-section, .apply-page .second-section {
+    margin-bottom: 120px; }
+    .apply-page .first-section li, .apply-page .second-section li {
+      font-size: 16px;
+      font-weight: bold;
+      color: #373737; }
+  .apply-page .third-section {
+    margin-bottom: 80px; }
+    .apply-page .third-section .card-panel {
+      padding: 60px 70px 36px;
+      border-radius: 12px; }
+    .apply-page .third-section .wpcf7-form input::placeholder {
+      color: #329af0; }
+    .apply-page .third-section .wpcf7-form select {
+      color: #329af0;
+      display: block;
+      padding: 0;
+      border: none; }
+    .apply-page .third-section .wpcf7-form input:not(.browser-default), .apply-page .third-section .wpcf7-form select {
+      border-bottom: 1.3px solid #329af0; }
+    .apply-page .third-section .wpcf7-form input:focus:not(.browser-default) {
+      border-bottom: 1.3px solid #329af0;
+      box-shadow: 0 1px 0 0 #329af0; }
+    .apply-page .third-section .wpcf7-form label {
+      font-size: 16px;
+      color: #329af0; }
+    .apply-page .third-section .wpcf7-form input[type=submit] {
+      margin-top: 21px;
+      padding: 0;
+      width: 100%;
+      height: 48px; }
+
 .landing-page {
   padding-top: 90px; }
   .landing-page small {
