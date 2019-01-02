@@ -1,0 +1,23 @@
+.footer {
+
+  background-color: $dark-gray;
+
+  img {
+    height: 50px; }
+
+  hr {
+    background-color: $font-primary;
+    padding-top: 1px; }
+
+  ul {
+    margin: 0; }
+
+  ul span {
+    font-size: 14px;
+    font-weight: bold;
+    color: $footer-titles;
+    margin-bottom: 18px; }
+
+  a, a:visited {
+    font-size: 12px;
+    color: $font-primary; } }
