@@ -1,3 +1,8 @@
 jQuery(document).ready(function(){
-    jQuery('.collapsible').collapsible();
+  $('.sidenav').sidenav();
+  $('.collapsible').collapsible();
+  $('.dropdown-trigger').dropdown({
+    coverTrigger: false,
+    constrainWidth: false,
+  });
   });

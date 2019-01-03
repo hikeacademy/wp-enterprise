@@ -32,7 +32,7 @@
 		<?php endwhile; wp_reset_postdata();?>
 	</div>
 	<div class="slider-controls">
-		<i class="material-icons prev" tabindex="-1">chevron_left</i>
-		<i class="material-icons next" tabindex="2">chevron_right</i>
+		<i class="material-icons prev">chevron_left</i>
+		<i class="material-icons next">chevron_right</i>
 	</div>
 </div>

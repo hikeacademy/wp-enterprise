@@ -884,33 +884,31 @@ object {
 .black-font {
   color: #000; }
 
+.navbar {
+  background-color: transparent;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); }
+  .navbar img {
+    height: 36px; }
+  .navbar ul a, .navbar ul a:visited {
+    font-size: 16px;
+    font-weight: bold;
+    color: #373737; }
+  .navbar ul a:hover, .navbar ul a:focus {
+    color: #329af0;
+    background: none;
+    outline: none; }
+  .navbar .dropdown-content li {
+    min-height: initial; }
+    .navbar .dropdown-content li a {
+      font-size: 12px;
+      font-weight: normal;
+      text-align: center;
+      padding: 7px 30px; }
+
 .front-page {
   padding-top: 90px;
   color: #373737; }
-  .front-page i {
-    background-color: #009688;
-    color: #fff;
-    padding: 10px;
-    border-radius: 50%; }
-  .front-page .logo {
-    height: 60px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .front-page .logos {
-    margin-bottom: 50px; }
-  .front-page nav {
-    background: none;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding: 10px 0; }
-    .front-page nav .brand-logo img {
-      height: 30px;
-      width: auto; }
   .front-page h1 {
     font-size: 48px;
     font-weight: bold;
@@ -1024,17 +1022,6 @@ object {
 
 .blog {
   background-color: #F6F9FC; }
-  .blog nav {
-    background: none;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding: 10px 0; }
-    .blog nav .brand-logo img {
-      height: 30px;
-      width: auto; }
   .blog .posts-container {
     padding: 0 0 100px; }
   .blog .title {
@@ -1228,17 +1215,25 @@ object {
 .footer {
   background-color: #373737; }
   .footer img {
-    height: 50px; }
+    height: 45px;
+    margin-top: 15px; }
   .footer hr {
     background-color: #fff;
     padding-top: 1px; }
-  .footer ul {
-    margin: 0; }
-  .footer ul span {
+  .footer p {
     font-size: 14px;
     font-weight: bold;
     color: #eaeaea;
-    margin-bottom: 18px; }
+    margin-top: 16px; }
+  .footer ul {
+    margin: 18px 0 0 0; }
+    .footer ul ul {
+      margin: 0; }
+      .footer ul ul li {
+        display: inline-block; }
+        .footer ul ul li img {
+          width: 20px;
+          margin-right: 16px; }
   .footer a, .footer a:visited {
     font-size: 12px;
     color: #fff; }

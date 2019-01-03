@@ -23,15 +23,15 @@
 			<hr>
 			<div class="row">
 				<div class="col s3">
+					<p>Quem somos</p>
 					<ul>
-						<span>Quem somos</span>
 						<li><a href="#!">O que fazemos</a></li>
 						<li><a href="#!">Enviar pergunta</a></li>
 					</ul>
 				</div>
 				<div class="col s3">
+					<p>Para alunos</p>
 					<ul>
-						<span>Para alunos</span>
 						<li><a href="#!">Como funciona</a></li>
 						<li><a href="#!">Comprar o curso</a></li>
 						<li><a href="#!">Bolsa de estudos</a></li>
@@ -39,22 +39,22 @@
 					</ul>
 				</div>
 				<div class="col s3">
+					<p>Para empresas</p>
 					<ul>
-						<span>Para empresas</span>
 						<li><a href="#!">Como funciona</a></li>
 						<li><a href="#!">Contatar vendas</a></li>
 						<li><a href="#!">Dúvidas</a></li>
 					</ul>
 				</div>
 				<div class="col s3">
+					<p>Contato</p>
 					<ul>
-						<span>Contato</span>
 						<li id="email"><a href="mailto:time@hikeacademy.com.br">time@hikeacademy.com.br</a></li>
 						<li><a href="#!">Alameda Vicente Pinzon, 54 - 7º Andar Vila Olímpia, São Paulo - SP</a></li>
 						<ul>
-							<li><a href="#!"><img src="" alt="Linkedin"></a></li>
-							<li><a href="#!"><img src="" alt="Instagram"></a></li>
-							<li><a href="#!"><img src="" alt="Facebook"></a></li>
+							<li><a href="https://pt.linkedin.com/company/hike-academy"><img src="<?php echo get_template_directory_uri() . "/images/footer/linkedin.svg"; ?>" target="_blank" alt="Linkedin"></a></li>
+							<li><a href="https://www.instagram.com/hikeacademy/"><img src="<?php echo get_template_directory_uri() . "/images/footer/instagram.svg"; ?>" target="_blank" alt="Instagram"></a></li>
+							<li><a href="https://www.facebook.com/HikeAcademyBrasil/"><img src="<?php echo get_template_directory_uri() . "/images/footer/facebook.svg"; ?>" target="_blank" alt="Facebook"></a></li>
 						</ul>
 					</ul>
 				</div>

@@ -3,20 +3,31 @@
   background-color: $dark-gray;
 
   img {
-    height: 50px; }
+    height: 45px;
+    margin-top: 15px; }
 
   hr {
     background-color: $font-primary;
     padding-top: 1px; }
 
-  ul {
-    margin: 0; }
-
-  ul span {
+  p {
     font-size: 14px;
     font-weight: bold;
     color: $footer-titles;
-    margin-bottom: 18px; }
+    margin-top: 16px; }
+
+  ul {
+    margin: 18px 0 0 0;
+
+    ul {
+      margin: 0;
+
+      li {
+       display: inline-block;
+
+        img {
+          width: 20px;
+          margin-right: 16px; } } } }
 
   a, a:visited {
     font-size: 12px;

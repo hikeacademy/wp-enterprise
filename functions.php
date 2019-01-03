@@ -116,11 +116,19 @@ function hike_trampos_widgets_init() {
 }
 add_action( 'widgets_init', 'hike_trampos_widgets_init' );
 
+// include custom jQuery
+function shapeSpace_include_custom_jquery() {
+
+	wp_deregister_script('jquery');
+	wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.3.1.min.js', array(), null, true);
+
+}
+add_action('wp_enqueue_scripts', 'shapeSpace_include_custom_jquery');
+
 /**
  * Enqueue scripts and styles.
  */
 function hike_trampos_scripts() {
-	wp_enqueue_script('jquery');
 
 	wp_enqueue_style( 'hike-trampos-style', get_stylesheet_uri() );
 
