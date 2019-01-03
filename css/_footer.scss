@@ -1,6 +1,16 @@
 .footer {
-
+  margin-top: 60px;
   background-color: $dark-gray;
+
+  .btn {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.5;
+    text-transform: none;
+    color: $font-primary;
+    background-color: $primary-blue;
+    border-radius: 4px;
+    height: 45px; }
 
   img {
     height: 45px;

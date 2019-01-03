@@ -894,6 +894,15 @@ object {
     font-size: 16px;
     font-weight: bold;
     color: #373737; }
+  .navbar ul li .btn {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2.7;
+    text-transform: none;
+    color: #fff;
+    background-color: #329af0;
+    border-radius: 4px;
+    height: 45px; }
   .navbar ul a:hover, .navbar ul a:focus {
     color: #329af0;
     background: none;
@@ -907,28 +916,30 @@ object {
       padding: 7px 30px; }
 
 .front-page {
-  padding-top: 90px;
+  padding-top: 45px;
   color: #373737; }
   .front-page h1 {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
     color: #000; }
   .front-page h5 {
-    font-size: 18px;
+    font-size: 24px;
     line-height: normal;
-    margin: 25px 0 50px; }
+    margin-bottom: 75px; }
   .front-page .btn {
     font-size: 18px;
     font-weight: bold;
+    line-height: 2.5;
     text-transform: none;
     color: #fff;
     background-color: #329af0;
-    border-radius: 4px; }
+    border-radius: 4px;
+    height: 45px; }
   .front-page p {
     font-size: 14px;
     text-align: center;
     margin-top: 20px;
-    padding-right: 160px; }
+    padding: 0 75px; }
 
 .contact {
   height: 100%; }
@@ -1058,10 +1069,12 @@ object {
   .apply-page .btn {
     font-size: 18px;
     font-weight: bold;
+    line-height: 2.5;
     text-transform: none;
     color: #fff;
     background-color: #329af0;
-    border-radius: 4px; }
+    border-radius: 4px;
+    height: 45px; }
   .apply-page header {
     margin-bottom: 120px; }
     .apply-page header p {
@@ -1069,14 +1082,29 @@ object {
       color: #373737; }
     .apply-page header small {
       font-size: 12px; }
-  .apply-page .first-section, .apply-page .second-section {
+      .apply-page header small a, .apply-page header small a:visited {
+        color: #329af0;
+        text-decoration: none;
+        outline: none; }
+  .apply-page .first-section {
     margin-bottom: 120px; }
-    .apply-page .first-section .collapsible-header, .apply-page .second-section .collapsible-header {
+    .apply-page .first-section ul {
+      margin: 0; }
+      .apply-page .first-section ul li {
+        font-size: 18px;
+        font-weight: bold;
+        color: #373737;
+        margin: 18px 0; }
+  .apply-page .second-section {
+    margin-bottom: 120px; }
+    .apply-page .second-section .collapsible-header {
       font-size: 16px;
       color: #373737;
-      font-weight: bold;
-      margin-top: 20px;
-      padding: 15px 0 8px; }
+      font-weight: bold; }
+    .apply-page .second-section a, .apply-page .second-section a:visited {
+      color: #329af0;
+      text-decoration: none;
+      outline: none; }
   .apply-page .third-section {
     margin-bottom: 80px; }
     .apply-page .third-section .card-panel {
@@ -1115,10 +1143,12 @@ object {
   .landing-page .btn {
     font-size: 18px;
     font-weight: bold;
+    line-height: 2.5;
     text-transform: none;
     color: #fff;
     background-color: #329af0;
-    border-radius: 4px; }
+    border-radius: 4px;
+    height: 45px; }
   .landing-page header {
     margin-bottom: 170px; }
     .landing-page header h1 {
@@ -1213,7 +1243,17 @@ object {
     color: #373737; }
 
 .footer {
+  margin-top: 60px;
   background-color: #373737; }
+  .footer .btn {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.5;
+    text-transform: none;
+    color: #fff;
+    background-color: #329af0;
+    border-radius: 4px;
+    height: 45px; }
   .footer img {
     height: 45px;
     margin-top: 15px; }

@@ -13,12 +13,14 @@
     margin-bottom: 48px; }
 
   .btn {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: none;
-    color: $font-primary;
-    background-color: $primary-blue;
-    border-radius: 4px; }
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 2.5;
+		text-transform: none;
+		color: $font-primary;
+		background-color: $primary-blue;
+		border-radius: 4px;
+		height: 45px; }
 
   header {
     margin-bottom: 120px;
@@ -28,17 +30,36 @@
       color: $dark-gray; }
 
     small {
-      font-size: 12px; } }
+      font-size: 12px;
 
-  .first-section, .second-section {
+      a, a:visited {
+        color: $primary-blue;
+        text-decoration: none;
+        outline: none; } } }
+
+  .first-section {
+    margin-bottom: 120px;
+
+    ul {
+      margin: 0;
+
+      li {
+        font-size: 18px;
+        font-weight: bold;
+        color: $dark-gray;
+        margin: 18px 0; } } }
+  .second-section {
     margin-bottom: 120px;
 
     .collapsible-header {
       font-size: 16px;
       color: $dark-gray;
-      font-weight: bold;
-      margin-top: 20px;
-      padding: 15px 0 8px; } }
+      font-weight: bold; }
+
+    a, a:visited {
+      color: $primary-blue;
+      text-decoration: none;
+      outline: none; } }
 
   .third-section {
     margin-bottom: 80px;

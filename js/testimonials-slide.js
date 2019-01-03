@@ -1,10 +1,12 @@
-jQuery(document).ready(function($){	
+jQuery(document).ready(function($){
 	$('.testimonials-cards').slick({
 		dots: false,
 		arrows: false,
 		draggable: false,
+		infinte: true,
+		adaptiveHeight: true,
 	});
-	
+
 	$('.prev').click(function(){
   		$('.testimonials-cards').slick('slickPrev');
 	})

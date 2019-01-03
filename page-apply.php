@@ -5,6 +5,7 @@
 
 
 get_header();
+get_template_part('template-parts/navbar');
 ?>
 <div class="container apply-page">
 	<header>
@@ -23,35 +24,24 @@ get_header();
 				<a class="btn" href="#subscription-form">Inscreva-se para o programa de bolsas &#8594;</a>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row hide">
 			<div class="col">
 				<small>Ou, se tiver condições, <a href="#!">compre o curso</a> e tenha acesso agora</small>
 			</div>
 		</div>
 	</header>
 	<!-- First section -->
-	<div class="row first-section">
+	<div id="student-profile" class="row first-section">
 		<div class="col">
 			<h2>A Hike procura por jovens:</h2>
 		</div>
 		<div class="col s12">
-			<ul class="collapsible">
-				<li>
-					<div class="collapsible-header">Maiores de 16 anos</div>
-					<div class="collapsible-body">Lorem ipsum dolor sit amet</div>
-				</li>
-				<li>
-					<div class="collapsible-header">Brasileiro (a)</div>
-					<div class="collapsible-body">Lorem ipsum dolor sit amet</div>
-				</li>
-				<li>
-					<div class="collapsible-header">Com renda familiar mensal de até 1,5 salário mínio</div>
-					<div class="collapsible-body">Lorem ipsum dolor sit amet</div>
-				</li>
-				<li>
-					<div class="collapsible-header">Que consigam dedicar, no mínimo, 6h por semana ao curso</div>
-					<div class="collapsible-body">Lorem ipsum dolor sit amet</div>
-				</li>
+			<ul>
+				<li>&#8594; Brasileiros;</li>
+				<li>&#8594; Maiores de 16 anos;</li>
+				<li>&#8594; Com renda familiar mensal de até 1,5 salário mínimo;</li>
+				<li>&#8594; Que consigam dedicar, no mínimo, 6h por semana a aprender programação;</li>
+				<li>&#8594; Que, acimda de tudo, são determinados.</li>
 			</ul>
 		</div>
 	</div>
@@ -63,28 +53,37 @@ get_header();
 		<div class="col s12">
 			<ul class="collapsible">
 				<li>
-					<div class="collapsible-header">1. formulário com informações básicas sobre você</div>
-					<div class="collapsible-body">Lorem ipsum dolor sit amet</div>
+					<div class="collapsible-header">1. Informações pessoais</div>
+					<div class="collapsible-body">
+						A primeira etapa do processo seletivo é bem simples: consiste em você preencher <a href="#subscription-form">essas perguntas aqui embaixo</a>.<br>
+						<br>
+						Nessa etapa, fazemos algumas perguntas gerais sobre você, como nome e idade, e pedimos pra responder essas três perguntas:<br>
+						1. Por que quer aprender a programar?<br>
+						2. Qual foi o maior obstáculo que você já enfrentou na vida?<br>
+						3. O que você fez pra superar este obstáculo?<br>
+						<br>
+						Nosso objetivo com essa etapa é te conhecer um pouquinho e entender se você se encaixa minimamente no <a href="#student-profile">perfil de pessoa que procuramos</a>. Você receberá um e-mail nosso avisando se foi aprovado na próxima etapa ou não dentro de até 15 dias.
+					</div>
 				</li>
 				<li>
-					<div class="collapsible-header">2. teste de lógica</div>
-					<div class="collapsible-body">Lorem ipsum dolor sit amet</div>
+					<div class="collapsible-header">2. Entrevista online</div>
+					<div class="collapsible-body">Caso seja aprovado na etapa anterior, você vai receber um convite pra fazer uma entrevista online com alguém do nosso time. O objetivo da entrevista é conhecer você de forma mais profunda e pessoal, para entendermos o quão motivado você está pra aprender a programar e, quem sabe, trabalhar com isto depois.</div>
 				</li>
 				<li>
-					<div class="collapsible-header">3. entrevista</div>
-					<div class="collapsible-body">Lorem ipsum dolor sit amet</div>
+					<div class="collapsible-header">3. Curso</div>
+					<div class="collapsible-body">Se aprovado na entrevista, você recebe acesso ao nosso curso. A partir daí, é com você: assista às videoaulas online, construa os projetos e preencha as avaliações.</div>
 				</li>
 				<li>
-					<div class="collapsible-header">4. início do curso</div>
-					<div class="collapsible-body">Lorem ipsum dolor sit amet</div>
+					<div class="collapsible-header">4. Emprego</div>
+					<div class="collapsible-body">Se você se destacar durante o curso, vamos te conectar com empresas de tecnologia que estão em busca de jovens talentosos como você.</div>
 				</li>
 			</ul>
 		</div>
 	</div>
 	<!-- Third section -->
-	<div class="row third-section" id="subscription-form">
+	<div id="subscription-form" class="row third-section">
 		<div class="col">
-			<h2>Responda as perguntas abaixo</h2>
+			<h2>Tá pront@ pra essa jornada? Então responda as perguntas abaixo:</h2>
 		</div>
 		<div class="col s12">
 			<div class="card-panel">
@@ -100,5 +99,5 @@ get_header();
 </div>
 
 <?php
-wp_footer();
+	get_footer();
 ?>

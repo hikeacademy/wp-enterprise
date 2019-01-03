@@ -7,9 +7,9 @@
  *
  * @package Hike_Trampos
  */
- 
-	get_header();
 
+	get_header();
+	get_template_part('template-parts/navbar');
  ?>
 <div class="container landing-page">
 	<header>
@@ -20,12 +20,12 @@
  				</div>
 				<div class="row">
 	 				<p>Get your website done by a community of top talented, high motivated devs.</p>
- 				</div> 			
- 				<div class="row">
-	 				<a class="btn" href="#!">Contact sales &#8594;</a>
  				</div>
  				<div class="row">
-	 				<small>Or <a href="#!">get to know more</a> about us</small>
+	 				<a class="btn" href="contact">Contact sales &#8594;</a>
+ 				</div>
+ 				<div class="row">
+	 				<small>Or <a href="#your-problem">get to know more</a> about us</small>
  				</div>
  			</div>
  			<div class="col s6 offset-s1">
@@ -33,7 +33,7 @@
  			</div>
  		</div>
 	</header>
-	<div class="row section valign-wrapper">
+	<div id="your-problem" class="row section valign-wrapper">
 		<div class="col s6">
 			<h2>Your problem</h3>
 			<p>Do you need a website built from scratch? Do you want to migrate what you already have to Wordpress? Do you want design + implementation? Do you only need implementation? Get in touch and we can provide you with more information based on your needs!</p>
@@ -41,7 +41,7 @@
 		<div class="col s4 offset-s2">
 			<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/yourproblem.svg'; ?>" alt="">
 		</div>
-	</div> 
+	</div>
 	<div class="row section valign-wrapper">
 		<div class="col s6">
 			<h2>Our solution</h3>
@@ -50,15 +50,15 @@
 		<div class="col s4 offset-s2">
 			<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/oursolution.svg'; ?>" alt="">
 		</div>
-	</div>	
+	</div>
 
 
 	<?php
-		get_template_part('template-parts/landing-pages/startup/partners'); 
+		get_template_part('template-parts/landing-pages/startup/partners');
 		get_template_part('template-parts/landing-pages/testimonials');
 		get_template_part('/template-parts/landing-pages/portfolio');
 		get_template_part('/template-parts/landing-pages/faq');
-	?> 	
+	?>
 
 	<div class="invite">
 		<div class="row valign-wrapper">
@@ -67,11 +67,11 @@
 				<p><?php the_field('startup_invite_subtitle'); ?></p>
 			</div>
 			<div class="col s3 offset-s2">
-				<a class="btn">Inscreva-se &#8594;</a>
+				<a href="contact" class="btn">Contatar vendas &#8594;</a>
 			</div>
 		</div>
  	</div>
 </div>
 <footer>
-	<?php wp_footer(); ?>
+	<?php get_footer(); ?>
 </footer>

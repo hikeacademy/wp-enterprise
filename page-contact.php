@@ -1,24 +1,16 @@
 <?php
-	/* 
+	/*
 	 * Template Name: ContactTemplate
 	 */
 	get_header();
+	get_template_part('template-parts/navbar');
 ?>
 <div class="contact">
-	<nav>
-		<div class="container">
-			<div class="nav-wrapper">
-		      <a href="/" class="brand-logo"><img src="<?php echo get_template_directory_uri() . '/images/hike-black.png'; ?>"/></a>
-
-		    </div>
-		</div>
-	</nav>
-
 	<div class="bg">
 		<div class="bg-white"></div>
 		<div class="bg-gradient"></div>
 	</div>
-	
+
 	<div class="container">
 		<div class="hero">
 			<div class="row">
