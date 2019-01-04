@@ -10,14 +10,14 @@ acf_add_local_field_group(array(
 			'label' => 'Invite title',
 			'name' => 'startup_invite_title',
 			'type' => 'text',
-			'default_value' => 'Lorem ipsum?',
+			'default_value' => 'Como a gente pode te ajudar?',
 		),
 		array(
 			'key' => 'field_5c24d3f40165e',
 			'label' => 'Invite subtitle',
 			'name' => 'startup_invite_subtitle',
 			'type' => 'text',
-			'default_value' => 'Lorem ipsum dolor sit amet.',
+			'default_value' => 'Diga-nos do que precisa.',
 		),
 	),
 	'location' => array(

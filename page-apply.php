@@ -10,12 +10,12 @@ get_template_part('template-parts/navbar');
 <div class="container apply-page">
 	<header>
 		<div class="row">
-			<div class="col s8">
+			<div class="col m8 s10">
 				<h1>Participe do processo seletivo da Hike</h1>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col s8">
+			<div class="col s10">
 				<p>Salve, quebrada!<br>A Hike tá procurando jovens de baixa renda que tão a fim de aprender a criar coisas maneiras, tipo websites e aplicativos de celular. Você é um deles?</p>
 			</div>
 		</div>
@@ -35,7 +35,7 @@ get_template_part('template-parts/navbar');
 		<div class="col">
 			<h2>A Hike procura por jovens:</h2>
 		</div>
-		<div class="col s12">
+		<div class="col s9 offset-s1">
 			<ul>
 				<li>&#8594; Brasileiros;</li>
 				<li>&#8594; Maiores de 16 anos;</li>
@@ -52,7 +52,7 @@ get_template_part('template-parts/navbar');
 		</div>
 		<div class="col s12">
 			<ul class="collapsible">
-				<li>
+				<li class="active">
 					<div class="collapsible-header">1. Informações pessoais</div>
 					<div class="collapsible-body">
 						A primeira etapa do processo seletivo é bem simples: consiste em você preencher <a href="#subscription-form">essas perguntas aqui embaixo</a>.<br>

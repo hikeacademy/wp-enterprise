@@ -1,5 +1,7 @@
 <div class="testimonials">
-	<h2 <?php echo is_startup_page() ? 'class="hide"' : NULL ; ?>>Depoimentos</h2>
+	<div class="row">
+		<h2 <?php echo is_startup_page() ? 'class="hide"' : NULL ; ?>>Depoimentos</h2>
+	</div>
 	<div class="testimonials-cards">
 		<!-- Card -->
 		<?php

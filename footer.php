@@ -22,14 +22,13 @@
 			</div>
 			<hr>
 			<div class="row">
-				<div class="col s3">
+				<div class="col m3 s4">
 					<p>Quem somos</p>
 					<ul>
 						<li><a href="<?php echo get_home_url(); ?>">O que fazemos</a></li>
-						<li><a href="#!">Enviar pergunta</a></li>
 					</ul>
 				</div>
-				<div class="col s3">
+				<div class="col m3 s4">
 					<p>Para alunos</p>
 					<ul>
 						<li><a href="student">Como funciona</a></li>
@@ -38,7 +37,7 @@
 						<li><a href="student/#faq">Dúvidas</a></li>
 					</ul>
 				</div>
-				<div class="col s3">
+				<div class="col m3 s4">
 					<p>Para empresas</p>
 					<ul>
 						<li><a href="startup">Como funciona</a></li>
@@ -46,7 +45,7 @@
 						<li><a href="startup/#faq">Dúvidas</a></li>
 					</ul>
 				</div>
-				<div class="col s3">
+				<div class="col m3 s8">
 					<p>Contato</p>
 					<ul>
 						<li><a href="mailto:time@hikeacademy.com.br">time@hikeacademy.com.br</a></li>

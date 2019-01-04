@@ -940,127 +940,57 @@ object {
     text-align: center;
     margin-top: 20px;
     padding: 0 75px; }
-
-.contact {
-  height: 100%; }
-  .contact nav {
-    background: none;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding: 10px 0; }
-    .contact nav .brand-logo img {
-      height: 30px;
-      width: auto; }
-  .contact .hero {
-    color: #000;
-    padding: 50px 0 10px; }
-    .contact .hero .title {
-      margin: 40px 0;
-      font-size: 2.4rem;
-      color: #000;
-      text-transform: none; }
-    .contact .hero .description {
-      font-size: 1.4rem;
-      line-height: 1.8;
-      margin-bottom: 30px; }
-    .contact .hero img {
-      min-width: 500px; }
-  .contact .form-container {
-    text-align: left;
-    background-color: #fcfcfc;
-    padding: 40px 20px;
-    border-radius: 10px; }
-    .contact .form-container .submit-btn {
-      color: white; }
-    .contact .form-container input[type="submit"] {
-      color: white; }
-      .contact .form-container input[type="submit"]:hover {
-        cursor: pointer; }
-  .contact .title-2 {
-    font-size: 1.5rem;
-    text-align: left; }
-  .contact .benefits-container {
-    margin-top: 90px;
-    color: rgba(255, 255, 255, 0.95);
-    padding-bottom: 100px; }
-  .contact .benefits {
-    padding: 0;
-    margin: 0; }
-  .contact .benefit {
-    padding: 20px 0;
-    margin: 0;
-    list-style: none; }
-    .contact .benefit i {
-      background-color: rgba(0, 150, 136, 0.6);
-      border-radius: 50%;
-      padding: 5px;
-      margin-right: 10px;
-      font-size: 12pt; }
-  .contact .bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    z-index: -1; }
-  .contact .bg-white {
-    width: 100%;
-    background-color: white;
-    padding: 100px 0 200px;
-    z-index: 0; }
-  .contact .bg-gradient {
-    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
-    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
-    flex-grow: 1;
-    width: 100%;
-    z-index: -1;
-    background: linear-gradient(90deg, #777bf8, #68d4f8 200%); }
+  @media only screen and (max-width: 992px) {
+    .front-page {
+      padding-top: 90px; }
+      .front-page h1 {
+        font-size: 48px;
+        margin: 0; }
+      .front-page h5 {
+        font-size: 18px;
+        margin-bottom: 36px; }
+      .front-page .btn {
+        font-size: 12px;
+        height: 34px; }
+      .front-page p {
+        font-size: 12px;
+        padding: 0; } }
   @media only screen and (max-width: 600px) {
-    .contact .hero .title {
-      font-size: 2rem; }
-    .contact .hero .description {
-      font-size: 1.2rem; }
-    .contact .bg-white {
-      padding: 140px 0 200px; }
-    .contact .bg-gradient {
-      clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
-      -webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%); } }
+    .front-page h1 {
+      font-size: 30px; }
+    .front-page h5 {
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 24px; }
+    .front-page p {
+      font-size: 10px;
+      margin-top: 8px;
+      margin-bottom: 24px; } }
 
-.blog {
-  background-color: #F6F9FC; }
-  .blog .posts-container {
-    padding: 0 0 100px; }
-  .blog .title {
-    padding: 100px 0;
-    margin: 0; }
-  .blog .post-card {
-    border: 1px solid #e6e6e6;
-    background-color: white; }
-    .blog .post-card .post-title {
-      font-weight: bold;
-      font-size: 2rem;
-      text-align: center;
-      margin: 50px 0; }
-    .blog .post-card .post-content {
-      color: #4c555a;
-      line-height: 1.8;
-      padding: 30px 150px; }
-    .blog .post-card h1, .blog .post-card h2, .blog .post-card h3, .blog .post-card h4, .blog .post-card h5, .blog .post-card h6 {
-      margin: 20px 0; }
-    .blog .post-card p {
-      margin-bottom: 10px; }
+.blog .posts-container {
+  padding: 0 0 100px; }
+.blog .title {
+  padding: 100px 0;
+  margin: 0; }
+.blog .post-card {
+  border: 1px solid #e6e6e6;
+  background-color: white; }
+  .blog .post-card .post-title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px 0; }
+  .blog .post-card .post-content {
+    color: #4c555a;
+    line-height: 1.8;
+    padding: 30px 150px; }
+  .blog .post-card h1, .blog .post-card h2, .blog .post-card h3, .blog .post-card h4, .blog .post-card h5, .blog .post-card h6 {
+    margin: 20px 0; }
+  .blog .post-card p {
+    margin-bottom: 10px; }
 
 .apply-page {
   padding-top: 100px; }
-  .apply-page h1 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #000; }
   .apply-page h2 {
     font-size: 48px;
     font-weight: bold;
@@ -1077,6 +1007,10 @@ object {
     height: 45px; }
   .apply-page header {
     margin-bottom: 120px; }
+    .apply-page header h1 {
+      font-size: 48px;
+      font-weight: bold;
+      color: #000; }
     .apply-page header p {
       font-size: 18px;
       color: #373737; }
@@ -1130,6 +1064,23 @@ object {
       padding: 0;
       width: 100%;
       height: 48px; }
+  @media only screen and (max-width: 992px) {
+    .apply-page h2 {
+      font-size: 36px;
+      margin-bottom: 36px; }
+    .apply-page .btn {
+      font-size: 12px;
+      height: 34px;
+      line-height: 2.7; }
+    .apply-page header h1 {
+      font-size: 40px;
+      margin: 0; }
+    .apply-page header p {
+      margin-bottom: 36px; }
+    .apply-page .first-section ul li {
+      font-size: 16px; }
+    .apply-page .third-section .card-panel {
+      padding: 30px 27px 25px; } }
 
 .landing-page {
   padding-top: 90px; }
@@ -1174,7 +1125,7 @@ object {
     margin-bottom: 100px; }
     .landing-page .portfolio .card {
       border-radius: 6px;
-      height: 300px; }
+      height: 350px; }
       .landing-page .portfolio .card img {
         border-radius: 6px 6px 0 0; }
       .landing-page .portfolio .card .content {
@@ -1189,7 +1140,7 @@ object {
         color: #707070; }
     .landing-page .portfolio .card-panel {
       border-radius: 6px;
-      height: 300px; }
+      height: 350px; }
       .landing-page .portfolio .card-panel p {
         font-size: 18px;
         font-weight: 300;
@@ -1203,8 +1154,6 @@ object {
       font-size: 16px;
       margin-top: 10px; }
     .landing-page .testimonials p {
-      font-size: 16px;
-      font-weight: 300;
       font-weight: bold; }
     .landing-page .testimonials .slider-controls {
       float: right; }
@@ -1219,7 +1168,7 @@ object {
       -webkit-box-shadow: none;
       box-shadow: none; }
     .landing-page .faq .collapsible-header {
-      font-size: 16px;
+      font-size: 20px;
       color: #373737;
       font-weight: bold;
       margin-top: 20px;
@@ -1241,6 +1190,71 @@ object {
     font-size: 18px;
     font-weight: bold;
     color: #373737; }
+  @media only screen and (max-width: 992px) {
+    .landing-page h2 {
+      font-size: 36px;
+      margin-bottom: 0; }
+    .landing-page .btn {
+      font-size: 12px;
+      height: 34px;
+      line-height: 2.7; }
+    .landing-page .portfolio .row .col {
+      padding: 0 3px; }
+    .landing-page .portfolio .card {
+      height: 250px; }
+      .landing-page .portfolio .card .content {
+        padding: 0 12px; }
+      .landing-page .portfolio .card h6 {
+        font-size: 14px;
+        margin-top: 0px; }
+      .landing-page .portfolio .card p {
+        font-size: 10px; }
+    .landing-page .portfolio .card-panel {
+      height: 250px;
+      padding: 18px; }
+      .landing-page .portfolio .card-panel p {
+        font-size: 16px; }
+    .landing-page .testimonials i {
+      font-size: 14px; }
+    .landing-page .testimonials .author-data {
+      font-size: 12px; }
+    .landing-page .faq .collapsible-header {
+      font-size: 16px; } }
+  @media only screen and (max-width: 600px) {
+    .landing-page h2 {
+      font-size: 24px;
+      margin-bottom: 0; }
+    .landing-page header {
+      margin-bottom: 100px; }
+      .landing-page header h1 {
+        font-size: 30px; }
+      .landing-page header h5, .landing-page header p {
+        font-size: 14px;
+        margin-bottom: 0; }
+    .landing-page .portfolio .row .col {
+      padding: 0 3px; }
+    .landing-page .portfolio .card {
+      height: 250px; }
+      .landing-page .portfolio .card .content {
+        padding: 0 12px; }
+      .landing-page .portfolio .card h6 {
+        font-size: 14px;
+        margin: 8px 0; }
+      .landing-page .portfolio .card p {
+        font-size: 10px; }
+    .landing-page .portfolio .card-panel {
+      height: 250px;
+      padding: 24px; }
+      .landing-page .portfolio .card-panel p {
+        font-size: 16px; }
+    .landing-page .testimonials i {
+      font-size: 14px; }
+    .landing-page .testimonials .author-data {
+      font-size: 12px; }
+    .landing-page .faq .collapsible-header {
+      font-size: 14px; }
+    .landing-page .invite h3 {
+      font-size: 24px; } }
 
 .footer {
   margin-top: 60px;

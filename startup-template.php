@@ -16,13 +16,13 @@
 		<div class="row">
 	 		<div class="col s5">
  				<div class="row">
- 					<h1>The best way of getting your website done</h1>
+ 					<h1>A melhor forma de ter o seu site construído</h1>
  				</div>
 				<div class="row">
-	 				<p>Get your website done by a community of top talented, high motivated devs.</p>
+	 				<p>Tenha o seu website ou plataforma web construído por um time talentoso de jovens desenvolvedores, por um preço mais acessível que de outras casas de software e com alta qualidade garantida.</p>
  				</div>
  				<div class="row">
-	 				<a class="btn" href="contact">Contact sales &#8594;</a>
+	 				<a class="btn" href="contact">Entre em contato &#8594;</a>
  				</div>
  				<div class="row">
 	 				<small>Or <a href="#your-problem">get to know more</a> about us</small>
@@ -33,7 +33,7 @@
  			</div>
  		</div>
 	</header>
-	<div id="your-problem" class="row section valign-wrapper">
+	<div id="your-problem" class="hide row section valign-wrapper">
 		<div class="col s6">
 			<h2>Your problem</h3>
 			<p>Do you need a website built from scratch? Do you want to migrate what you already have to Wordpress? Do you want design + implementation? Do you only need implementation? Get in touch and we can provide you with more information based on your needs!</p>
@@ -42,7 +42,7 @@
 			<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/yourproblem.svg'; ?>" alt="">
 		</div>
 	</div>
-	<div class="row section valign-wrapper">
+	<div class="hide row section valign-wrapper">
 		<div class="col s6">
 			<h2>Our solution</h3>
 			<p>We build websites to convey companies' messages clearly, with beautiful design, supported by solid engineering implementation. We focus on building websites for high-growth businesses that need a good Content Management System.</p>
@@ -66,8 +66,8 @@
 				<h3><?php the_field('startup_invite_title'); ?></h3>
 				<p><?php the_field('startup_invite_subtitle'); ?></p>
 			</div>
-			<div class="col s3 offset-s2">
-				<a href="contact" class="btn">Contatar vendas &#8594;</a>
+			<div class="col s4 offset-s1">
+				<a href="contact" class="btn">Entre em contato &#8594;</a>
 			</div>
 		</div>
  	</div>

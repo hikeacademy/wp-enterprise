@@ -1,5 +1,7 @@
 <div id="faq" class="faq">
-	<h2>Perguntas frequentes</h2>
+	<div class="row">
+		<h2>Perguntas frequentes</h2>
+	</div>
 	<ul class="collapsible">
 		<?php
 
