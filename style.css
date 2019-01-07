@@ -967,6 +967,14 @@ object {
       margin-top: 8px;
       margin-bottom: 24px; } }
 
+.contact h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000; }
+.contact p {
+  font-size: 24px;
+  color: #373737; }
+
 .blog .posts-container {
   padding: 0 0 100px; }
 .blog .title {
