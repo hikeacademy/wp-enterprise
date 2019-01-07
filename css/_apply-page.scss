@@ -74,6 +74,9 @@
       input::placeholder {
         color: $primary-blue; }
 
+      input[name="biggest-challenge"]::placeholder, input[name="challenge-overcome"]::placeholder {
+        color: #c3c3c3; }
+
       select {
         color: $primary-blue;
         display: block;

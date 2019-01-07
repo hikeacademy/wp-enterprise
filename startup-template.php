@@ -13,8 +13,8 @@
  ?>
 <div class="container landing-page">
 	<header>
-		<div class="row">
-	 		<div class="col s5">
+		<div class="row valign-wrapper">
+	 		<div class="col l5 m7">
  				<div class="row">
  					<h1>A melhor forma de ter o seu site construído</h1>
  				</div>
@@ -28,7 +28,7 @@
 	 				<small>Or <a href="#your-problem">get to know more</a> about us</small>
  				</div>
  			</div>
- 			<div class="col s6 offset-s1">
+ 			<div class="col l6 m5 s6 offset-l1">
  				<img class="responsive-img" src="<?php echo get_template_directory_uri() . '/images/landing-pages/hero.svg'; ?>" alt="">
  			</div>
  		</div>

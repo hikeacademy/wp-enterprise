@@ -16,8 +16,8 @@
     <ul class="right hide-on-med-and-down">
       <?php
         if (is_front_page()) { ?>
-            <li><a class='dropdown-trigger' href='#!' data-target='student-content'>Para alunos</a></li>
-            <li><a class='dropdown-trigger' href='#!' data-target='startup-content'>Para empresas</a></li>
+            <li><a class='dropdown-trigger' href='#' data-target='student-content'>Para alunos</a></li>
+            <li><a class='dropdown-trigger' href='#' data-target='startup-content'>Para empresas</a></li>
           <?php
         } else { ?>
             <li><a href="apply" class="btn">Inscreva-se &#8594;</a></li>
@@ -28,6 +28,4 @@
 </nav>
 
 <ul class="sidenav" id="mobile-demo">
-  <li><a class='dropdown-trigger' href='#!' data-target='student-content'>Para alunos</a></li>
-  <li><a class='dropdown-trigger' href='#!' data-target='startup-content'>Para empresas</a></li>
 </ul>

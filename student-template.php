@@ -44,17 +44,18 @@
  		get_template_part('template-parts/landing-pages/testimonials');
  		get_template_part('template-parts/landing-pages/faq');
  	?>
- 	<div class="invite">
+	<div class="invite">
 		<div class="row valign-wrapper">
-			<div class="col m9 s7">
-				<h3><?php the_field('student_invite_title'); ?></h3>
-				<p><?php the_field('student_invite_subtitle'); ?></p>
+			<div class="col s7">
+				<h3><?php the_field('startup_invite_title'); ?></h3>
+				<p><?php the_field('startup_invite_subtitle'); ?></p>
 			</div>
-			<div class="col m3 s5 offset-m2">
-				<a href="apply" class="btn">Inscreva-se &#8594;</a>
+			<div class="col s4 offset-s1">
+				<a href="contact" class="btn">Inscreva-se &#8594;</a>
 			</div>
 		</div>
- 	</div>
+	</div>
+
  </div>
  <footer>
 	<?php get_footer(); ?>

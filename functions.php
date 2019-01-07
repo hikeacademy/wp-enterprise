@@ -152,7 +152,7 @@ function hike_trampos_scripts() {
 
 	wp_enqueue_script( 'testimonials-slide', get_template_directory_uri() . '/js/testimonials-slide.js' );
 
-  wp_enqueue_script( 'smooth-scrolling', get_theme_file_uri('/js/smooth-scrooling.js'), NULL, microtime(), true);
+  wp_enqueue_script( 'smooth-scrolling', get_template_directory_uri() . '/js/smooth-scrolling.js', NULL, microtime(), true);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

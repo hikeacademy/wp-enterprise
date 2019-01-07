@@ -5,18 +5,6 @@
 		</div>
 	</div>
 	<div class="row">
-		<!-- Qulture.Rocks card -->
-		<div class="col m3 s6">
-			<a href="//qulture.rocks" target="_blank">
-				<div class="card hoverable">
-					<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/portfolio/qulture.png';?>" alt="qulture site">
-					<div class="content">
-						<h6>Qulture.Rocks</h6>
-						<p>Apoiada pela YCombinator  e com mais de 12,000 usuários ativos em sua plataforma, a Qulture.Rocks é uma startup brasileira que, por meio de sua plataforma, ajuda times de empresas a gerenciar desempenho e produtividade</p>
-					</div>
-				</div>
-			</a>
-		</div>
 		<!-- Cerensa site -->
 		<div class="col m3 s6">
 			<a href="//cerensa.com" target="_blank">
@@ -25,6 +13,18 @@
 					<div class="content">
 						<h6>Cerensa</h6>
 						<p>Com atuação em 16 países, a Cerensa é uma startup brasileira que tem ajudado empresas mundo afora a lidar com gestão ambiental e inteligência socioambiental</p>
+					</div>
+				</div>
+			</a>
+		</div>
+		<!-- Qulture.Rocks card -->
+		<div class="col m3 s6">
+			<a href="//qulture.rocks" target="_blank">
+				<div class="card hoverable">
+					<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/portfolio/qulture.png';?>" alt="qulture site">
+					<div class="content">
+						<h6>Qulture.Rocks</h6>
+						<p>Apoiada pela YCombinator  e com mais de 12,000 usuários ativos em sua plataforma, a Qulture.Rocks é uma startup brasileira que ajuda times de empresas a gerenciar desempenho e produtividade</p>
 					</div>
 				</div>
 			</a>

@@ -974,6 +974,48 @@ object {
 .contact p {
   font-size: 24px;
   color: #373737; }
+.contact .btn {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2.5;
+  text-transform: none;
+  color: #fff;
+  background-color: #329af0;
+  border-radius: 4px;
+  height: 45px; }
+.contact .card-panel {
+  border-radius: 12px;
+  padding: 60px 0 18px; }
+.contact .wpcf7-form .row {
+  margin: 0; }
+.contact .wpcf7-form .wpcf7-form-control-wrap input {
+  margin-bottom: 42px !important; }
+.contact .wpcf7-form input::placeholder {
+  color: #329af0; }
+.contact .wpcf7-form input:not(.browser-default) {
+  border-bottom: 1.3px solid #329af0; }
+.contact .wpcf7-form .wpcf7-form-control-wrap input:not(.browser-default):focus {
+  border-bottom: 1.3px solid #329af0;
+  box-shadow: 0 1px 0 0 #329af0; }
+.contact .wpcf7-form label {
+  font-size: 16px;
+  color: #329af0; }
+.contact .wpcf7-form input[name="problem"]::placeholder {
+  color: #c3c3c3; }
+.contact .wpcf7-form input[type=submit] {
+  margin-top: 21px;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+  height: 48px; }
+@media only screen and (max-width: 992px) {
+  .contact p {
+    font-size: 18px; } }
+@media only screen and (max-width: 600px) {
+  .contact h1 {
+    font-size: 30px; }
+  .contact p {
+    font-size: 14px; } }
 
 .blog .posts-container {
   padding: 0 0 100px; }
@@ -1054,6 +1096,8 @@ object {
       border-radius: 12px; }
     .apply-page .third-section .wpcf7-form input::placeholder {
       color: #329af0; }
+    .apply-page .third-section .wpcf7-form input[name="biggest-challenge"]::placeholder, .apply-page .third-section .wpcf7-form input[name="challenge-overcome"]::placeholder {
+      color: #c3c3c3; }
     .apply-page .third-section .wpcf7-form select {
       color: #329af0;
       display: block;
@@ -1133,7 +1177,7 @@ object {
     margin-bottom: 100px; }
     .landing-page .portfolio .card {
       border-radius: 6px;
-      height: 350px; }
+      height: 325px; }
       .landing-page .portfolio .card img {
         border-radius: 6px 6px 0 0; }
       .landing-page .portfolio .card .content {
@@ -1148,7 +1192,7 @@ object {
         color: #707070; }
     .landing-page .portfolio .card-panel {
       border-radius: 6px;
-      height: 350px; }
+      height: 325px; }
       .landing-page .portfolio .card-panel p {
         font-size: 18px;
         font-weight: 300;
@@ -1201,11 +1245,17 @@ object {
   @media only screen and (max-width: 992px) {
     .landing-page h2 {
       font-size: 36px;
-      margin-bottom: 0; }
+      margin-bottom: 20px; }
     .landing-page .btn {
       font-size: 12px;
       height: 34px;
       line-height: 2.7; }
+    .landing-page .partners {
+      margin: 0; }
+      .landing-page .partners .valign-wrapper {
+        flex-wrap: wrap; }
+      .landing-page .partners img {
+        margin: 0; }
     .landing-page .portfolio .row .col {
       padding: 0 3px; }
     .landing-page .portfolio .card {
@@ -1230,8 +1280,8 @@ object {
       font-size: 16px; } }
   @media only screen and (max-width: 600px) {
     .landing-page h2 {
-      font-size: 24px;
-      margin-bottom: 0; }
+      font-size: 18px;
+      margin-bottom: 15px; }
     .landing-page header {
       margin-bottom: 100px; }
       .landing-page header h1 {
@@ -1262,7 +1312,9 @@ object {
     .landing-page .faq .collapsible-header {
       font-size: 14px; }
     .landing-page .invite h3 {
-      font-size: 24px; } }
+      font-size: 24px; }
+    .landing-page .invite p {
+      font-size: 12px; } }
 
 .footer {
   margin-top: 60px;
