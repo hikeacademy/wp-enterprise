@@ -919,11 +919,11 @@ object {
   padding-top: 45px;
   color: #373737; }
   .front-page h1 {
-    font-size: 60px;
+    font-size: 48px;
     font-weight: bold;
     color: #000; }
   .front-page h5 {
-    font-size: 24px;
+    font-size: 18px;
     line-height: normal;
     margin-bottom: 75px; }
   .front-page .btn {
@@ -972,7 +972,7 @@ object {
   font-weight: bold;
   color: #000; }
 .contact p {
-  font-size: 24px;
+  font-size: 18px;
   color: #373737; }
 .contact .btn {
   font-size: 18px;
@@ -1226,7 +1226,7 @@ object {
       margin-top: 20px;
       padding: 15px 0 8px; }
     .landing-page .faq i {
-      font-size: 24px;
+      font-size: 18px;
       margin-right: 0;
       margin-left: auto; }
   .landing-page .partners {
