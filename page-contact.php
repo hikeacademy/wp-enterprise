@@ -1,50 +1,31 @@
 <?php
-	/* 
+	/*
 	 * Template Name: ContactTemplate
 	 */
 	get_header();
+	get_template_part('template-parts/navbar');
 ?>
-<div class="contact">
-	<nav>
-		<div class="container">
-			<div class="nav-wrapper">
-		      <a href="/" class="brand-logo"><img src="<?php echo get_template_directory_uri() . '/images/hike-black.png'; ?>"/></a>
-
-		    </div>
+<div class="container contact">
+	<div class="row center">
+		<div class="col l10 s12 offset-l1">
+			<h1>Como podemos te ajudar?</h1>
 		</div>
-	</nav>
-
-	<div class="bg">
-		<div class="bg-white"></div>
-		<div class="bg-gradient"></div>
 	</div>
-	
-	<div class="container">
-		<div class="hero">
-			<div class="row">
-				<div class="col s12 m8 offset-m2 center-align">
-					<h1 class="title">Tell us what you need</h1>
-					<p class="description">We're happy you are considering working with us! Fill out the form and we'll get back to you in up to two days.</p>
-				</div>
-			</div>
+	<div class="row center">
+		<div class="col l10 s12 offset-l1">
+			<p>Estamos felizes em saber que você está considerando trabalhar com a gente! Preencha o formulário abaixo e te retornamos em até dois dias úteis.</p>
 		</div>
-
-		<div class="first-section">
-			<div class="row">
-				<div class="col s12 m7">
-					<div class="form-container z-depth-2">
-						<?php echo do_shortcode('[contact-form-7 id="20" title="Contact form 1"]'); ?>
-					</div>
-				</div>
-				<div class="col s12 m5">
-					<div class="benefits-container">
-						<h2 class="title-2">With Hike you can</h2>
-						<ul class="benefits">
-							<li class="benefit"><i class="material-icons">check</i> Get powerful software done in a timely manner</li>
-							<li class="benefit"><i class="material-icons">check</i> Save on team's resources so they can better focus</li>
-							<li class="benefit"><i class="material-icons">check</i> Skip all sorts of management headaches</li>
-						</ul>
-					</div>
+	</div>
+	<div class="row">
+		<div class="col s12">
+			<div class="card-panel">
+				<div class="row">
+					<div class="col s10 offset-s1">
+						<?php while(have_posts()) {
+							the_post();
+							the_content();
+						} ?>
+					</div>					
 				</div>
 			</div>
 		</div>

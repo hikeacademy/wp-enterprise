@@ -1,112 +1,69 @@
 .contact {
 
-	height: 100%;
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000; }
 
-	nav {
-		background: none;
-		position: absolute;
-		top: 0;
-		z-index: 1;
-		-webkit-box-shadow: none;
-		box-shadow: none;
-		padding: 10px 0;
+  p {
+    font-size: 24px;
+    color: $dark-gray; }
 
-		.brand-logo img {
-			height: 30px;
-			width: auto; } }
+  .btn {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.5;
+    text-transform: none;
+    color: $font-primary;
+    background-color: $primary-blue;
+    border-radius: 4px;
+    height: 45px; }
 
-	.hero {
-		color: #000;
-		padding: 50px 0 10px;
+  .card-panel {
+    border-radius: 12px;
+    padding: 60px 0 18px; }
 
-		.title {
-			margin: 40px 0;
-			font-size: 2.4rem;
-			color: #000;
-			text-transform: none; }
+  .wpcf7-form {
 
-		.description {
-			font-size: 1.4rem;
-			line-height: 1.8;
-			margin-bottom: 30px; }
+    .row {
+      margin: 0; }
 
-		img {
-			min-width: 500px; } }
+    .wpcf7-form-control-wrap input {
+      margin-bottom: 42px!important; }
 
-	.form-container {
-		text-align: left;
-		background-color: lighten(#000, 99%);
-		padding: 40px 20px;
-		border-radius: 10px;
+    input::placeholder {
+      color: $primary-blue; }
 
-		.submit-btn {
-			color: white; }
+    input:not(.browser-default) {
+      border-bottom: 1.3px solid $primary-blue; }
 
-		input[type="submit"] {
-			color: white;
-			&:hover {
-				cursor: pointer; } } }
+    .wpcf7-form-control-wrap input:not(.browser-default):focus {
+      border-bottom: 1.3px solid $primary-blue;
+      box-shadow: 0 1px 0 0 $primary-blue; }
 
-	.title-2 {
-		font-size: 1.5rem;
-		text-align: left; }
+    label {
+      font-size: 16px;
+      color: $primary-blue; }
 
-	.benefits-container {
-		margin-top: 90px;
-		color: fade-out($font-primary, .05);
-		padding-bottom: 100px; }
+    input[name="problem"]::placeholder {
+      color: #c3c3c3; }
 
-	.benefits {
-		padding: 0;
-		margin: 0; }
+    input[type=submit] {
+      margin-top: 21px;
+      margin-bottom: 0;
+      padding: 0;
+      width: 100%;
+      height: 48px; } }
 
-	.benefit {
-		padding: 20px 0;
-		margin: 0;
-		list-style: none;
+@media only screen and (max-width: 992px) {
 
-		i {
-			background-color: fade-out($font-secondary, .4);
-			border-radius: 50%;
-			padding: 5px;
-			margin-right: 10px;
-			font-size: 12pt; } }
+  p {
+    font-size: 18px; } }
 
-	.bg {
-		position: absolute;
-	   top:0;
-	   left:0;
-	   width: 100%;
-	   height: 100%;
-		display: flex;
-		flex-direction: column;
-		z-index: -1; }
+@media only screen and (max-width: 600px) {
 
-	.bg-white {
-		width: 100%;
-		background-color: white;
-		padding: 100px 0 200px;
-		z-index: 0; }
+  h1 {
+    font-size: 30px; }
 
-	.bg-gradient {
-		clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
-		-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
-		flex-grow: 1;
-		width: 100%;
-		z-index: -1;
-		background: linear-gradient(90deg,#777bf8,#68d4f8 200%); }
-
-	@media only screen and (max-width: 600px) {
-		.hero {
-			.title {
-				font-size: 2rem; }
-				
-			.description {
-				font-size: 1.2rem; } }
-
-		.bg-white {
-			padding: 140px 0 200px; }
-
-		.bg-gradient {
-			clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
-			-webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%); } } }
+  p {
+    font-size: 14px; } } }

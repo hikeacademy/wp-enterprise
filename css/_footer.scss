@@ -1,0 +1,44 @@
+.footer {
+  margin-top: 60px;
+  background-color: $dark-gray;
+
+  .btn {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.5;
+    text-transform: none;
+    color: $font-primary;
+    background-color: $primary-blue;
+    border-radius: 4px;
+    height: 45px; }
+
+  img {
+    height: 45px;
+    margin-top: 15px; }
+
+  hr {
+    background-color: $font-primary;
+    padding-top: 1px; }
+
+  p {
+    font-size: 14px;
+    font-weight: bold;
+    color: $footer-titles;
+    margin-top: 16px; }
+
+  ul {
+    margin: 18px 0 0 0;
+
+    ul {
+      margin: 0;
+
+      li {
+       display: inline-block;
+
+        img {
+          width: 20px;
+          margin-right: 16px; } } } }
+
+  a, a:visited {
+    font-size: 12px;
+    color: $font-primary; } }

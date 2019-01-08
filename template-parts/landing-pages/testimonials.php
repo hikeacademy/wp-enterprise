@@ -1,35 +1,39 @@
 <div class="testimonials">
-	<h2 <?php echo is_startup_page() ? 'class="hide"' : NULL ; ?>">Depoimentos</h2>
+	<div class="row">
+		<h2 <?php echo is_startup_page() ? 'class="hide"' : NULL ; ?>>Depoimentos</h2>
+	</div>
 	<div class="testimonials-cards">
 		<!-- Card -->
 		<?php
-			
+
 			$testimonials = new WP_Query(array(
 				'posts_per_page' => -1,
 				'post_type' => 'testimonials',
 				'meta_key' => 'startup_testimonial',
 				'meta_value' => is_startup_page(),
 				'order' => 'ASC'
-			));	
-	
+			));
+
 			while($testimonials->have_posts()):
-				$testimonials->the_post(); 
-		?>
-		<div class="card-panel">
-			<div class="row">
-				<div class="col s2">
-					<img class="circle responsive-img" src="<?php the_field('author_photo'); ?>" alt="image">
-				</div>
-				<div class="col s10">
-					<i>&quot; <?php the_field('testimonial'); ?> &quot;</i>
-					<div class="author-data">
-						<p><?php the_title(); ?></p>
-						<span><?php the_field('author_role'); ?></span>
+				$testimonials->the_post();
+			?>
+				<div class="card-panel">
+					<div class="row">
+						<div class="col s12">
+							<div class="col s2">
+								<img class="circle responsive-img" src="<?php the_field('author_photo'); ?>" alt="image">
+							</div>
+							<div class="col s10">
+								<i>&quot;<?php the_field('testimonial'); ?>&quot;</i>
+								<div class="author-data">
+									<p><?php the_title(); ?></p>
+									<span><?php the_field('author_role'); ?></span>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<?php endwhile; wp_reset_postdata();?>	
+		<?php endwhile; wp_reset_postdata();?>
 	</div>
 	<div class="slider-controls">
 		<i class="material-icons prev">chevron_left</i>

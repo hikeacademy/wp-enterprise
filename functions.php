@@ -6,7 +6,7 @@
  *
  * @package Hike_Trampos
  */
- 
+
 if ( ! function_exists( 'hike_trampos_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -116,16 +116,24 @@ function hike_trampos_widgets_init() {
 }
 add_action( 'widgets_init', 'hike_trampos_widgets_init' );
 
+// include custom jQuery
+function shapeSpace_include_custom_jquery() {
+
+	wp_deregister_script('jquery');
+	wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.3.1.min.js', array(), null, true);
+
+}
+add_action('wp_enqueue_scripts', 'shapeSpace_include_custom_jquery');
+
 /**
  * Enqueue scripts and styles.
  */
 function hike_trampos_scripts() {
-	wp_enqueue_script('jquery');	
-	
+
 	wp_enqueue_style( 'hike-trampos-style', get_stylesheet_uri() );
-	
+
 	wp_enqueue_style( 'materialize-css', get_stylesheet_directory_uri() . '/materialize/css/materialize.min.css');
-	
+
 	wp_enqueue_script( 'materialize-js', get_template_directory_uri() . '/materialize/js/materialize.min.js');
 
 	wp_enqueue_style( 'slick', get_stylesheet_directory_uri() . '/slick/slick.css');
@@ -133,7 +141,7 @@ function hike_trampos_scripts() {
 	wp_enqueue_style( 'slick-theme', get_stylesheet_directory_uri() . '/slick/slick-theme.css');
 
 	wp_enqueue_script( 'slick-js', get_stylesheet_directory_uri() . '/slick/slick.min.js');
-	
+
 	wp_enqueue_script( 'materialize-initialization', get_template_directory_uri() . '/js/materialize-initialization.js', array('jquery'));
 
 	wp_enqueue_script( 'hike-trampos-script', get_template_directory_uri() . '/js/script.js', array(), '20151215', true );
@@ -141,8 +149,10 @@ function hike_trampos_scripts() {
 	wp_enqueue_script( 'hike-trampos-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'hike-trampos-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-	
-	wp_enqueue_script( 'testimonials-slide', get_template_directory_uri() . '/js/testimonials-slide.js' ); 
+
+	wp_enqueue_script( 'testimonials-slide', get_template_directory_uri() . '/js/testimonials-slide.js' );
+
+  wp_enqueue_script( 'smooth-scrolling', get_template_directory_uri() . '/js/smooth-scrolling.js', NULL, microtime(), true);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -197,7 +207,7 @@ function hike_post_types() {
 add_action('init', 'hike_post_types');
 
 /**
- * Custom function to get the current page template name and compare with the startup page 
+ * Custom function to get the current page template name and compare with the startup page
  * template name. If it's the same name, defines a variable to 1, otherwise, defines to 0.
  */
 
@@ -206,7 +216,7 @@ function is_startup_page() {
 	$startup_template = 'startup-template.php';
 	$is_startup_page = $page_template == $startup_template ? 1 : 0;
 	return $is_startup_page;
-} 
+}
 
 /**
  * Implement the Custom Header feature.
@@ -239,4 +249,3 @@ require get_template_directory() . '/inc/custom-fields.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-

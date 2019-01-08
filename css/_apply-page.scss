@@ -1,0 +1,136 @@
+.apply-page {
+  padding-top: 100px;
+
+  h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 48px; }
+
+  .btn {
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 2.5;
+		text-transform: none;
+		color: $font-primary;
+		background-color: $primary-blue;
+		border-radius: 4px;
+		height: 45px; }
+
+  header {
+    margin-bottom: 120px;
+
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+      color: #000; }
+
+    p {
+      font-size: 18px;
+      color: $dark-gray; }
+
+    small {
+      font-size: 12px;
+
+      a, a:visited {
+        color: $primary-blue;
+        text-decoration: none;
+        outline: none; } } }
+
+  .first-section {
+    margin-bottom: 120px;
+
+    ul {
+      margin: 0;
+
+      li {
+        font-size: 18px;
+        font-weight: bold;
+        color: $dark-gray;
+        margin: 18px 0; } } }
+
+  .second-section {
+    margin-bottom: 120px;
+
+    .collapsible-header {
+      font-size: 16px;
+      color: $dark-gray;
+      font-weight: bold; }
+
+    a, a:visited {
+      color: $primary-blue;
+      text-decoration: none;
+      outline: none; } }
+
+  .third-section {
+    margin-bottom: 80px;
+
+    .card-panel {
+      padding: 60px 70px 36px;
+      border-radius: 12px; }
+
+    .wpcf7-form {
+
+      input::placeholder {
+        color: $primary-blue; }
+
+      input[name="biggest-challenge"]::placeholder, input[name="challenge-overcome"]::placeholder {
+        color: #c3c3c3; }
+
+      select {
+        color: $primary-blue;
+        display: block;
+        padding: 0;
+        border: none; }
+
+      input:not(.browser-default), select {
+        border-bottom: 1.3px solid $primary-blue; }
+
+      input:focus:not(.browser-default) {
+        border-bottom: 1.3px solid $primary-blue;
+        box-shadow: 0 1px 0 0 $primary-blue; }
+
+      label {
+        font-size: 16px;
+        color: $primary-blue; }
+
+      input[type=submit] {
+        margin-top: 21px;
+        padding: 0;
+        width: 100%;
+        height: 48px; } } }
+
+  @media only screen and (max-width: 992px) {
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 36px; }
+
+    .btn {
+      font-size: 12px;
+      height: 34px;
+      line-height: 2.7; }
+
+    header {
+
+      h1 {
+        font-size: 40px;
+        margin: 0; }
+
+      p {
+        margin-bottom: 36px; } }
+
+    .first-section {
+
+      ul li {
+        font-size: 16px; } }
+
+    .third-section {
+
+      .card-panel {
+        padding: 30px 27px 25px; } } }
+
+
+
+
+      }
