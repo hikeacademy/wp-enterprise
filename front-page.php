@@ -1,6 +1,6 @@
 <?php
 	get_header();
-	get_template_part('template-parts/navbar');
+	get_navbar();
 ?>
 <div class="container front-page">
 	<div class="row center">

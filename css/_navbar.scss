@@ -1,14 +1,23 @@
 .navbar {
-  background-color: transparent;
+  background-color: $font-primary;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+  .sidenav-trigger {
+    color: #000; }
 
   img {
     height: 36px; }
 
+  .brand-logo {
+    font-size: 3rem; }
+
   ul a, ul a:visited {
     font-size: 16px;
     font-weight: bold;
+    color: $dark-gray; }
+
+  .dropdown-content li>a {
     color: $dark-gray; }
 
   ul li .btn {

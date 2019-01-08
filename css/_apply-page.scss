@@ -77,8 +77,17 @@
       input[name="biggest-challenge"]::placeholder, input[name="challenge-overcome"]::placeholder {
         color: #c3c3c3; }
 
-      select {
-        color: $primary-blue;
+      input[type=date]::-webkit-inner-spin-button {
+        display: none;
+        -webkit-appearance: none; }
+
+      input[type=date]::-webkit-calendar-picker-indicator {
+        display: block;
+        font-size: 9px;
+      }
+
+      select, input[type=date] {
+        color: #000;
         display: block;
         padding: 0;
         border: none; }

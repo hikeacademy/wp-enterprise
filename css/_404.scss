@@ -1,0 +1,39 @@
+.error-404 {
+  padding: 150px 0;
+
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 96px; }
+
+  .btn {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2.5;
+    text-transform: none;
+    color: $font-primary;
+    background-color: $primary-blue;
+    border-radius: 4px;
+    padding: 0 75px;
+    height: 45px; }
+
+@media only screen and (max-width: 992px) {
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 84px; }
+
+  .btn {
+    font-size: 12px;
+    line-height: 3.6;
+    padding: 0 52px; } }
+
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 36px; }
+
+  .btn {
+    padding: 0 56px; }  } }

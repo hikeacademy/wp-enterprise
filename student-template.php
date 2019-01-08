@@ -9,7 +9,11 @@
  */
 
 	get_header();
-	get_template_part('template-parts/navbar');
+	get_navbar(
+		array(
+			'landing-page' => true
+		)
+	);
  ?>
  <div class="container landing-page">
 	<header>
@@ -47,8 +51,8 @@
 	<div class="invite">
 		<div class="row valign-wrapper">
 			<div class="col s7">
-				<h3><?php the_field('startup_invite_title'); ?></h3>
-				<p><?php the_field('startup_invite_subtitle'); ?></p>
+				<h3><?php the_field('student_invite_title'); ?></h3>
+				<p><?php the_field('student_invite_subtitle'); ?></p>
 			</div>
 			<div class="col s4 offset-s1">
 				<a href="contact" class="btn">Inscreva-se &#8594;</a>

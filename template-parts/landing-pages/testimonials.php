@@ -19,16 +19,14 @@
 			?>
 				<div class="card-panel">
 					<div class="row">
-						<div class="col s12">
-							<div class="col s2">
-								<img class="circle responsive-img" src="<?php the_field('author_photo'); ?>" alt="image">
-							</div>
-							<div class="col s10">
-								<i>&quot;<?php the_field('testimonial'); ?>&quot;</i>
-								<div class="author-data">
-									<p><?php the_title(); ?></p>
-									<span><?php the_field('author_role'); ?></span>
-								</div>
+						<div class="col s2">
+							<img class="circle" src="<?php the_field('author_photo'); ?>" alt="image">
+						</div>
+						<div class="col s10">
+							<i>&quot;<?php the_field('testimonial'); ?>&quot;</i>
+							<div class="author-data">
+								<p><?php the_title(); ?></p>
+								<span><?php the_field('author_role'); ?></span>
 							</div>
 						</div>
 					</div>

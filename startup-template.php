@@ -9,7 +9,11 @@
  */
 
 	get_header();
-	get_template_part('template-parts/navbar');
+	get_navbar(
+		array(
+			'landing-page' => true
+		)
+	);
  ?>
 <div class="container landing-page">
 	<header>
