@@ -17,7 +17,7 @@ get_navbar();
 			</div>
 		</div>
 		<div class="row">
-			<a href="<?php echo get_home_url(); ?>" class="btn">Voltar à página inicial &#8594;</a>
+			<a href="<?php echo get_home_url(); ?>" class="btn">Voltar à página inicial  &#8594;</a>
 		</div>
 	</div>
 <?php

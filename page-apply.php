@@ -1,9 +1,7 @@
 <?php
-
-
-
-
-
+	/*
+	 * Template Name: ApplyTemplate
+	 */
 get_header();
 get_navbar();
 ?>

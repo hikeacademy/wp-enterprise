@@ -8,7 +8,7 @@
     margin-bottom: 48px; }
 
   .btn {
-		font-size: 18px;
+		font-size: 16px;
 		font-weight: bold;
 		line-height: 2.5;
 		text-transform: none;
@@ -16,6 +16,10 @@
 		background-color: $primary-blue;
 		border-radius: 4px;
 		height: 45px; }
+
+  .btn:hover {
+    color: $primary-blue;
+    background-color: $font-primary; }
 
   header {
     margin-bottom: 120px;
@@ -71,20 +75,26 @@
 
     .wpcf7-form {
 
+      .row {
+        margin: 0; }
+
+      input, select {
+        margin-bottom: 8px; }
+
       input::placeholder {
         color: $primary-blue; }
 
       input[name="biggest-challenge"]::placeholder, input[name="challenge-overcome"]::placeholder {
         color: #c3c3c3; }
 
-      input[type=date]::-webkit-inner-spin-button {
+      input[type=date]::-webkit-inner-spin-button, input[type=date]::-webkit-clear-button {
         display: none;
         -webkit-appearance: none; }
 
       input[type=date]::-webkit-calendar-picker-indicator {
-        display: block;
-        font-size: 9px;
-      }
+        display: inherit;
+        opacity: 1;
+        font-size: 9.7px; }
 
       select, input[type=date] {
         color: #000;
@@ -95,7 +105,7 @@
       input:not(.browser-default), select {
         border-bottom: 1px solid $primary-blue; }
 
-      input:focus:not(.browser-default) {
+      input:focus:not(.browser-default), select:focus {
         border-bottom: 1px solid $primary-blue;
         box-shadow: 0 1px 0 0 $primary-blue; }
 
@@ -103,11 +113,14 @@
         font-size: 16px;
         color: $primary-blue; }
 
-      input[type=submit] {
+      input[type=submit], input[type=submit]:focus {
+        border-bottom: none;
         margin-top: 21px;
         padding: 0;
-        width: 100%;
-        height: 48px; } } }
+        width: 100%; }
+
+      .wpcf7-response-output {
+        margin: 0; } } }
 
   @media only screen and (max-width: 992px) {
 
@@ -116,7 +129,7 @@
       margin-bottom: 36px; }
 
     .btn {
-      font-size: 12px;
+      font-size: 14px;
       height: 34px;
       line-height: 2.7; }
 

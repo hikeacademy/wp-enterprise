@@ -24,7 +24,7 @@ function get_navbar($args = NULL) { ?>
           <ul class="right hide-on-med-and-down">
 
             <?php
-              if (is_front_page()) { ?>
+              if (is_front_page() or get_page_template_slug() == 'page-apply.php') { ?>
                   <li><a class='dropdown-trigger' href='#!' data-target='student-content'>Para alunos</a></li>
                   <li><a class='dropdown-trigger' href='#!' data-target='startup-content'>Para empresas</a></li>
                 <?php

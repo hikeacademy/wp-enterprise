@@ -11,24 +11,27 @@
 
   .card-panel {
     border-radius: 12px;
-    padding: 60px 0 18px; }
+    padding: 40px 0 18px; }
 
   .wpcf7-form {
 
     .row {
       margin: 0; }
 
-    .wpcf7-form-control-wrap input {
-      margin-bottom: 42px!important; }
+    .wpcf7-form-control-wrap input[type=text], .wpcf7-form-control-wrap input[type=email], .wpcf7-form-control-wrap input[type=tel] {
+      margin: 12px 0 8px 0; }
+
+    .wpcf7-form-control-wrap input[name="problem"] {
+      margin-top: 0; }
 
     input::placeholder {
       color: $primary-blue; }
 
     input:not(.browser-default) {
-      border-bottom: 1.3px solid $primary-blue; }
+      border-bottom: 1px solid $primary-blue; }
 
     .wpcf7-form-control-wrap input:not(.browser-default):focus {
-      border-bottom: 1.3px solid $primary-blue;
+      border-bottom: 1px solid $primary-blue;
       box-shadow: 0 1px 0 0 $primary-blue; }
 
     label {
@@ -46,19 +49,26 @@
       height: 48px; }
 
     .btn {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: bold;
       line-height: 2.5;
       text-transform: none;
       color: $font-primary;
       background-color: $primary-blue;
       border-radius: 4px;
-      height: 45px; } }
+      height: 45px; }
+
+    .btn:hover {
+      color: $primary-blue;
+      background-color: $font-primary; } }
 
 @media only screen and (max-width: 992px) {
 
   p {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .btn {
+    font-size: 14px; } }
 
 @media only screen and (max-width: 600px) {
 

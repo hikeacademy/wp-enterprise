@@ -921,6 +921,8 @@ object {
       font-weight: normal;
       text-align: center;
       padding: 7px 30px; }
+  .navbar .sidenav {
+    font-family: 'Open Sans'; }
 
 .front-page {
   padding-top: 45px;
@@ -928,13 +930,16 @@ object {
   .front-page h1 {
     font-size: 48px;
     font-weight: bold;
-    color: #000; }
+    color: #000;
+    margin: 0 0 24px 0; }
   .front-page h5 {
     font-size: 18px;
     line-height: normal;
-    margin-bottom: 75px; }
+    margin: 0 0 24px 0; }
+  .front-page .buttons .m5 {
+    padding: 0; }
   .front-page .btn {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 2.5;
     text-transform: none;
@@ -942,11 +947,13 @@ object {
     background-color: #329af0;
     border-radius: 4px;
     height: 45px; }
+  .front-page .btn:hover {
+    color: #329af0;
+    background-color: #fff; }
   .front-page p {
     font-size: 14px;
-    text-align: center;
     margin-top: 20px;
-    padding: 0 75px; }
+    width: 90%; }
   @media only screen and (max-width: 992px) {
     .front-page {
       padding-top: 90px; }
@@ -957,7 +964,7 @@ object {
         font-size: 18px;
         margin-bottom: 36px; }
       .front-page .btn {
-        font-size: 12px;
+        font-size: 14px;
         height: 34px; }
       .front-page p {
         font-size: 12px;
@@ -972,7 +979,14 @@ object {
     .front-page p {
       font-size: 10px;
       margin-top: 8px;
-      margin-bottom: 24px; } }
+      margin-bottom: 24px;
+      width: 100%; }
+    .front-page .buttons {
+      text-align: center; }
+    .front-page .btn {
+      font-size: 12px;
+      line-height: 2.8;
+      width: 100%; } }
 
 .contact h1 {
   font-size: 48px;
@@ -983,17 +997,19 @@ object {
   color: #373737; }
 .contact .card-panel {
   border-radius: 12px;
-  padding: 60px 0 18px; }
+  padding: 40px 0 18px; }
 .contact .wpcf7-form .row {
   margin: 0; }
-.contact .wpcf7-form .wpcf7-form-control-wrap input {
-  margin-bottom: 42px !important; }
+.contact .wpcf7-form .wpcf7-form-control-wrap input[type=text], .contact .wpcf7-form .wpcf7-form-control-wrap input[type=email], .contact .wpcf7-form .wpcf7-form-control-wrap input[type=tel] {
+  margin: 12px 0 8px 0; }
+.contact .wpcf7-form .wpcf7-form-control-wrap input[name="problem"] {
+  margin-top: 0; }
 .contact .wpcf7-form input::placeholder {
   color: #329af0; }
 .contact .wpcf7-form input:not(.browser-default) {
-  border-bottom: 1.3px solid #329af0; }
+  border-bottom: 1px solid #329af0; }
 .contact .wpcf7-form .wpcf7-form-control-wrap input:not(.browser-default):focus {
-  border-bottom: 1.3px solid #329af0;
+  border-bottom: 1px solid #329af0;
   box-shadow: 0 1px 0 0 #329af0; }
 .contact .wpcf7-form label {
   font-size: 16px;
@@ -1007,7 +1023,7 @@ object {
   width: 100%;
   height: 48px; }
 .contact .wpcf7-form .btn {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 2.5;
   text-transform: none;
@@ -1015,9 +1031,14 @@ object {
   background-color: #329af0;
   border-radius: 4px;
   height: 45px; }
+.contact .wpcf7-form .btn:hover {
+  color: #329af0;
+  background-color: #fff; }
 @media only screen and (max-width: 992px) {
   .contact p {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .contact .btn {
+    font-size: 14px; } }
 @media only screen and (max-width: 600px) {
   .contact h1 {
     font-size: 30px; }
@@ -1054,7 +1075,7 @@ object {
     color: #000;
     margin-bottom: 48px; }
   .apply-page .btn {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 2.5;
     text-transform: none;
@@ -1062,6 +1083,9 @@ object {
     background-color: #329af0;
     border-radius: 4px;
     height: 45px; }
+  .apply-page .btn:hover {
+    color: #329af0;
+    background-color: #fff; }
   .apply-page header {
     margin-bottom: 120px; }
     .apply-page header h1 {
@@ -1101,16 +1125,21 @@ object {
     .apply-page .third-section .card-panel {
       padding: 60px 70px 36px;
       border-radius: 6px; }
+    .apply-page .third-section .wpcf7-form .row {
+      margin: 0; }
+    .apply-page .third-section .wpcf7-form input, .apply-page .third-section .wpcf7-form select {
+      margin-bottom: 8px; }
     .apply-page .third-section .wpcf7-form input::placeholder {
       color: #329af0; }
     .apply-page .third-section .wpcf7-form input[name="biggest-challenge"]::placeholder, .apply-page .third-section .wpcf7-form input[name="challenge-overcome"]::placeholder {
       color: #c3c3c3; }
-    .apply-page .third-section .wpcf7-form input[type=date]::-webkit-inner-spin-button {
+    .apply-page .third-section .wpcf7-form input[type=date]::-webkit-inner-spin-button, .apply-page .third-section .wpcf7-form input[type=date]::-webkit-clear-button {
       display: none;
       -webkit-appearance: none; }
     .apply-page .third-section .wpcf7-form input[type=date]::-webkit-calendar-picker-indicator {
-      display: block;
-      font-size: 9px; }
+      display: inherit;
+      opacity: 1;
+      font-size: 9.7px; }
     .apply-page .third-section .wpcf7-form select, .apply-page .third-section .wpcf7-form input[type=date] {
       color: #000;
       display: block;
@@ -1118,23 +1147,25 @@ object {
       border: none; }
     .apply-page .third-section .wpcf7-form input:not(.browser-default), .apply-page .third-section .wpcf7-form select {
       border-bottom: 1px solid #329af0; }
-    .apply-page .third-section .wpcf7-form input:focus:not(.browser-default) {
+    .apply-page .third-section .wpcf7-form input:focus:not(.browser-default), .apply-page .third-section .wpcf7-form select:focus {
       border-bottom: 1px solid #329af0;
       box-shadow: 0 1px 0 0 #329af0; }
     .apply-page .third-section .wpcf7-form label {
       font-size: 16px;
       color: #329af0; }
-    .apply-page .third-section .wpcf7-form input[type=submit] {
+    .apply-page .third-section .wpcf7-form input[type=submit], .apply-page .third-section .wpcf7-form input[type=submit]:focus {
+      border-bottom: none;
       margin-top: 21px;
       padding: 0;
-      width: 100%;
-      height: 48px; }
+      width: 100%; }
+    .apply-page .third-section .wpcf7-form .wpcf7-response-output {
+      margin: 0; }
   @media only screen and (max-width: 992px) {
     .apply-page h2 {
       font-size: 36px;
       margin-bottom: 36px; }
     .apply-page .btn {
-      font-size: 12px;
+      font-size: 14px;
       height: 34px;
       line-height: 2.7; }
     .apply-page header h1 {
@@ -1157,14 +1188,17 @@ object {
     color: #000;
     margin-bottom: 48px; }
   .landing-page .btn {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    line-height: 2.5;
+    line-height: 2.8;
     text-transform: none;
     color: #fff;
     background-color: #329af0;
     border-radius: 4px;
     height: 45px; }
+  .landing-page .btn:hover {
+    color: #329af0;
+    background-color: #fff; }
   .landing-page header {
     margin-bottom: 170px; }
     .landing-page header h1 {
@@ -1213,11 +1247,12 @@ object {
   .landing-page .testimonials {
     color: #373737;
     margin-bottom: 100px; }
+    .landing-page .testimonials .card-panel {
+      padding: 36px 0; }
+      .landing-page .testimonials .card-panel .row {
+        margin: 0; }
     .landing-page .testimonials .card-panel:focus {
       outline: none; }
-    .landing-page .testimonials img {
-      max-height: 60px;
-      margin-top: 15px; }
     .landing-page .testimonials i {
       font-size: 18px; }
     .landing-page .testimonials .author-data {
@@ -1268,9 +1303,9 @@ object {
       font-size: 36px;
       margin-bottom: 20px; }
     .landing-page .btn {
-      font-size: 12px;
+      font-size: 14px;
       height: 34px;
-      line-height: 2.7; }
+      line-height: 2.5; }
     .landing-page .partners {
       margin: 0; }
       .landing-page .partners .valign-wrapper {
@@ -1300,55 +1335,52 @@ object {
     .landing-page .faq .collapsible-header {
       font-size: 16px; } }
   @media only screen and (max-width: 600px) {
-    .landing-page h2 {
-      font-size: 18px;
-      margin-bottom: 15px; }
-    .landing-page header {
-      margin-bottom: 100px; }
-      .landing-page header h1 {
-        font-size: 30px; }
-      .landing-page header h5, .landing-page header p {
-        font-size: 14px;
-        margin-bottom: 0; }
-    .landing-page .portfolio .row .col {
-      padding: 0 3px; }
-    .landing-page .portfolio .card {
-      height: 250px; }
-      .landing-page .portfolio .card .content {
-        padding: 0 12px; }
-      .landing-page .portfolio .card h6 {
-        font-size: 14px;
-        margin: 8px 0; }
-      .landing-page .portfolio .card p {
-        font-size: 10px; }
-    .landing-page .portfolio .card-panel {
-      height: 250px;
-      padding: 24px; }
-      .landing-page .portfolio .card-panel p {
-        font-size: 16px; }
-    .landing-page .testimonials i {
-      font-size: 14px; }
-    .landing-page .testimonials .author-data {
-      font-size: 12px; }
-    .landing-page .faq .collapsible-header {
-      font-size: 14px; }
-    .landing-page .invite h3 {
-      font-size: 24px; }
-    .landing-page .invite p {
-      font-size: 12px; } }
+    .landing-page {
+      padding-top: 40px; }
+      .landing-page h2 {
+        font-size: 18px;
+        margin-bottom: 15px; }
+      .landing-page .btn {
+        font-size: 12px;
+        height: 34px;
+        line-height: 2.7; }
+      .landing-page header {
+        margin-bottom: 100px; }
+        .landing-page header h1 {
+          font-size: 30px; }
+        .landing-page header h5, .landing-page header p {
+          font-size: 14px;
+          margin-bottom: 0; }
+      .landing-page .portfolio .row .col {
+        padding: 0 3px; }
+      .landing-page .portfolio .card {
+        height: 250px; }
+        .landing-page .portfolio .card .content {
+          padding: 0 12px; }
+        .landing-page .portfolio .card h6 {
+          font-size: 14px;
+          margin: 8px 0; }
+        .landing-page .portfolio .card p {
+          font-size: 10px; }
+      .landing-page .portfolio .card-panel {
+        height: 250px;
+        padding: 24px; }
+        .landing-page .portfolio .card-panel p {
+          font-size: 16px; }
+      .landing-page .testimonials i {
+        font-size: 14px; }
+      .landing-page .testimonials .author-data {
+        font-size: 12px; }
+      .landing-page .faq .collapsible-header {
+        font-size: 14px; }
+      .landing-page .invite h3 {
+        font-size: 24px; }
+      .landing-page .invite p {
+        font-size: 12px; } }
 
 .footer {
   margin-top: 60px;
   background-color: #373737; }
-  .footer .btn {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 2.5;
-    text-transform: none;
-    color: #fff;
-    background-color: #329af0;
-    border-radius: 4px;
-    height: 45px; }
   .footer img {
     height: 45px;
     margin-top: 15px; }
@@ -1358,7 +1390,7 @@ object {
   .footer p {
     font-size: 14px;
     font-weight: bold;
-    color: #eaeaea;
+    color: #fff;
     margin-top: 16px; }
   .footer ul {
     margin: 18px 0 0 0; }
@@ -1369,15 +1401,22 @@ object {
         .footer ul ul li img {
           width: 20px;
           margin-right: 16px; }
-  .footer a, .footer a:visited {
+  .footer a {
     font-size: 12px;
-    color: #fff; }
+    color: #eaeaea; }
+  .footer a:hover {
+    color: #bcbcbc;
+    transition: color 0.4s; }
+  .footer a:visited {
+    color: none; }
   @media only screen and (max-width: 992px) {
     .footer hr {
       padding-top: 0.5px; } }
   @media only screen and (max-width: 600px) {
     .footer p {
-      font-size: 12px; } }
+      font-size: 12px; }
+    .footer a {
+      font-size: 10px; } }
 
 .error-404 {
   padding: 150px 0; }
@@ -1387,7 +1426,7 @@ object {
     color: #000;
     margin-bottom: 96px; }
   .error-404 .btn {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 3;
     text-transform: none;
@@ -1396,12 +1435,15 @@ object {
     border-radius: 4px;
     padding: 0 75px;
     height: 45px; }
+  .error-404 .btn:hover {
+    color: #329af0;
+    background-color: #fff; }
   @media only screen and (max-width: 992px) {
     .error-404 h1 {
       font-size: 48px;
       margin-bottom: 84px; }
     .error-404 .btn {
-      font-size: 12px;
+      font-size: 14px;
       line-height: 3.6;
       padding: 0 52px; } }
   @media only screen and (max-width: 600px) {

@@ -34,7 +34,7 @@
 		</div>
  		<div class="row">
  			<div class="col">
-				<a class="btn" href="apply">Inscreva-se &#8594;</a>
+				<a class="btn" href="apply">Inscreva-se  &#8594;</a>
  			</div>
  		</div>
  		<div class="row hide">
@@ -54,8 +54,8 @@
 				<h3><?php the_field('student_invite_title'); ?></h3>
 				<p><?php the_field('student_invite_subtitle'); ?></p>
 			</div>
-			<div class="col s4 offset-s1">
-				<a href="contact" class="btn">Inscreva-se &#8594;</a>
+			<div class="col m4 s5 offset-m1">
+				<a href="contact" class="btn">Inscreva-se  &#8594;</a>
 			</div>
 		</div>
 	</div>

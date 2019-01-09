@@ -25,7 +25,7 @@
 							the_post();
 							the_content();
 						} ?>
-					</div>					
+					</div>
 				</div>
 			</div>
 		</div>
