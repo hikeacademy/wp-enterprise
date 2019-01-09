@@ -897,7 +897,9 @@ object {
   .navbar ul a, .navbar ul a:visited {
     font-size: 16px;
     font-weight: bold;
-    color: #373737; }
+    color: #373737;
+    background-color: #fff;
+    outline: none; }
   .navbar .dropdown-content li > a {
     color: #373737; }
   .navbar ul li .btn {
@@ -909,10 +911,9 @@ object {
     background-color: #329af0;
     border-radius: 4px;
     height: 45px; }
-  .navbar ul a:hover, .navbar ul a:focus {
+  .navbar ul a:hover {
     color: #329af0;
-    background: none;
-    outline: none; }
+    background: #fff; }
   .navbar .dropdown-content li {
     min-height: initial; }
     .navbar .dropdown-content li a {
@@ -1099,7 +1100,7 @@ object {
     margin-bottom: 80px; }
     .apply-page .third-section .card-panel {
       padding: 60px 70px 36px;
-      border-radius: 12px; }
+      border-radius: 6px; }
     .apply-page .third-section .wpcf7-form input::placeholder {
       color: #329af0; }
     .apply-page .third-section .wpcf7-form input[name="biggest-challenge"]::placeholder, .apply-page .third-section .wpcf7-form input[name="challenge-overcome"]::placeholder {
@@ -1116,9 +1117,9 @@ object {
       padding: 0;
       border: none; }
     .apply-page .third-section .wpcf7-form input:not(.browser-default), .apply-page .third-section .wpcf7-form select {
-      border-bottom: 1.3px solid #329af0; }
+      border-bottom: 1px solid #329af0; }
     .apply-page .third-section .wpcf7-form input:focus:not(.browser-default) {
-      border-bottom: 1.3px solid #329af0;
+      border-bottom: 1px solid #329af0;
       box-shadow: 0 1px 0 0 #329af0; }
     .apply-page .third-section .wpcf7-form label {
       font-size: 16px;
@@ -1371,6 +1372,12 @@ object {
   .footer a, .footer a:visited {
     font-size: 12px;
     color: #fff; }
+  @media only screen and (max-width: 992px) {
+    .footer hr {
+      padding-top: 0.5px; } }
+  @media only screen and (max-width: 600px) {
+    .footer p {
+      font-size: 12px; } }
 
 .error-404 {
   padding: 150px 0; }
@@ -1382,7 +1389,7 @@ object {
   .error-404 .btn {
     font-size: 15px;
     font-weight: bold;
-    line-height: 2.5;
+    line-height: 3;
     text-transform: none;
     color: #fff;
     background-color: #329af0;

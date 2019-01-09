@@ -67,7 +67,7 @@
 
     .card-panel {
       padding: 60px 70px 36px;
-      border-radius: 12px; }
+      border-radius: 6px; }
 
     .wpcf7-form {
 
@@ -93,10 +93,10 @@
         border: none; }
 
       input:not(.browser-default), select {
-        border-bottom: 1.3px solid $primary-blue; }
+        border-bottom: 1px solid $primary-blue; }
 
       input:focus:not(.browser-default) {
-        border-bottom: 1.3px solid $primary-blue;
+        border-bottom: 1px solid $primary-blue;
         box-shadow: 0 1px 0 0 $primary-blue; }
 
       label {

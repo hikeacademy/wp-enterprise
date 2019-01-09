@@ -14,7 +14,7 @@ function get_navbar($args = NULL) { ?>
     <li><a href="contact">Contatar vendas</a></li>
     <li><a href="startup/#faq">Dúvidas</a></li>
   </ul>
-  
+
 <?php echo $args['landing-page'] ? '<div class="navbar-fixed">' : NULL ; ?>
     <nav class="navbar">
       <div class="container">

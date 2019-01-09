@@ -29,7 +29,7 @@
 	 				<a class="btn" href="contact">Entre em contato &#8594;</a>
  				</div>
  				<div class="row">
-	 				<small>Or <a href="#your-problem">get to know more</a> about us</small>
+	 				<!-- <small>Or <a href="#your-problem">get to know more</a> about us</small> -->
  				</div>
  			</div>
  			<div class="col l6 m5 s6 offset-l1">
