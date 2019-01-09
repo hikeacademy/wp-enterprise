@@ -11,14 +11,19 @@
 		margin-bottom: 48px; }
 
 	.btn {
-		font-size: 18px;
+		font-size: 16px;
 		font-weight: bold;
-		line-height: 2.5;
+		font-family: 'CamphorPro', 'Open Sans';
+		line-height: 2.8;
 		text-transform: none;
 		color: $font-primary;
 		background-color: $primary-blue;
 		border-radius: 4px;
 		height: 45px; }
+
+	.btn:hover {
+		color: $primary-blue;
+		background-color: $font-primary; }
 
 	header {
 		margin-bottom: 170px;
@@ -26,6 +31,7 @@
 		h1 {
 			font-size: 48px;
 			font-weight: bold;
+			font-family: 'CamphorPro', 'Open Sans';
 			color: #000;
 			margin-bottom: 0; }
 
@@ -83,6 +89,15 @@
 		color: $dark-gray;
 		margin-bottom: 100px;
 
+		.card-panel {
+			padding: 36px 0;
+
+			.row  {
+				margin: 0; } }
+
+		.card-panel:focus {
+			outline: none; }
+
 		i {
 			font-size: 18px; }
 
@@ -92,6 +107,10 @@
 
 		p {
 			font-weight: bold; }
+
+		.slick-slide {
+			margin-left: 5px;
+			margin-right: 5px; }
 
 		.slider-controls {
 			float: right; }
@@ -117,7 +136,7 @@
     		padding: 15px 0 8px; }
 
     	i {
-    		font-size: 24px;
+    		font-size: 18px;
     		margin-right: 0;
 				margin-left: auto; }	}
 
@@ -146,9 +165,9 @@
 			margin-bottom: 20px; }
 
 		.btn {
-			font-size: 12px;
+			font-size: 14px;
 		 	height: 34px;
-		 	line-height: 2.7; }
+		 	line-height: 2.5; }
 
 		.partners {
 			margin: 0;
@@ -198,10 +217,16 @@
 				font-size: 16px; } } }
 
 	@media only screen and (max-width: 600px) {
+		padding-top: 40px;
 
 		h2 {
 			font-size: 18px;
 			margin-bottom: 15px; }
+
+		.btn {
+			font-size: 12px;
+			height: 34px;
+			line-height: 2.7; }
 
 		header {
 			margin-bottom: 100px;
