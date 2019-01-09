@@ -15,7 +15,7 @@
 		)
 	);
  ?>
-<style media="screen">
+<style type="text/css" media="screen">
 	@media only screen and (max-width: 600px) {
 		.landing-page header {
 			background-image: url(<?php echo get_template_directory_uri() . '/images/landing-pages/hero.svg'; ?>);

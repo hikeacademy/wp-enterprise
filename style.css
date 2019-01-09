@@ -929,7 +929,7 @@ object {
   color: #373737; }
   .front-page h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     color: #000;
     margin: 0 0 24px 0; }
   .front-page h5 {
@@ -940,7 +940,7 @@ object {
     padding: 0; }
   .front-page .btn {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     line-height: 2.5;
     text-transform: none;
     color: #fff;
@@ -1190,6 +1190,7 @@ object {
   .landing-page .btn {
     font-size: 16px;
     font-weight: bold;
+    font-family: 'CamphorPro', 'Open Sans';
     line-height: 2.8;
     text-transform: none;
     color: #fff;
@@ -1204,6 +1205,7 @@ object {
     .landing-page header h1 {
       font-size: 48px;
       font-weight: bold;
+      font-family: 'CamphorPro', 'Open Sans';
       color: #000;
       margin-bottom: 0; }
     .landing-page header h5 {
