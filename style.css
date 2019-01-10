@@ -896,7 +896,7 @@ object {
     font-size: 3rem; }
   .navbar ul a, .navbar ul a:visited {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     color: #373737;
     background-color: #fff;
     outline: none; }
@@ -904,7 +904,7 @@ object {
     color: #373737; }
   .navbar ul li .btn {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     line-height: 2.7;
     text-transform: none;
     color: #fff;
@@ -918,11 +918,15 @@ object {
     min-height: initial; }
     .navbar .dropdown-content li a {
       font-size: 12px;
-      font-weight: normal;
+      font-family: 'Open Sans';
       text-align: center;
       padding: 7px 30px; }
-  .navbar .sidenav {
-    font-family: 'Open Sans'; }
+
+.sidenav .collapsible-header {
+  font-family: 'CamphorStdBold', 'Open Sans'; }
+.sidenav .sidenav-dropdown li a {
+  font-family: 'Open Sans';
+  padding: 0 !important; }
 
 .front-page {
   padding-top: 45px;
@@ -931,29 +935,31 @@ object {
     font-size: 48px;
     font-family: 'CamphorStdBold', 'Open Sans';
     color: #000;
-    margin: 0 0 24px 0; }
+    margin: 72px 0 12px 0; }
   .front-page h5 {
     font-size: 18px;
     line-height: normal;
     margin: 0 0 24px 0; }
   .front-page .buttons .m5 {
     padding: 0; }
+  .front-page .buttons p {
+    color: #707070; }
   .front-page .btn {
     font-size: 16px;
     font-family: 'CamphorStdBold', 'Open Sans';
-    line-height: 2.5;
+    line-height: 2.7;
     text-transform: none;
     color: #fff;
     background-color: #329af0;
     border-radius: 4px;
-    height: 45px; }
-  .front-page .btn:hover {
+    height: 45px;
+    padding: 0 36px; }
+  .front-page .btn:hover, .front-page .btn:focus {
     color: #329af0;
     background-color: #fff; }
   .front-page p {
     font-size: 14px;
-    margin-top: 20px;
-    width: 90%; }
+    margin-top: 20px; }
   @media only screen and (max-width: 992px) {
     .front-page {
       padding-top: 90px; }
@@ -985,12 +991,12 @@ object {
       text-align: center; }
     .front-page .btn {
       font-size: 12px;
-      line-height: 2.8;
+      line-height: 2.9;
       width: 100%; } }
 
 .contact h1 {
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 60px;
+  font-family: 'CamphorStdBold', 'Open Sans';
   color: #000; }
 .contact p {
   font-size: 18px;
@@ -998,8 +1004,6 @@ object {
 .contact .card-panel {
   border-radius: 12px;
   padding: 40px 0 18px; }
-.contact .wpcf7-form .row {
-  margin: 0; }
 .contact .wpcf7-form .wpcf7-form-control-wrap input[type=text], .contact .wpcf7-form .wpcf7-form-control-wrap input[type=email], .contact .wpcf7-form .wpcf7-form-control-wrap input[type=tel] {
   margin: 12px 0 8px 0; }
 .contact .wpcf7-form .wpcf7-form-control-wrap input[name="problem"] {
@@ -1014,24 +1018,29 @@ object {
 .contact .wpcf7-form label {
   font-size: 16px;
   color: #329af0; }
+.contact .wpcf7-form select {
+  color: #000;
+  display: block;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #329af0;
+  outline: none; }
 .contact .wpcf7-form input[name="problem"]::placeholder {
   color: #c3c3c3; }
 .contact .wpcf7-form input[type=submit] {
   margin-top: 21px;
   margin-bottom: 0;
-  padding: 0;
-  width: 100%;
-  height: 48px; }
+  padding: 0 58px; }
 .contact .wpcf7-form .btn {
   font-size: 16px;
-  font-weight: bold;
+  font-family: 'CamphorStdBold', 'Open Sans';
   line-height: 2.5;
   text-transform: none;
   color: #fff;
   background-color: #329af0;
   border-radius: 4px;
   height: 45px; }
-.contact .wpcf7-form .btn:hover {
+.contact .wpcf7-form .btn:hover, .contact .wpcf7-form .btn:focus {
   color: #329af0;
   background-color: #fff; }
 @media only screen and (max-width: 992px) {
@@ -1069,113 +1078,63 @@ object {
 
 .apply-page {
   padding-top: 100px; }
-  .apply-page h2 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 48px; }
+  .apply-page h1 {
+    font-size: 60px;
+    font-family: 'CamphorStdBold', 'Open Sans';
+    color: #000; }
   .apply-page .btn {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     line-height: 2.5;
     text-transform: none;
     color: #fff;
     background-color: #329af0;
     border-radius: 4px;
     height: 45px; }
-  .apply-page .btn:hover {
+  .apply-page .btn:hover, .apply-page .btn:focus {
     color: #329af0;
     background-color: #fff; }
-  .apply-page header {
-    margin-bottom: 120px; }
-    .apply-page header h1 {
-      font-size: 48px;
-      font-weight: bold;
-      color: #000; }
-    .apply-page header p {
-      font-size: 18px;
-      color: #373737; }
-    .apply-page header small {
-      font-size: 12px; }
-      .apply-page header small a, .apply-page header small a:visited {
-        color: #329af0;
-        text-decoration: none;
-        outline: none; }
-  .apply-page .first-section {
-    margin-bottom: 120px; }
-    .apply-page .first-section ul {
-      margin: 0; }
-      .apply-page .first-section ul li {
-        font-size: 18px;
-        font-weight: bold;
-        color: #373737;
-        margin: 18px 0; }
-  .apply-page .second-section {
-    margin-bottom: 120px; }
-    .apply-page .second-section .collapsible-header {
-      font-size: 16px;
-      color: #373737;
-      font-weight: bold; }
-    .apply-page .second-section a, .apply-page .second-section a:visited {
-      color: #329af0;
-      text-decoration: none;
-      outline: none; }
-  .apply-page .third-section {
-    margin-bottom: 80px; }
-    .apply-page .third-section .card-panel {
-      padding: 60px 70px 36px;
-      border-radius: 6px; }
-    .apply-page .third-section .wpcf7-form .row {
-      margin: 0; }
-    .apply-page .third-section .wpcf7-form input, .apply-page .third-section .wpcf7-form select {
-      margin-bottom: 8px; }
-    .apply-page .third-section .wpcf7-form input::placeholder {
-      color: #329af0; }
-    .apply-page .third-section .wpcf7-form input[name="biggest-challenge"]::placeholder, .apply-page .third-section .wpcf7-form input[name="challenge-overcome"]::placeholder {
-      color: #c3c3c3; }
-    .apply-page .third-section .wpcf7-form input[type=date]::-webkit-inner-spin-button, .apply-page .third-section .wpcf7-form input[type=date]::-webkit-clear-button {
-      display: none;
-      -webkit-appearance: none; }
-    .apply-page .third-section .wpcf7-form input[type=date]::-webkit-calendar-picker-indicator {
-      display: inherit;
-      opacity: 1;
-      font-size: 9.7px; }
-    .apply-page .third-section .wpcf7-form select, .apply-page .third-section .wpcf7-form input[type=date] {
-      color: #000;
-      display: block;
-      padding: 0;
-      border: none; }
-    .apply-page .third-section .wpcf7-form input:not(.browser-default), .apply-page .third-section .wpcf7-form select {
-      border-bottom: 1px solid #329af0; }
-    .apply-page .third-section .wpcf7-form input:focus:not(.browser-default), .apply-page .third-section .wpcf7-form select:focus {
-      border-bottom: 1px solid #329af0;
-      box-shadow: 0 1px 0 0 #329af0; }
-    .apply-page .third-section .wpcf7-form label {
-      font-size: 16px;
-      color: #329af0; }
-    .apply-page .third-section .wpcf7-form input[type=submit], .apply-page .third-section .wpcf7-form input[type=submit]:focus {
-      border-bottom: none;
-      margin-top: 21px;
-      padding: 0;
-      width: 100%; }
-    .apply-page .third-section .wpcf7-form .wpcf7-response-output {
-      margin: 0; }
+  .apply-page .card-panel {
+    padding: 60px 70px 36px;
+    border-radius: 6px; }
+  .apply-page .wpcf7-form input, .apply-page .wpcf7-form select {
+    margin-bottom: 8px; }
+  .apply-page .wpcf7-form input::placeholder {
+    color: #329af0; }
+  .apply-page .wpcf7-form input[name="biggest-challenge"]::placeholder, .apply-page .wpcf7-form input[name="challenge-overcome"]::placeholder {
+    color: #c3c3c3; }
+  .apply-page .wpcf7-form input[type=date]::-webkit-inner-spin-button, .apply-page .wpcf7-form input[type=date]::-webkit-clear-button {
+    display: none;
+    -webkit-appearance: none; }
+  .apply-page .wpcf7-form input[type=date]::-webkit-calendar-picker-indicator {
+    display: inherit;
+    opacity: 1;
+    font-size: 9.7px; }
+  .apply-page .wpcf7-form select, .apply-page .wpcf7-form input[type=date] {
+    color: #000;
+    display: block;
+    padding: 0;
+    border: none; }
+  .apply-page .wpcf7-form input:not(.browser-default), .apply-page .wpcf7-form select {
+    border-bottom: 1px solid #329af0; }
+  .apply-page .wpcf7-form input:focus:not(.browser-default), .apply-page .wpcf7-form select:focus {
+    border-bottom: 1px solid #329af0;
+    box-shadow: 0 1px 0 0 #329af0; }
+  .apply-page .wpcf7-form label {
+    font-size: 16px;
+    color: #329af0; }
+  .apply-page .wpcf7-form input[type=submit], .apply-page .wpcf7-form input[type=submit]:focus {
+    border-bottom: none;
+    margin-top: 21px;
+    padding: 0 58px; }
+  .apply-page .wpcf7-form .wpcf7-response-output {
+    margin: 0; }
   @media only screen and (max-width: 992px) {
-    .apply-page h2 {
-      font-size: 36px;
-      margin-bottom: 36px; }
     .apply-page .btn {
       font-size: 14px;
       height: 34px;
-      line-height: 2.7; }
-    .apply-page header h1 {
-      font-size: 40px;
-      margin: 0; }
-    .apply-page header p {
-      margin-bottom: 36px; }
-    .apply-page .first-section ul li {
-      font-size: 16px; }
-    .apply-page .third-section .card-panel {
+      line-height: 2.5; }
+    .apply-page .card-panel {
       padding: 30px 27px 25px; } }
 
 .landing-page {
@@ -1184,30 +1143,30 @@ object {
     font-size: 12px; }
   .landing-page h2 {
     font-size: 48px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     color: #000;
     margin-bottom: 48px; }
   .landing-page .btn {
     font-size: 16px;
-    font-weight: bold;
-    font-family: 'CamphorPro', 'Open Sans';
+    font-family: 'CamphorStdBold', 'Open Sans';
     line-height: 2.8;
     text-transform: none;
     color: #fff;
     background-color: #329af0;
     border-radius: 4px;
     height: 45px; }
-  .landing-page .btn:hover {
+  .landing-page .btn:hover, .landing-page .btn:focus {
     color: #329af0;
     background-color: #fff; }
   .landing-page header {
     margin-bottom: 170px; }
     .landing-page header h1 {
       font-size: 48px;
-      font-weight: bold;
-      font-family: 'CamphorPro', 'Open Sans';
+      font-family: 'CamphorStdBold', 'Open Sans';
       color: #000;
       margin-bottom: 0; }
+    .landing-page header h1#student-title {
+      font-size: 60px; }
     .landing-page header h5 {
       font-size: 18px;
       line-height: normal;
@@ -1217,6 +1176,25 @@ object {
       line-height: normal;
       color: #373737;
       margin-bottom: 20px; }
+  .landing-page .first-section {
+    margin-bottom: 120px; }
+    .landing-page .first-section ul {
+      margin: 0; }
+      .landing-page .first-section ul li {
+        font-size: 18px;
+        font-family: 'CamphorStdBold', 'Open Sans';
+        color: #373737;
+        margin: 18px 0; }
+  .landing-page .second-section {
+    margin-bottom: 120px; }
+    .landing-page .second-section .collapsible-header {
+      font-size: 16px;
+      font-family: 'CamphorStdBold', 'Open Sans';
+      color: #373737; }
+    .landing-page .second-section a, .landing-page .second-section a:visited {
+      color: #329af0;
+      text-decoration: none;
+      outline: none; }
   .landing-page .section {
     margin-bottom: 100px; }
     .landing-page .section p {
@@ -1233,7 +1211,7 @@ object {
         padding: 12px; }
       .landing-page .portfolio .card h6 {
         font-size: 16px;
-        font-weight: bold;
+        font-family: 'CamphorStdBold', 'Open Sans';
         color: #373737;
         margin-bottom: 6px; }
       .landing-page .portfolio .card p {
@@ -1261,7 +1239,7 @@ object {
       font-size: 16px;
       margin-top: 10px; }
     .landing-page .testimonials p {
-      font-weight: bold; }
+      font-family: 'CamphorStdBold', 'Open Sans'; }
     .landing-page .testimonials .slick-slide {
       margin-left: 5px;
       margin-right: 5px; }
@@ -1280,7 +1258,7 @@ object {
     .landing-page .faq .collapsible-header {
       font-size: 20px;
       color: #373737;
-      font-weight: bold;
+      font-family: 'CamphorStdBold', 'Open Sans';
       margin-top: 20px;
       padding: 15px 0 8px; }
     .landing-page .faq i {
@@ -1293,13 +1271,15 @@ object {
       margin-bottom: 20px; }
   .landing-page .invite h3 {
     font-size: 36px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     color: #000;
     margin-top: 0; }
   .landing-page .invite p {
     font-size: 18px;
     font-weight: bold;
     color: #373737; }
+  .landing-page .invite .btn {
+    float: right; }
   @media only screen and (max-width: 992px) {
     .landing-page h2 {
       font-size: 36px;
@@ -1308,6 +1288,10 @@ object {
       font-size: 14px;
       height: 34px;
       line-height: 2.5; }
+    .landing-page header h1#student-title {
+      font-size: 48px; }
+    .landing-page .first-section ul li {
+      font-size: 16px; }
     .landing-page .partners {
       margin: 0; }
       .landing-page .partners .valign-wrapper {
@@ -1340,32 +1324,41 @@ object {
     .landing-page {
       padding-top: 40px; }
       .landing-page h2 {
-        font-size: 18px;
+        font-size: 24px;
         margin-bottom: 15px; }
       .landing-page .btn {
         font-size: 12px;
+        line-height: 2.7;
         height: 34px;
-        line-height: 2.7; }
+        padding: 0 32px; }
       .landing-page header {
         margin-bottom: 100px; }
-        .landing-page header h1 {
+        .landing-page header h1, .landing-page header h1#student-title {
           font-size: 30px; }
         .landing-page header h5, .landing-page header p {
           font-size: 14px;
           margin-bottom: 0; }
+      .landing-page .section h2 {
+        margin: 0; }
+      .landing-page .section p {
+        font-size: 14px; }
+      .landing-page .partners .row .col {
+        margin-left: 0; }
+      .landing-page .partners img {
+        margin-bottom: 20px; }
       .landing-page .portfolio .row .col {
         padding: 0 3px; }
       .landing-page .portfolio .card {
-        height: 250px; }
+        height: 310px; }
         .landing-page .portfolio .card .content {
           padding: 0 12px; }
         .landing-page .portfolio .card h6 {
-          font-size: 14px;
+          font-size: 16px;
           margin: 8px 0; }
         .landing-page .portfolio .card p {
-          font-size: 10px; }
+          font-size: 12px; }
       .landing-page .portfolio .card-panel {
-        height: 250px;
+        height: 310px;
         padding: 24px; }
         .landing-page .portfolio .card-panel p {
           font-size: 16px; }
@@ -1378,7 +1371,10 @@ object {
       .landing-page .invite h3 {
         font-size: 24px; }
       .landing-page .invite p {
-        font-size: 12px; } }
+        font-size: 12px; }
+      .landing-page .invite .btn {
+        float: left;
+        margin-top: 29px; } }
 
 .footer {
   margin-top: 60px;
@@ -1391,7 +1387,7 @@ object {
     padding-top: 1px; }
   .footer p {
     font-size: 14px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     color: #fff;
     margin-top: 16px; }
   .footer ul {
@@ -1413,23 +1409,27 @@ object {
     color: none; }
   @media only screen and (max-width: 992px) {
     .footer hr {
-      padding-top: 0.5px; } }
+      padding-top: 1px; } }
   @media only screen and (max-width: 600px) {
     .footer p {
       font-size: 12px; }
     .footer a {
-      font-size: 10px; } }
+      font-size: 10px; }
+    .footer ul {
+      margin: 9px 0 0 0; }
+      .footer ul ul {
+        margin: 0; } }
 
 .error-404 {
   padding: 150px 0; }
   .error-404 h1 {
     font-size: 60px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     color: #000;
     margin-bottom: 96px; }
   .error-404 .btn {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     line-height: 3;
     text-transform: none;
     color: #fff;
@@ -1437,7 +1437,7 @@ object {
     border-radius: 4px;
     padding: 0 75px;
     height: 45px; }
-  .error-404 .btn:hover {
+  .error-404 .btn:hover, .error-404 .btn:focus {
     color: #329af0;
     background-color: #fff; }
   @media only screen and (max-width: 992px) {
@@ -1453,6 +1453,7 @@ object {
       font-size: 30px;
       margin-bottom: 36px; }
     .error-404 .btn {
+      line-height: 3.4;
       padding: 0 56px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,14 +6,13 @@
 
 	h2 {
 		font-size: 48px;
-		font-weight: bold;
+		font-family: 'CamphorStdBold', 'Open Sans';
 		color: #000;
 		margin-bottom: 48px; }
 
 	.btn {
 		font-size: 16px;
-		font-weight: bold;
-		font-family: 'CamphorPro', 'Open Sans';
+		font-family: 'CamphorStdBold', 'Open Sans';
 		line-height: 2.8;
 		text-transform: none;
 		color: $font-primary;
@@ -21,7 +20,7 @@
 		border-radius: 4px;
 		height: 45px; }
 
-	.btn:hover {
+	.btn:hover, .btn:focus {
 		color: $primary-blue;
 		background-color: $font-primary; }
 
@@ -30,10 +29,12 @@
 
 		h1 {
 			font-size: 48px;
-			font-weight: bold;
-			font-family: 'CamphorPro', 'Open Sans';
+			font-family: 'CamphorStdBold', 'Open Sans';
 			color: #000;
 			margin-bottom: 0; }
+
+		h1#student-title {
+			font-size: 60px; }
 
 		h5 {
 			font-size: 18px;
@@ -45,6 +46,31 @@
 			line-height: normal;
 			color: $dark-gray;
 			margin-bottom: 20px; } }
+
+	.first-section {
+    margin-bottom: 120px;
+
+    ul {
+      margin: 0;
+
+      li {
+        font-size: 18px;
+        font-family: 'CamphorStdBold', 'Open Sans';
+        color: $dark-gray;
+        margin: 18px 0; } } }
+
+  .second-section {
+    margin-bottom: 120px;
+
+    .collapsible-header {
+      font-size: 16px;
+			font-family: 'CamphorStdBold', 'Open Sans';
+      color: $dark-gray; }
+
+    a, a:visited {
+      color: $primary-blue;
+      text-decoration: none;
+      outline: none; } }
 
 	.section {
 		margin-bottom: 100px;
@@ -68,7 +94,7 @@
 
 			h6 {
 				font-size: 16px;
-				font-weight: bold;
+				font-family: 'CamphorStdBold', 'Open Sans';
 				color: $dark-gray;
 				margin-bottom: 6px; }
 
@@ -106,7 +132,7 @@
 			margin-top: 10px; }
 
 		p {
-			font-weight: bold; }
+			font-family: 'CamphorStdBold', 'Open Sans'; }
 
 		.slick-slide {
 			margin-left: 5px;
@@ -131,7 +157,7 @@
     	.collapsible-header {
 				font-size: 20px;
     		color: $dark-gray;
-    		font-weight: bold;
+    		font-family: 'CamphorStdBold', 'Open Sans';
     		margin-top: 20px;
     		padding: 15px 0 8px; }
 
@@ -149,14 +175,17 @@
 	.invite {
 		h3 {
 			font-size: 36px;
-			font-weight: bold;
+			font-family: 'CamphorStdBold', 'Open Sans';
 			color: #000;
 			margin-top: 0; }
 
 		p {
 			font-size: 18px;
 			font-weight: bold;
-			color: $dark-gray; } }
+			color: $dark-gray; }
+
+		.btn {
+			float: right; } }
 
 	@media only screen and (max-width: 992px) {
 
@@ -168,6 +197,14 @@
 			font-size: 14px;
 		 	height: 34px;
 		 	line-height: 2.5; }
+
+		header {
+
+			h1#student-title {
+				font-size: 48px; } }
+
+		.first-section ul li{
+				font-size: 16px; }
 
 		.partners {
 			margin: 0;
@@ -220,23 +257,40 @@
 		padding-top: 40px;
 
 		h2 {
-			font-size: 18px;
+			font-size: 24px;
 			margin-bottom: 15px; }
 
 		.btn {
 			font-size: 12px;
+			line-height: 2.7;
 			height: 34px;
-			line-height: 2.7; }
+			padding: 0 32px; }
 
 		header {
 			margin-bottom: 100px;
 
-			h1 {
+			h1, h1#student-title {
 				font-size: 30px; }
 
 			h5, p {
 				font-size: 14px;
 				margin-bottom: 0; } }
+
+		.section {
+
+			h2 {
+				margin: 0; }
+
+			p {
+				font-size: 14px; } }
+
+		.partners {
+
+			.row .col {
+				margin-left: 0; }
+
+			img {
+				margin-bottom: 20px; } }
 
 		.portfolio {
 
@@ -244,20 +298,20 @@
 				padding: 0 3px; }
 
 			.card {
-				height: 250px;
+				height: 310px;
 
 				.content {
 					padding: 0 12px; }
 
 				h6 {
-					font-size: 14px;
+					font-size: 16px;
 				 	margin: 8px 0; }
 
 				p {
-					font-size: 10px; } }
+					font-size: 12px; } }
 
 				.card-panel {
-					height: 250px;
+					height: 310px;
 					padding: 24px;
 
 					p {
@@ -282,4 +336,8 @@
 				font-size: 24px; }
 
 			p {
-				font-size: 12px; } } } }
+				font-size: 12px; }
+
+			.btn {
+				float: left;
+				margin-top: 29px; } } } }

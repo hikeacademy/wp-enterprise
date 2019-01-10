@@ -1,8 +1,8 @@
 .contact {
 
   h1 {
-    font-size: 48px;
-    font-weight: bold;
+    font-size: 60px;
+    font-family: 'CamphorStdBold', 'Open Sans';
     color: #000; }
 
   p {
@@ -14,9 +14,6 @@
     padding: 40px 0 18px; }
 
   .wpcf7-form {
-
-    .row {
-      margin: 0; }
 
     .wpcf7-form-control-wrap input[type=text], .wpcf7-form-control-wrap input[type=email], .wpcf7-form-control-wrap input[type=tel] {
       margin: 12px 0 8px 0; }
@@ -38,19 +35,25 @@
       font-size: 16px;
       color: $primary-blue; }
 
+    select {
+      color: #000;
+      display: block;
+      padding: 0;
+      border: none;
+      border-bottom: 1px solid $primary-blue;
+      outline: none; }
+
     input[name="problem"]::placeholder {
       color: #c3c3c3; }
 
     input[type=submit] {
       margin-top: 21px;
       margin-bottom: 0;
-      padding: 0;
-      width: 100%;
-      height: 48px; }
+      padding: 0 58px; }
 
     .btn {
       font-size: 16px;
-      font-weight: bold;
+      font-family: 'CamphorStdBold', 'Open Sans';
       line-height: 2.5;
       text-transform: none;
       color: $font-primary;
@@ -58,7 +61,7 @@
       border-radius: 4px;
       height: 45px; }
 
-    .btn:hover {
+    .btn:hover, .btn:focus {
       color: $primary-blue;
       background-color: $font-primary; } }
 

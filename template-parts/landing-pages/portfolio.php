@@ -6,7 +6,7 @@
 	</div>
 	<div class="row">
 		<!-- Cerensa site -->
-		<div class="col m3 s6">
+		<div class="col m3 s12">
 			<a href="//cerensa.com" target="_blank">
 				<div class="card hoverable">
 					<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/portfolio/cerensa.png';?>" alt="qulture site">
@@ -18,7 +18,7 @@
 			</a>
 		</div>
 		<!-- Qulture.Rocks card -->
-		<div class="col m3 s6">
+		<div class="col m3 s12">
 			<a href="//qulture.rocks" target="_blank">
 				<div class="card hoverable">
 					<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/portfolio/qulture.png';?>" alt="qulture site">
@@ -30,7 +30,7 @@
 			</a>
 		</div>
 		<!-- Hike Academy site -->
-		<div class="col m3 s6">
+		<div class="col m3 s12">
 			<a href="startup" target="_blank">
 				<div class="card hoverable">
 					<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/portfolio/hike.png';?>" alt="qulture site">
@@ -41,11 +41,11 @@
 				</div>
 			</a>
 		</div>
-		<!---->
-		<div class="col m3 s6">
+		<!-- Merchan card -->
+		<div class="col m3 s12">
 			<a href="<?php echo is_startup_page() ? 'contact' : 'apply' ?>" target="_blank">
 				<div class="card-panel hoverable valign-wrapper">
-					<p><?php echo is_startup_page() ? 'The next project could be yours. Contact us to tell what you need and get a quote &#8594;' : 'Quer aprender como faz uns sites maneiros assim? Só vir com a gente &#8594;'; ?></p>
+					<p><?php echo is_startup_page() ? 'O próximo projeto pode ser o seu. Entre em contato com a gente pra dizer qual é sua demanda  &#8594;' : 'Quer aprender como faz uns sites maneiros assim? Só vir com a gente &#8594;'; ?></p>
 				</div>
 			</a>
 		</div>
