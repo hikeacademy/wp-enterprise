@@ -6,14 +6,14 @@
 	get_navbar();
 ?>
 <div class="container contact">
-	<div class="row center">
+	<div class="row">
 		<div class="col l10 s12 offset-l1">
-			<h1>Como podemos te ajudar?</h1>
+			<h1>Qual é sua demanda?</h1>
 		</div>
 	</div>
-	<div class="row center">
+	<div class="row">
 		<div class="col l10 s12 offset-l1">
-			<p>Estamos felizes em saber que você está considerando trabalhar com a gente! Preencha o formulário abaixo e te retornamos em até dois dias úteis.</p>
+			<p>Estamos felizes em saber que você está considerando trabalhar com a gente!<br>Preencha o formulário abaixo para entendermos qual é seu desafio e como podemos te ajudar :)</p>
 		</div>
 	</div>
 	<div class="row">

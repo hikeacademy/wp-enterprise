@@ -14,7 +14,7 @@
 
   ul a, ul a:visited {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     color: $dark-gray;
     background-color: $font-primary;
     outline: none; }
@@ -24,7 +24,7 @@
 
   ul li .btn {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     line-height: 2.7;
     text-transform: none;
     color: $font-primary;
@@ -39,11 +39,17 @@
   .dropdown-content li {
     min-height: initial ;
 
-  a {
-    font-size: 12px;
-    font-weight: normal;
-    text-align: center;
-    padding: 7px 30px; } }
+    a {
+      font-size: 12px;
+      font-family: 'Open Sans';
+      text-align: center;
+      padding: 7px 30px; } } }
 
   .sidenav {
-    font-family: 'Open Sans'; } }
+    
+    .collapsible-header {
+      font-family: 'CamphorStdBold', 'Open Sans'; }
+
+    .sidenav-dropdown li a {
+      font-family: 'Open Sans';
+      padding: 0!important; } }

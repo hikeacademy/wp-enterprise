@@ -3,13 +3,13 @@
 
   h1 {
     font-size: 60px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     color: #000;
     margin-bottom: 96px; }
 
   .btn {
     font-size: 16px;
-    font-weight: bold;
+    font-family: 'CamphorStdBold', 'Open Sans';
     line-height: 3;
     text-transform: none;
     color: $font-primary;
@@ -18,7 +18,7 @@
     padding: 0 75px;
     height: 45px; }
 
-  .btn:hover {
+  .btn:hover, .btn:focus {
     color: $primary-blue;
     background-color: $font-primary; }
 
@@ -40,4 +40,5 @@
     margin-bottom: 36px; }
 
   .btn {
+    line-height: 3.4;
     padding: 0 56px; }  } }
