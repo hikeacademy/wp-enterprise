@@ -15,6 +15,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-site-verification" content="e_y60x9WUaNEQD3RLOwKe-XZgNKymP6yfin7mxRC9LE" />
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<!-- Import Camphor font -->
@@ -33,7 +34,7 @@
 
 
 	<!-- Linking material icons font -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
 	<!-- Compiled and minified CSS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">

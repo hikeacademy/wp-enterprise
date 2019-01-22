@@ -7,12 +7,12 @@
 ?>
 <div class="container contact">
 	<div class="row">
-		<div class="col l10 s12 offset-l1">
+		<div class="col s12">
 			<h1>Qual é sua demanda?</h1>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col l10 s12 offset-l1">
+		<div class="col s12">
 			<p>Estamos felizes em saber que você está considerando trabalhar com a gente!<br>Preencha o formulário abaixo para entendermos qual é seu desafio e como podemos te ajudar :)</p>
 		</div>
 	</div>

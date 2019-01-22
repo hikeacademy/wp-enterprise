@@ -37,7 +37,7 @@
 	 				<p>Tenha o seu website ou plataforma web construído por um time talentoso de jovens desenvolvedores, por um preço mais acessível que de outras casas de software e com alta qualidade garantida.</p>
  				</div>
  				<div class="row">
-	 				<a class="btn" href="contact">Entre em contato &#8594;</a>
+	 				<a class="btn" href="contato">Entre em contato &#8594;</a>
  				</div>
  				<div class="row">
 	 				<!-- <small>Or <a href="#your-problem">get to know more</a> about us</small> -->
@@ -58,7 +58,7 @@
 						<p>Tenha o seu website ou plataforma web construído por um time talentoso de jovens desenvolvedores, por um preço mais acessível que de outras casas de software e com alta qualidade garantida.</p>
 					</div>
 					<div class="row">
-						<a class="btn" href="contact">Entre em contato &#8594;</a>
+						<a class="btn" href="contato">Entre em contato &#8594;</a>
 					</div>
 					<div class="row">
 						<!-- <small>Or <a href="#your-problem">get to know more</a> about us</small> -->
@@ -135,7 +135,7 @@
 			<p><?php the_field('startup_invite_subtitle'); ?></p>
 		</div>
 		<div class="col m4 s12 offset-m1">
-			<a href="contact" class="btn">Entre em contato &#8594;</a>
+			<a href="contato" class="btn">Entre em contato &#8594;</a>
 		</div>
 	</div>
 </div>

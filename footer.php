@@ -31,18 +31,18 @@
 				<div class="col m3 s6">
 					<p>Para alunos</p>
 					<ul>
-						<li><a href="student">Como funciona</a></li>
+						<li><a href="aluno">Como funciona</a></li>
 						<li class="hide"><a href="#!">Comprar o curso</a></li>
-						<li><a href="apply">Bolsa de estudos</a></li>
-						<li><a href="student/#faq">Dúvidas</a></li>
+						<li><a href="inscreva-se">Bolsa de estudos</a></li>
+						<li><a href="aluno/#faq">Dúvidas</a></li>
 					</ul>
 				</div>
 				<div class="col m3 s6">
 					<p>Para empresas</p>
 					<ul>
-						<li><a href="startup">Como funciona</a></li>
-						<li><a href="contact">Contatar vendas</a></li>
-						<li><a href="startup/#faq">Dúvidas</a></li>
+						<li><a href="empresa">Como funciona</a></li>
+						<li><a href="contato">Contatar vendas</a></li>
+						<li><a href="empresa/#faq">Dúvidas</a></li>
 					</ul>
 				</div>
 				<div class="col m3 s6">

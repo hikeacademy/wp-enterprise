@@ -548,13 +548,13 @@ a {
   color: royalblue; }
 
 a:visited {
-  color: white; }
+  color: #329af0; }
 
 a:hover, a:focus, a:active {
   color: midnightblue; }
 
 a:focus {
-  outline: thin dotted; }
+  outline: none; }
 
 a:hover, a:active {
   outline: 0; }
@@ -952,8 +952,7 @@ object {
     color: #fff;
     background-color: #329af0;
     border-radius: 4px;
-    height: 45px;
-    padding: 0 36px; }
+    height: 45px; }
   .front-page .btn:hover, .front-page .btn:focus {
     color: #329af0;
     background-color: #fff; }
@@ -1023,8 +1022,7 @@ object {
   display: block;
   padding: 0;
   border: none;
-  border-bottom: 1px solid #329af0;
-  outline: none; }
+  border-bottom: 1px solid #329af0; }
 .contact .wpcf7-form input[name="problem"]::placeholder {
   color: #c3c3c3; }
 .contact .wpcf7-form input[type=submit] {
@@ -1036,6 +1034,7 @@ object {
   font-family: 'CamphorStdBold', 'Open Sans';
   line-height: 2.5;
   text-transform: none;
+  border: none;
   color: #fff;
   background-color: #329af0;
   border-radius: 4px;
@@ -1087,6 +1086,7 @@ object {
     font-family: 'CamphorStdBold', 'Open Sans';
     line-height: 2.5;
     text-transform: none;
+    border: none;
     color: #fff;
     background-color: #329af0;
     border-radius: 4px;
@@ -1097,12 +1097,20 @@ object {
   .apply-page .card-panel {
     padding: 60px 70px 36px;
     border-radius: 6px; }
+  .apply-page .wpcf7-form .row {
+    margin-bottom: 0; }
+    .apply-page .wpcf7-form .row .col {
+      margin-bottom: 12px; }
   .apply-page .wpcf7-form input, .apply-page .wpcf7-form select {
     margin-bottom: 8px; }
   .apply-page .wpcf7-form input::placeholder {
     color: #329af0; }
   .apply-page .wpcf7-form input[name="biggest-challenge"]::placeholder, .apply-page .wpcf7-form input[name="challenge-overcome"]::placeholder {
     color: #c3c3c3; }
+  .apply-page .wpcf7-form textarea {
+    border: none;
+    border-bottom: 1px solid #329af0;
+    margin-top: 8px; }
   .apply-page .wpcf7-form input[type=date]::-webkit-inner-spin-button, .apply-page .wpcf7-form input[type=date]::-webkit-clear-button {
     display: none;
     -webkit-appearance: none; }
@@ -1117,7 +1125,7 @@ object {
     border: none; }
   .apply-page .wpcf7-form input:not(.browser-default), .apply-page .wpcf7-form select {
     border-bottom: 1px solid #329af0; }
-  .apply-page .wpcf7-form input:focus:not(.browser-default), .apply-page .wpcf7-form select:focus {
+  .apply-page .wpcf7-form .wpcf7-form-control-wrap input:not(.browser-default):focus, .apply-page .wpcf7-form .wpcf7-form-control-wrap select:focus, .apply-page .wpcf7-form .wpcf7-form-control-wrap textarea:focus {
     border-bottom: 1px solid #329af0;
     box-shadow: 0 1px 0 0 #329af0; }
   .apply-page .wpcf7-form label {
@@ -1130,12 +1138,17 @@ object {
   .apply-page .wpcf7-form .wpcf7-response-output {
     margin: 0; }
   @media only screen and (max-width: 992px) {
+    .apply-page h1 {
+      font-size: 48px; }
     .apply-page .btn {
       font-size: 14px;
       height: 34px;
       line-height: 2.5; }
     .apply-page .card-panel {
       padding: 30px 27px 25px; } }
+  @media only screen and (max-width: 600px) {
+    .apply-page h1 {
+      font-size: 30px; } }
 
 .landing-page {
   padding-top: 90px; }
@@ -1330,7 +1343,7 @@ object {
         font-size: 12px;
         line-height: 2.7;
         height: 34px;
-        padding: 0 32px; }
+        padding: 0 16px; }
       .landing-page header {
         margin-bottom: 100px; }
         .landing-page header h1, .landing-page header h1#student-title {
@@ -1349,7 +1362,7 @@ object {
       .landing-page .portfolio .row .col {
         padding: 0 3px; }
       .landing-page .portfolio .card {
-        height: 310px; }
+        height: 350px; }
         .landing-page .portfolio .card .content {
           padding: 0 12px; }
         .landing-page .portfolio .card h6 {
@@ -1374,7 +1387,8 @@ object {
         font-size: 12px; }
       .landing-page .invite .btn {
         float: left;
-        margin-top: 29px; } }
+        margin-top: 29px;
+        line-height: 2.9; } }
 
 .footer {
   margin-top: 60px;
@@ -1412,9 +1426,9 @@ object {
       padding-top: 1px; } }
   @media only screen and (max-width: 600px) {
     .footer p {
-      font-size: 12px; }
+      font-size: 14px; }
     .footer a {
-      font-size: 10px; }
+      font-size: 11px; }
     .footer ul {
       margin: 9px 0 0 0; }
       .footer ul ul {

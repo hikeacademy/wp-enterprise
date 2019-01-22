@@ -35,7 +35,7 @@
 		</div>
  		<div class="row">
  			<div class="col">
-				<a class="btn" href="apply">Inscreva-se  &#8594;</a>
+				<a class="btn" href="inscreva-se">Inscreva-se  &#8594;</a>
  			</div>
  		</div>
  		<div class="row hide">
@@ -69,7 +69,8 @@
 				<li class="active">
 					<div class="collapsible-header">1. Informações pessoais</div>
 					<div class="collapsible-body">
-						A primeira etapa do processo seletivo é bem simples: consiste em você preencher <a href="#subscription-form">essas perguntas aqui embaixo</a>.<br>
+						<!-- âncora do processo seletivo -->
+						A primeira etapa do processo seletivo é bem simples: consiste em você preencher <a href="inscreva-se" target="_blank">essas perguntas aqui</a>.<br>
 						<br>
 						Nessa etapa, fazemos algumas perguntas gerais sobre você, como nome e idade, e pedimos pra responder essas três perguntas:<br>
 						1. Por que quer aprender a programar?<br>
@@ -109,7 +110,7 @@
 			<p><?php the_field('student_invite_subtitle'); ?></p>
 		</div>
 		<div class="col m4 s12 offset-m1">
-			<a href="apply" class="btn">Inscreva-se  &#8594;</a>
+			<a href="inscreva-se" class="btn">Inscreva-se  &#8594;</a>
 		</div>
 	</div>
 	</div>

@@ -11,6 +11,7 @@
 		font-family: 'CamphorStdBold', 'Open Sans';
 		line-height: 2.5;
 		text-transform: none;
+    border: none;
 		color: $font-primary;
 		background-color: $primary-blue;
 		border-radius: 4px;
@@ -26,6 +27,13 @@
 
   .wpcf7-form {
 
+    .row {
+      margin-bottom: 0;
+
+      .col {
+        margin-bottom: 12px;
+      } }
+
     input, select {
       margin-bottom: 8px; }
 
@@ -34,6 +42,11 @@
 
     input[name="biggest-challenge"]::placeholder, input[name="challenge-overcome"]::placeholder {
       color: #c3c3c3; }
+
+    textarea {
+      border: none;
+      border-bottom: 1px solid #329af0;
+      margin-top: 8px; }
 
     input[type=date]::-webkit-inner-spin-button, input[type=date]::-webkit-clear-button {
       display: none;
@@ -53,7 +66,7 @@
     input:not(.browser-default), select {
       border-bottom: 1px solid $primary-blue; }
 
-    input:focus:not(.browser-default), select:focus {
+    .wpcf7-form-control-wrap input:not(.browser-default):focus, .wpcf7-form-control-wrap select:focus, .wpcf7-form-control-wrap textarea:focus {
       border-bottom: 1px solid $primary-blue;
       box-shadow: 0 1px 0 0 $primary-blue; }
 
@@ -71,10 +84,18 @@
 
   @media only screen and (max-width: 992px) {
 
+    h1 {
+      font-size: 48px; }
+
     .btn {
       font-size: 14px;
       height: 34px;
       line-height: 2.5; }
 
     .card-panel {
-      padding: 30px 27px 25px; } } }
+      padding: 30px 27px 25px; } }
+
+  @media only screen and (max-width: 600px) {
+
+    h1 {
+      font-size: 30px; } } }

@@ -1,7 +1,7 @@
 <div class="portfolio">
 	<div class="row">
 		<div class="col l12 m9">
-			<h2><?php echo is_startup_page() ? 'Portfolio' : 'O que os nossos alunos já construíram'; ?></h2>
+			<h2><?php echo is_startup_page() ? 'Portfólio' : 'O que os nossos alunos já construíram'; ?></h2>
 		</div>
 	</div>
 	<div class="row">
@@ -31,7 +31,7 @@
 		</div>
 		<!-- Hike Academy site -->
 		<div class="col m3 s12">
-			<a href="startup" target="_blank">
+			<a href="empresa" target="_blank">
 				<div class="card hoverable">
 					<img src="<?php echo get_template_directory_uri() . '/images/landing-pages/portfolio/hike.png';?>" alt="qulture site">
 					<div class="content">

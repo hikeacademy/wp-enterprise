@@ -91,7 +91,7 @@ acf_add_local_field_group(array(
 			'label' => 'Startup testimonial?',
 			'name' => 'startup_testimonial',
 			'type' => 'true_false',
-			'message' => 'If this is a testimonial to be displayed in the startups landing page, make sure to check this.',
+			'message' => '',
 		),
 	),
 	'location' => array(

@@ -40,8 +40,7 @@
       display: block;
       padding: 0;
       border: none;
-      border-bottom: 1px solid $primary-blue;
-      outline: none; }
+      border-bottom: 1px solid $primary-blue; }
 
     input[name="problem"]::placeholder {
       color: #c3c3c3; }
@@ -56,6 +55,7 @@
       font-family: 'CamphorStdBold', 'Open Sans';
       line-height: 2.5;
       text-transform: none;
+      border: none;
       color: $font-primary;
       background-color: $primary-blue;
       border-radius: 4px;

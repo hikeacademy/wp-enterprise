@@ -602,7 +602,7 @@ a {
 }
 
 a:visited {
-	color: white;
+	color: $primary-blue;
 }
 
 a:hover, a:focus, a:active {
@@ -610,7 +610,7 @@ a:hover, a:focus, a:active {
 }
 
 a:focus {
-	outline: thin dotted;
+	outline: none;
 }
 
 a:hover, a:active {

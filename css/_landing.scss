@@ -264,7 +264,7 @@
 			font-size: 12px;
 			line-height: 2.7;
 			height: 34px;
-			padding: 0 32px; }
+			padding: 0 16px; }
 
 		header {
 			margin-bottom: 100px;
@@ -298,7 +298,7 @@
 				padding: 0 3px; }
 
 			.card {
-				height: 310px;
+				height: 350px;
 
 				.content {
 					padding: 0 12px; }
@@ -340,4 +340,5 @@
 
 			.btn {
 				float: left;
-				margin-top: 29px; } } } }
+				margin-top: 29px;
+ 				line-height: 2.9; } } } }
