@@ -3,7 +3,7 @@
 	 * Template Name: ApplyTemplate
 	 */
 get_header();
-get_navbar();
+get_template_part('template-parts/navbar');
 ?>
 <div class="container apply-page">
 	<div id="subscription-form" class="row">

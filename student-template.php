@@ -9,12 +9,9 @@
  */
 
 	get_header();
-	get_navbar(
-		array(
-			'landing-page' => true
-		)
-	);
- ?>
+	get_template_part('template-parts/navbar');
+	?>
+	
  <div class="container landing-page">
  	<!-- Hero -->
 	<header>

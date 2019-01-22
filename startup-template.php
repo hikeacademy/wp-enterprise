@@ -9,12 +9,9 @@
  */
 
 	get_header();
-	get_navbar(
-		array(
-			'landing-page' => true
-		)
-	);
- ?>
+	get_template_part('template-parts/navbar');
+	?>
+
 <style type="text/css" media="screen">
 	@media only screen and (max-width: 600px) {
 		.landing-page header {

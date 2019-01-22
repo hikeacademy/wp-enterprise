@@ -219,11 +219,6 @@ function is_startup_page() {
 }
 
 /**
- * Require navbar function
- */
-require get_template_directory() . '/inc/navbar.php';
-
-/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
