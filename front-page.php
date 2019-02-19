@@ -10,7 +10,7 @@
 	</div>
 	<div class="row">
 		<div class="col s10 offset-l1">
-			<h5>A Hike é uma escola online que ensina programação para jovens de baixa renda de forma gratuita e, depois de formados, seleciona os top 10% para trabalhar construindo sites, aplicativos web e outros produtos digitais para empresas com essa demanda.<br>Como a gente pode ajudar você?</h5>
+			<h5>A Hike é uma escola online que ensina programação para jovens de baixa renda de forma gratuita e, depois de formados, seleciona os top 5% para trabalhar construindo sites, aplicativos web e outros produtos digitais para empresas com essa demanda.<br>Como a gente pode ajudar você?</h5>
 		</div>
 	</div>
 	<div class="row buttons">
