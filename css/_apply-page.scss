@@ -53,15 +53,11 @@
       -webkit-appearance: none; }
 
     input[type=date]::-webkit-calendar-picker-indicator {
+      color: #000;
       display: inherit;
       opacity: 1;
-      font-size: 9.7px; }
-
-    select, input[type=date] {
-      color: #000;
-      display: block;
-      padding: 0;
-      border: none; }
+      font-size: 9.7px;
+      width: 9px; }
 
     input:not(.browser-default), select {
       border-bottom: 1px solid $primary-blue; }
@@ -69,6 +65,14 @@
     .wpcf7-form-control-wrap input:not(.browser-default):focus, .wpcf7-form-control-wrap select:focus, .wpcf7-form-control-wrap textarea:focus {
       border-bottom: 1px solid $primary-blue;
       box-shadow: 0 1px 0 0 $primary-blue; }
+
+    .select-wrapper input {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none; }
+
+    .dropdown-content span {
+      color: $dark-gray; }
 
     label {
       font-size: 16px;

@@ -6,4 +6,6 @@ jQuery(document).ready(function(){
     coverTrigger: false,
     constrainWidth: false,
   });
+  $('.apply-select').formSelect();
+  $('.contact-select').formSelect();
 });
