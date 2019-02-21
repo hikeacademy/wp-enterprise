@@ -3,7 +3,7 @@
 	 * Template Name: ContactTemplate
 	 */
 	get_header();
-	get_navbar();
+	get_template_part('template-parts/navbar');
 ?>
 <div class="container contact">
 	<div class="row">

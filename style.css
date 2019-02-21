@@ -1017,12 +1017,13 @@ object {
 .contact .wpcf7-form label {
   font-size: 16px;
   color: #329af0; }
-.contact .wpcf7-form select {
-  color: #000;
-  display: block;
-  padding: 0;
-  border: none;
-  border-bottom: 1px solid #329af0; }
+.contact .wpcf7-form .select-wrapper input {
+  color: #329af0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none; }
+.contact .wpcf7-form .dropdown-content span {
+  color: #373737; }
 .contact .wpcf7-form input[name="problem"]::placeholder {
   color: #c3c3c3; }
 .contact .wpcf7-form input[type=submit] {
@@ -1115,19 +1116,22 @@ object {
     display: none;
     -webkit-appearance: none; }
   .apply-page .wpcf7-form input[type=date]::-webkit-calendar-picker-indicator {
+    color: #000;
     display: inherit;
     opacity: 1;
-    font-size: 9.7px; }
-  .apply-page .wpcf7-form select, .apply-page .wpcf7-form input[type=date] {
-    color: #000;
-    display: block;
-    padding: 0;
-    border: none; }
+    font-size: 9.7px;
+    width: 9px; }
   .apply-page .wpcf7-form input:not(.browser-default), .apply-page .wpcf7-form select {
     border-bottom: 1px solid #329af0; }
   .apply-page .wpcf7-form .wpcf7-form-control-wrap input:not(.browser-default):focus, .apply-page .wpcf7-form .wpcf7-form-control-wrap select:focus, .apply-page .wpcf7-form .wpcf7-form-control-wrap textarea:focus {
     border-bottom: 1px solid #329af0;
     box-shadow: 0 1px 0 0 #329af0; }
+  .apply-page .wpcf7-form .select-wrapper input {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none; }
+  .apply-page .wpcf7-form .dropdown-content span {
+    color: #373737; }
   .apply-page .wpcf7-form label {
     font-size: 16px;
     color: #329af0; }

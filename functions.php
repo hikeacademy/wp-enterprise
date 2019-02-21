@@ -142,7 +142,7 @@ function hike_trampos_scripts() {
 
 	wp_enqueue_script( 'slick-js', get_stylesheet_directory_uri() . '/slick/slick.min.js');
 
-	wp_enqueue_script( 'materialize-initialization', get_template_directory_uri() . '/js/materialize-initialization.js', array('jquery'));
+	wp_enqueue_script( 'materialize-initialization', get_template_directory_uri() . '/js/materialize-initialization.js', array('jquery'), microtime());
 
 	wp_enqueue_script( 'hike-trampos-script', get_template_directory_uri() . '/js/script.js', array(), '20151215', true );
 
@@ -217,11 +217,6 @@ function is_startup_page() {
 	$is_startup_page = $page_template == $startup_template ? 1 : 0;
 	return $is_startup_page;
 }
-
-/**
- * Require navbar function
- */
-require get_template_directory() . '/inc/navbar.php';
 
 /**
  * Implement the Custom Header feature.

@@ -8,7 +8,7 @@
  */
 
 get_header();
-get_navbar();
+get_template_part('template-parts/navbar');
 ?>
 	<div class="error-404 container center">
 		<div class="row">

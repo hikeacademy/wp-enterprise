@@ -6,6 +6,11 @@ jQuery(document).ready(function(){
     coverTrigger: false,
     constrainWidth: false,
   });
+<<<<<<< HEAD
   $('.apply-select').dropdown();
   $('.contact-select').dropdown();
+=======
+  $('.apply-select').formSelect();
+  $('.contact-select').formSelect();
+>>>>>>> samuel
 });
