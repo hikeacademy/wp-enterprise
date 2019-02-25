@@ -31,10 +31,8 @@
 		}
 	</style>
 
-
-
 	<!-- Linking material icons font -->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
 	<!-- Compiled and minified CSS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -42,6 +40,16 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568063-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-132568063-1', { 'optimize_id': 'GTM-WRC29XC'});
+	</script>
+
 
 	<?php wp_head(); ?>
 </head>
